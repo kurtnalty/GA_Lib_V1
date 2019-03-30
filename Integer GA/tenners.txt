@@ -1,0 +1,13 @@
+dets match at i = 2046, Score = 10 
+dets match at i = 3857, Score = 10 
+dets match at i = 5321, Score = 10 
+dets match at i = 8869, Score = 10 
+dets match at i = 16739, Score = 10 
+dets match at i = 32736, Score = 10 
+
+dets match at i = 32799, Score = 10 
+dets match at i = 48796, Score = 10 
+dets match at i = 56666, Score = 10 
+dets match at i = 60214, Score = 10 
+dets match at i = 61678, Score = 10 
+dets match at i = 63489, Score = 10 

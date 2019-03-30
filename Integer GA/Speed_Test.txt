@@ -1,0 +1,7 @@
+count = 20 at index 67108800 
+count = 20 at index 1010826300 
+count = 20 at index 1573381050 
+count = 20 at index 1859754870 
+count = 20 at index 2003457774 
+count = 20 at index 2075405790 
+deltat for 0x80000000 = 4106 

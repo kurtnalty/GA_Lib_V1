@@ -1,0 +1,6 @@
+Conserved  determinant at index 67108800   Zcount = 20 
+Conserved  determinant at index 1010826300   Zcount = 20 
+Conserved  determinant at index 1573381050   Zcount = 20 
+Conserved  determinant at index 1859754870   Zcount = 20 
+Conserved  determinant at index 2003457774   Zcount = 20 
+Conserved  determinant at index 2075405790   Zcount = 20 

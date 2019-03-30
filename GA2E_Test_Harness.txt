@@ -1,0 +1,254 @@
+
+r = 
+(a, b,c, d)
+
+r = ( a, b,c, d)
+r = ( a, b,c, d)
+OverBar(r) = ( d, -c,b, a)
+Determinant is conserved
+r*OverBar(r) = 
+(0, -2*c*a+2*d*b,2*a*b+2*c*d, d^2+a^2+c^2+b^2)
+   expect zero for s.q
+
+r = ( a, b,c, d)
+UnderBar(r) = ( d, c,-b, a)
+OverBar(UnderBar(r)) = ( a, b,c, d)
+UnderBar(OverBar(r)) = ( a, b,c, d)
+Determinant is conserved
+r*UnderBar(r) = 
+(0, 0,0, d^2+a^2-c^2-b^2)
+   expect zeroes in s.q, s.x, s.y
+
+r = ( a, b,c, d)
+Reverse(r) = ( a, b,c, -d)
+Reverse(Reverse(r)) = ( a, b,c, d)
+Determinant is conserved
+r*Reverse(r) = 
+(d^2+a^2+c^2+b^2, 2*a*b+2*c*d,2*c*a-2*d*b, 0)
+
+
+r = ( a, b,c, d)
+Involution(r) = ( a, -b,-c, d)
+Involution(Involution(r)) = ( a, b,c, d)
+Determinant is conserved
+r*Involution(r) = 
+(-d^2+a^2-c^2-b^2, -2*c*d,2*d*b, 2*d*a)
+
+
+r = ( a, b,c, d)
+Transpose(r) = ( a, b,c, -d)
+Transpose(Transpose(r)) = ( a, b,c, d)
+Determinant is conserved
+r*Transpose(r) = 
+(d^2+a^2+c^2+b^2, 2*a*b+2*c*d,2*c*a-2*d*b, 0)
+
+
+r = ( a, b,c, d)
+Conjugation(r) = ( a, -b,-c, -d)
+Conjugation(Conjugation(r)) = ( a, b,c, d)
+Determinant is conserved
+r*Conjugation(r) = 
+(d^2+a^2-c^2-b^2, 0,0, 0)
+
+
+r = ( a, b,c, d)
+CliffordConjugation(r) = ( a, -b,-c, -d)
+CliffordConjugation(CliffordConjugation(r)) = ( a, b,c, d)
+Determinant is conserved
+r*CliffordConjugation(r) = 
+(d^2+a^2-c^2-b^2, 0,0, 0)
+
+
+r = ( a, b,c, d)
+Dual(r) = ( d, c,-b, -a)
+Dual(Dual(r)) = ( -a, -b,-c, -d)
+Determinant is conserved
+r*Dual(r) = 
+(2*d*a, 2*c*a,-2*a*b, d^2-a^2-c^2-b^2)
+
+
+r = ( a, b,c, d)
+DorstDual(r) = ( d, -c,b, -a)
+Determinant is conserved
+r*DorstDual(r) = 
+(2*d*a, 2*d*b,2*c*d, d^2-a^2+c^2+b^2)
+
+
+r = ( a, b,c, d)
+DorstUnDual(r) = ( -d, c,-b, a)
+
+DorstUnDual(DorstDual(r)) = ( a, b,c, d)
+DorstDual(DorstUnDual(r)) = ( a, b,c, d)
+Determinant is conserved
+r*DorstUnDual(r) = 
+(-2*d*a, -2*d*b,-2*c*d, -d^2+a^2-c^2-b^2)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+r + s = ( a+A, B+b,c+C, d+D)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+r - s = ( a-A, -B+b,c-C, d-D)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+t = ( A, B,C, D)
+r != s (as expected)
+s == t (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+t = ( A, B,C, D)
+r != s (as expected)
+s == t (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = r*s = 
+(c*C+B*b-d*D+a*A, -c*D+B*a+A*b+C*d,c*A-B*d+C*a+D*b, C*b+d*A-B*c+a*D)
+
+Product is non-commutative (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+t = ( c.a, c.b,c.c, c.d)
+Product is associative (as expected)
+
+s = Z*r = ( Z*a, Z*b,c*Z, d*Z)
+s = r*Z = ( a*Z, Z*b,c*Z, d*Z)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = Product(r,s) = 
+(c*C+B*b-d*D+a*A, -c*D+B*a+A*b+C*d,c*A-B*d+C*a+D*b, C*b+d*A-B*c+a*D)
+
+Product(r,s) is non-commutative (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+t = ( c.a, c.b,c.c, c.d)
+Product is associative (as expected)
+
+r = ( a, b,c, d)
+u = r/2 = ( 1/2*a, 1/2*b,1/2*c, 1/2*d)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = r^s = 
+(a*A, B*a+A*b,c*A+C*a, C*b+d*A-B*c+a*D)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = Wedge(r,s) = 
+(a*A, B*a+A*b,c*A+C*a, C*b+d*A-B*c+a*D)
+
+Wedge(r,s) is non-commutative (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+t = ( c.a, c.b,c.c, c.d)
+Wedge is associative (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = AntiWedge(r,s) = 
+(C*b+d*A-B*c+a*D, B*d+D*b,c*D+C*d, d*D)
+
+AntiWedge(r,s) is non-commutative (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+t = ( c.a, c.b,c.c, c.d)
+AntiWedge is associative (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = Regressive(r,s) = 
+(-C*b+d*A+B*c+a*D, B*d+D*b,c*D+C*d, d*D)
+
+Regressive(r,s) is non-commutative (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+t = ( c.a, c.b,c.c, c.d)
+Regressive is associative (as expected)
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = RegressiveViaFormula(r,s) = 
+(-C*b+d*A+B*c+a*D, B*d+D*b,c*D+C*d, d*D)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = LowerRightViaFormula(r,s) = 
+(-d*D, -c*D+C*d,-B*d+D*b, C*b+d*A-B*c+a*D)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = Expander(r,s) = 
+(0, 0,0, C*b-B*c)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = Conserver(r,s) = 
+(a*A, B*a+A*b,c*A+C*a, d*A+a*D)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = Shrinker(r,s) = 
+(c*C+B*b-d*D, -c*D+C*d,-B*d+D*b, 0)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = Symmetric(r,s) = 
+(c*C+B*b-d*D+a*A, B*a+A*b,c*A+C*a, d*A+a*D)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = AntiSymmetric(r,s) = 
+(0, -c*D+C*d,-B*d+D*b, C*b-B*c)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = Inner(r,s) = 
+(c*C+B*b-d*D, -c*D+C*d,-B*d+D*b, 0)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = LeftContraction(r,s) = 
+(c*C+B*b-d*D+a*A, -c*D+B*a,C*a+D*b, a*D)
+
+
+r = ( a, b,c, d)
+s = ( A, B,C, D)
+u = RightContraction(r,s) = 
+(c*C+B*b-d*D+a*A, A*b+C*d,c*A-B*d, d*A)
+
+
+X = ( 3, 5,7, 11)
+Determinant(X) = 3136
+
+X = ( 3, 5,7, 11)
+u = Adjugate(X) = 
+(168, -280,-392, -616)
+
+
+X = ( 3, 5,7, 11)
+u = Reciprocal(X) = 
+(3/56, -5/56,-1/8, -11/56)
+
+X*(1/X) = 
+(1, 0,0, 0)
+
+

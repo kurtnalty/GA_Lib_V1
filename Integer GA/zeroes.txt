@@ -1,0 +1,33 @@
+dets match at i = 0, Score = 0 Commutes
+dets match at i = 2287, Score = 0 
+dets match at i = 4919, Score = 0 
+dets match at i = 7128, Score = 0 
+dets match at i = 9563, Score = 0 
+dets match at i = 11700, Score = 0 
+dets match at i = 13932, Score = 0 
+dets match at i = 16003, Score = 0 
+dets match at i = 18077, Score = 0 
+dets match at i = 20082, Score = 0 
+dets match at i = 21930, Score = 0 
+dets match at i = 23877, Score = 0 
+dets match at i = 25542, Score = 0 
+dets match at i = 27433, Score = 0 
+dets match at i = 28913, Score = 0 
+dets match at i = 30750, Score = 0 
+
+dets match at i = 34785, Score = 0 
+dets match at i = 36622, Score = 0 
+dets match at i = 38102, Score = 0 
+dets match at i = 39993, Score = 0 
+dets match at i = 41658, Score = 0 
+dets match at i = 43605, Score = 0 
+dets match at i = 45453, Score = 0 
+dets match at i = 47458, Score = 0 
+dets match at i = 49532, Score = 0 
+dets match at i = 51603, Score = 0 
+dets match at i = 53835, Score = 0 
+dets match at i = 55972, Score = 0 
+dets match at i = 58407, Score = 0 
+dets match at i = 60616, Score = 0 
+dets match at i = 63248, Score = 0 
+dets match at i = 65535, Score = 0 Commutes

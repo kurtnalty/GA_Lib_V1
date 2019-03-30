@@ -1,0 +1,378 @@
+
+r = 
+(a, 
+b,c,d,e, 
+f,g,h,i,j,k, 
+l,m,n,o, 
+p)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+OverBar(r) = ( p, -o,n,-m,l, k,-j,i,h,-g,f, -e,d,-c,b, a)
+Determinant is conserved
+r*OverBar(r) = 
+(0, 
+2*d*j-2*l*i-2*a*o-2*g*m-2*k*c+2*b*p+2*n*f+2*h*e,2*o*f+2*k*b-2*d*i+2*c*p-2*g*e-2*l*j-2*h*m+2*a*n,-2*n*h+2*i*c-2*a*m-2*k*l+2*g*o+2*d*p+2*e*f-2*b*j,0, 
+2*f*p-2*d*e+2*a*k-2*g*i+2*n*b-2*h*j-2*l*m+2*o*c,2*e*c-2*a*j-2*b*m+2*i*f-2*n*l-2*k*h+2*g*p+2*d*o,2*f*j-2*o*l+2*h*p-2*d*n+2*a*i-2*c*m-2*e*b+2*g*k,0,0,0, 
+0,2*l*f-2*g*b-2*h*c+2*k*e+2*d*a-2*o*j-2*n*i+2*p*m,-2*e*j+2*b*f+2*n*p+2*i*m-2*a*c+2*g*l-2*d*h-2*k*o,2*m*j+2*f*c+2*h*l+2*n*k+2*g*d+2*a*b+2*e*i+2*o*p, 
+p^2+c^2+h^2+k^2+j^2+e^2+m^2+l^2+o^2+b^2+g^2+n^2+a^2+f^2+d^2+i^2)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+UnderBar(r) = ( p, o,-n,m,-l, k,-j,i,h,-g,f, e,-d,c,-b, a)
+OverBar(UnderBar(r)) = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+UnderBar(OverBar(r)) = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Determinant is conserved
+r*UnderBar(r) = 
+(0, 
+2*d*j-2*l*i-2*a*o-2*g*m-2*k*c+2*b*p+2*n*f+2*h*e,2*o*f+2*k*b-2*d*i+2*c*p-2*g*e-2*l*j-2*h*m+2*a*n,-2*n*h+2*i*c-2*a*m-2*k*l+2*g*o+2*d*p+2*e*f-2*b*j,0, 
+2*f*p-2*d*e+2*a*k-2*g*i+2*n*b-2*h*j-2*l*m+2*o*c,2*e*c-2*a*j-2*b*m+2*i*f-2*n*l-2*k*h+2*g*p+2*d*o,2*f*j-2*o*l+2*h*p-2*d*n+2*a*i-2*c*m-2*e*b+2*g*k,0,0,0, 
+0,2*l*f-2*g*b-2*h*c+2*k*e+2*d*a-2*o*j-2*n*i+2*p*m,-2*e*j+2*b*f+2*n*p+2*i*m-2*a*c+2*g*l-2*d*h-2*k*o,2*m*j+2*f*c+2*h*l+2*n*k+2*g*d+2*a*b+2*e*i+2*o*p, 
+p^2+c^2+h^2+k^2+j^2+e^2+m^2+l^2+o^2+b^2+g^2+n^2+a^2+f^2+d^2+i^2)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Reverse(r) = ( a, b,c,d,e, -f,-g,-h,-i,-j,-k, -l,-m,-n,-o, p)
+Reverse(Reverse(r)) = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Determinant is conserved
+r*Reverse(r) = 
+(-p^2+c^2+h^2-k^2-j^2-e^2-m^2+l^2-o^2+b^2+g^2-n^2+a^2+f^2+d^2-i^2, 
+-2*m*j+2*f*c+2*h*l-2*n*k+2*g*d+2*a*b-2*e*i-2*o*p,-2*e*j-2*b*f+2*n*p+2*i*m+2*a*c-2*g*l+2*d*h-2*k*o,2*l*f-2*g*b-2*h*c-2*k*e+2*d*a+2*o*j+2*n*i-2*p*m,-2*b*i+2*g*n+2*h*o-2*d*k+2*a*e+2*f*m-2*l*p-2*c*j, 
+0,0,0,0,0,0, 
+0,0,0,0, 
+-2*k*f-2*d*m+2*n*c+2*a*p-2*b*o-2*h*i+2*g*j+2*e*l)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Involution(r) = ( a, -b,-c,-d,-e, f,g,h,i,j,k, -l,-m,-n,-o, p)
+Involution(Involution(r)) = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Determinant is conserved
+r*Involution(r) = 
+(-p^2-c^2-h^2+k^2+j^2+e^2-m^2+l^2-o^2-b^2-g^2-n^2+a^2-f^2-d^2+i^2, 
+-2*f*c-2*g*d+2*e*i-2*o*p,2*e*j+2*b*f+2*n*p-2*d*h,2*g*b+2*h*c+2*k*e-2*p*m,2*b*i+2*d*k-2*l*p+2*c*j, 
+2*e*m+2*k*p-2*d*l+2*a*f,2*g*a+2*n*e+2*l*c-2*p*j,2*a*h+2*i*p-2*b*l+2*e*o,-2*h*p+2*d*n+2*a*i+2*c*m,2*a*j-2*b*m+2*g*p+2*d*o,-2*f*p+2*a*k-2*n*b-2*o*c, 
+2*o*i+2*e*p-2*n*j+2*k*m,-2*n*h+2*k*l+2*g*o+2*d*p,-2*o*f-2*c*p-2*l*j+2*h*m,2*l*i-2*g*m+2*b*p+2*n*f, 
+2*k*f+2*a*p+2*h*i-2*g*j)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Transpose(r) = ( a, b,c,d,-e, -f,-g,-h,i,j,k, -l,m,n,o, -p)
+Transpose(Transpose(r)) = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Determinant is conserved
+r*Transpose(r) = 
+(p^2+c^2+h^2+k^2+j^2+e^2+m^2+l^2+o^2+b^2+g^2+n^2+a^2+f^2+d^2+i^2, 
+2*m*j+2*f*c+2*h*l+2*n*k+2*g*d+2*a*b+2*e*i+2*o*p,2*e*j-2*b*f-2*n*p-2*i*m+2*a*c-2*g*l+2*d*h+2*k*o,2*l*f-2*g*b-2*h*c+2*k*e+2*d*a-2*o*j-2*n*i+2*p*m,0, 
+0,0,0,2*f*j-2*o*l+2*h*p-2*d*n+2*a*i-2*c*m-2*e*b+2*g*k,-2*e*c+2*a*j+2*b*m-2*i*f+2*n*l+2*k*h-2*g*p-2*d*o,2*f*p-2*d*e+2*a*k-2*g*i+2*n*b-2*h*j-2*l*m+2*o*c, 
+0,2*n*h-2*i*c+2*a*m+2*k*l-2*g*o-2*d*p-2*e*f+2*b*j,2*o*f+2*k*b-2*d*i+2*c*p-2*g*e-2*l*j-2*h*m+2*a*n,-2*d*j+2*l*i+2*a*o+2*g*m+2*k*c-2*b*p-2*n*f-2*h*e, 
+0)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Conjugation(r) = ( a, -b,-c,-d,-e, -f,-g,-h,-i,-j,-k, -l,-m,-n,-o, -p)
+Conjugation(Conjugation(r)) = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Determinant is not conserved
+r*Conjugation(r) = 
+(p^2-c^2+h^2-k^2-j^2+e^2-m^2+l^2-o^2-b^2+g^2-n^2+a^2+f^2-d^2-i^2, 
+-2*m*j+2*h*l-2*n*k,2*i*m-2*g*l-2*k*o,2*l*f+2*o*j+2*n*i,2*g*n+2*h*o+2*f*m, 
+2*e*m-2*k*p-2*d*l,2*n*e+2*l*c+2*p*j,-2*i*p-2*b*l+2*e*o,2*h*p+2*d*n+2*c*m,-2*b*m-2*g*p+2*d*o,2*f*p-2*n*b-2*o*c, 
+-2*h*b-2*d*f+2*g*c,2*i*c-2*e*f-2*b*j,-2*k*b+2*d*i-2*g*e,2*d*j-2*k*c-2*h*e, 
+-2*k*f-2*h*i+2*g*j)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+CliffordConjugation(r) = ( a, -b,-c,-d,-e, -f,-g,-h,-i,-j,-k, l,m,n,o, p)
+CliffordConjugation(CliffordConjugation(r)) = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Determinant is conserved
+r*CliffordConjugation(r) = 
+(-p^2-c^2+h^2-k^2-j^2+e^2+m^2-l^2+o^2-b^2+g^2+n^2+a^2+f^2-d^2-i^2, 
+0,0,0,0, 
+0,0,0,0,0,0, 
+-2*o*i-2*h*b+2*e*p+2*n*j+2*a*l-2*d*f-2*k*m+2*g*c,2*n*h+2*i*c+2*a*m-2*k*l-2*g*o+2*d*p-2*e*f-2*b*j,2*o*f-2*k*b+2*d*i-2*c*p-2*g*e+2*l*j-2*h*m+2*a*n,2*d*j-2*l*i+2*a*o+2*g*m-2*k*c+2*b*p-2*n*f-2*h*e, 
+-2*k*f+2*d*m-2*n*c+2*a*p+2*b*o-2*h*i+2*g*j-2*e*l)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Dual(r) = ( p, o,-n,m,l, -k,j,-i,h,-g,f, -e,-d,c,-b, -a)
+Dual(Dual(r)) = ( -a, -b,-c,-d,-e, -f,-g,-h,-i,-j,-k, -l,-m,-n,-o, -p)
+Determinant is conserved
+r*Dual(r) = 
+(2*k*f+2*a*p+2*h*i-2*g*j, 
+-2*d*j+2*a*o+2*k*c+2*h*e,-2*k*b+2*d*i-2*g*e-2*a*n,-2*i*c+2*a*m+2*e*f+2*b*j,2*h*b+2*a*l+2*d*f-2*g*c, 
+2*f*p-2*a*k-2*n*b-2*o*c,2*a*j+2*b*m+2*g*p-2*d*o,2*h*p+2*d*n-2*a*i+2*c*m,2*a*h+2*i*p+2*b*l-2*e*o,-2*g*a+2*n*e+2*l*c+2*p*j,-2*e*m+2*k*p+2*d*l+2*a*f, 
+2*g*n+2*h*o-2*a*e+2*f*m,2*l*f-2*d*a+2*o*j+2*n*i,-2*i*m+2*a*c+2*g*l+2*k*o,-2*m*j+2*h*l-2*n*k-2*a*b, 
+p^2-c^2+h^2-k^2-j^2+e^2-m^2+l^2-o^2-b^2+g^2-n^2-a^2+f^2-d^2-i^2)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+DorstDual(r) = ( p, o,-n,m,l, -k,j,-i,h,-g,f, -e,-d,c,-b, -a)
+Determinant is conserved
+r*DorstDual(r) = 
+(2*k*f+2*a*p+2*h*i-2*g*j, 
+-2*d*j+2*a*o+2*k*c+2*h*e,-2*k*b+2*d*i-2*g*e-2*a*n,-2*i*c+2*a*m+2*e*f+2*b*j,2*h*b+2*a*l+2*d*f-2*g*c, 
+2*f*p-2*a*k-2*n*b-2*o*c,2*a*j+2*b*m+2*g*p-2*d*o,2*h*p+2*d*n-2*a*i+2*c*m,2*a*h+2*i*p+2*b*l-2*e*o,-2*g*a+2*n*e+2*l*c+2*p*j,-2*e*m+2*k*p+2*d*l+2*a*f, 
+2*g*n+2*h*o-2*a*e+2*f*m,2*l*f-2*d*a+2*o*j+2*n*i,-2*i*m+2*a*c+2*g*l+2*k*o,-2*m*j+2*h*l-2*n*k-2*a*b, 
+p^2-c^2+h^2-k^2-j^2+e^2-m^2+l^2-o^2-b^2+g^2-n^2-a^2+f^2-d^2-i^2)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+DorstUnDual(r) = ( -p, -o,n,-m,-l, k,-j,i,-h,g,-f, e,d,-c,b, a)
+
+DorstUnDual(DorstDual(r)) = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+DorstDual(DorstUnDual(r)) = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+Determinant is conserved
+r*DorstUnDual(r) = 
+(-2*k*f-2*a*p-2*h*i+2*g*j, 
+2*d*j-2*a*o-2*k*c-2*h*e,2*k*b-2*d*i+2*g*e+2*a*n,2*i*c-2*a*m-2*e*f-2*b*j,-2*h*b-2*a*l-2*d*f+2*g*c, 
+-2*f*p+2*a*k+2*n*b+2*o*c,-2*a*j-2*b*m-2*g*p+2*d*o,-2*h*p-2*d*n+2*a*i-2*c*m,-2*a*h-2*i*p-2*b*l+2*e*o,2*g*a-2*n*e-2*l*c-2*p*j,2*e*m-2*k*p-2*d*l-2*a*f, 
+-2*g*n-2*h*o+2*a*e-2*f*m,-2*l*f+2*d*a-2*o*j-2*n*i,2*i*m-2*a*c-2*g*l-2*k*o,2*m*j-2*h*l+2*n*k+2*a*b, 
+-p^2+c^2-h^2+k^2+j^2-e^2+m^2-l^2+o^2+b^2-g^2+n^2+a^2-f^2+d^2+i^2)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+r + s = ( A+a, B+b,C+c,D+d,E+e, F+f,g+G,H+h,I+i,J+j,K+k, L+l,M+m,N+n,O+o, P+p)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+r - s = ( -A+a, -B+b,-C+c,-D+d,-E+e, -F+f,g-G,-H+h,-I+i,-J+j,-K+k, -L+l,-M+m,-N+n,-O+o, -P+p)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+t = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+r != s (as expected)
+s == t (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+t = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+r != s (as expected)
+s == t (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = r*s = 
+(-E*e+J*j+K*k-L*l+D*d+I*i+B*b-g*G+N*n+A*a+O*o-H*h-P*p-F*f+M*m+C*c, 
+O*p+f*C-d*G+m*J-h*L-F*c+g*D-H*l+N*k+a*B-E*i-o*P+A*b+M*j+e*I+n*K,n*P+a*C-E*j+e*J+b*F-d*H-i*M-N*p+A*c+g*L+k*O+D*h+K*o+l*G-I*m-B*f,-L*f-O*j-l*F+D*a+K*e-g*B-o*J-P*m+d*A-h*C+b*G-N*i-n*I+p*M-k*E+H*c,A*e-f*M-g*N-F*m+a*E-H*o+b*I-n*G-D*k+d*K-C*j-l*P+c*J+L*p-h*O-B*i, 
+-E*m+K*p-B*c+D*l+i*J-e*M+n*O+A*f+d*L-I*j+h*G+b*C+k*P+a*F-N*o-g*H,H*f+D*b+g*A-N*e-d*B-k*I-h*F-n*E-O*m+a*G-l*C-P*j-L*c-p*J+o*M+K*i,g*F+a*H-e*O+N*m-n*M+b*L-d*C-f*G+K*j+i*P+A*h+I*p-k*J+B*l+D*c-E*o,-e*B+g*K+o*L-F*j-D*n+f*J-k*G-d*N-O*l-C*m+A*i+a*I-c*M-h*P-H*p+E*b,-D*o+K*h-d*O+A*j+a*J+B*m-I*f-e*C+E*c+i*F-n*L+N*l-k*H+b*M+g*P+p*G,d*E+O*c+i*G-f*P-F*p+A*k-g*I+n*B-l*M+H*j+L*m-D*e+o*C+a*K+N*b-h*J, 
+N*j-n*J+D*f+e*P+H*b+K*m+o*I-E*p+a*L+d*F-k*M+h*B-g*C-O*i-c*G+A*l,-n*H+A*m+a*M+N*h+d*P-i*C-k*L+B*j-I*c+b*J+e*F-g*O+K*l+E*f+o*G-D*p,e*G-o*F-D*i+L*j-h*M+k*B+N*a+K*b+g*E+A*n+H*m+O*f-l*J-P*c-d*I+C*p,K*c+l*I-m*G-d*J-L*i-B*p+a*O-N*f+H*e+A*o+b*P+g*M+h*E-D*j+n*F+k*C, 
+n*C+a*P+h*I+k*F+H*i-j*G-N*c+d*M+A*p-B*o+O*b-g*J-D*m+K*f+E*l-e*L)
+
+Product is non-commutative (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+t = ( c.a, c.b,c.c,c.d,c.e, c.f,c.g,c.h,c.i,c.j,c.k, c.l,c.m,c.n,c.o, c.p)
+Product is associative (as expected)
+
+s = Z*r = ( a*Z, b*Z,c*Z,d*Z,e*Z, f*Z,g*Z,h*Z,i*Z,Z*j,k*Z, l*Z,m*Z,n*Z,o*Z, p*Z)
+s = r*Z = ( a*Z, Z*b,Z*c,d*Z,Z*e, Z*f,g*Z,Z*h,Z*i,Z*j,Z*k, Z*l,Z*m,n*Z,Z*o, Z*p)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = Product(r,s) = 
+(-E*e+J*j+K*k-L*l+D*d+I*i+B*b-g*G+N*n+A*a+O*o-H*h-P*p-F*f+M*m+C*c, 
+O*p+f*C-d*G+m*J-h*L-F*c+g*D-H*l+N*k+a*B-E*i-o*P+A*b+M*j+e*I+n*K,n*P+a*C-E*j+e*J+b*F-d*H-i*M-N*p+A*c+g*L+k*O+D*h+K*o+l*G-I*m-B*f,-L*f-O*j-l*F+D*a+K*e-g*B-o*J-P*m+d*A-h*C+b*G-N*i-n*I+p*M-k*E+H*c,A*e-f*M-g*N-F*m+a*E-H*o+b*I-n*G-D*k+d*K-C*j-l*P+c*J+L*p-h*O-B*i, 
+-E*m+K*p-B*c+D*l+i*J-e*M+n*O+A*f+d*L-I*j+h*G+b*C+k*P+a*F-N*o-g*H,H*f+D*b+g*A-N*e-d*B-k*I-h*F-n*E-O*m+a*G-l*C-P*j-L*c-p*J+o*M+K*i,g*F+a*H-e*O+N*m-n*M+b*L-d*C-f*G+K*j+i*P+A*h+I*p-k*J+B*l+D*c-E*o,-e*B+g*K+o*L-F*j-D*n+f*J-k*G-d*N-O*l-C*m+A*i+a*I-c*M-h*P-H*p+E*b,-D*o+K*h-d*O+A*j+a*J+B*m-I*f-e*C+E*c+i*F-n*L+N*l-k*H+b*M+g*P+p*G,d*E+O*c+i*G-f*P-F*p+A*k-g*I+n*B-l*M+H*j+L*m-D*e+o*C+a*K+N*b-h*J, 
+N*j-n*J+D*f+e*P+H*b+K*m+o*I-E*p+a*L+d*F-k*M+h*B-g*C-O*i-c*G+A*l,-n*H+A*m+a*M+N*h+d*P-i*C-k*L+B*j-I*c+b*J+e*F-g*O+K*l+E*f+o*G-D*p,e*G-o*F-D*i+L*j-h*M+k*B+N*a+K*b+g*E+A*n+H*m+O*f-l*J-P*c-d*I+C*p,K*c+l*I-m*G-d*J-L*i-B*p+a*O-N*f+H*e+A*o+b*P+g*M+h*E-D*j+n*F+k*C, 
+n*C+a*P+h*I+k*F+H*i-j*G-N*c+d*M+A*p-B*o+O*b-g*J-D*m+K*f+E*l-e*L)
+
+Product(r,s) is non-commutative (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+t = ( c.a, c.b,c.c,c.d,c.e, c.f,c.g,c.h,c.i,c.j,c.k, c.l,c.m,c.n,c.o, c.p)
+Product is associative (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+u = r/2 = ( 1/2*a, 1/2*b,1/2*c,1/2*d,1/2*e, 1/2*f,1/2*g,1/2*h,1/2*i,1/2*j,1/2*k, 1/2*l,1/2*m,1/2*n,1/2*o, 1/2*p)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = r^s = 
+(A*a, 
+a*B+A*b,a*C+A*c,D*a+d*A,A*e+a*E, 
+-B*c+A*f+b*C+a*F,D*b+g*A-d*B+a*G,a*H-d*C+A*h+D*c,-e*B+A*i+a*I+E*b,A*j+a*J-e*C+E*c,d*E+A*k-D*e+a*K, 
+D*f+H*b+a*L+d*F+h*B-g*C-c*G+A*l,A*m+a*M-i*C+B*j-I*c+b*J+e*F+E*f,e*G-D*i+k*B+N*a+K*b+g*E+A*n-d*I,K*c-d*J+a*O+H*e+A*o+h*E-D*j+k*C, 
+n*C+a*P+h*I+k*F+H*i-j*G-N*c+d*M+A*p-B*o+O*b-g*J-D*m+K*f+E*l-e*L)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = Wedge(r,s) = 
+(A*a, 
+a*B+A*b,a*C+A*c,D*a+d*A,A*e+a*E, 
+-B*c+A*f+b*C+a*F,D*b+g*A-d*B+a*G,a*H-d*C+A*h+D*c,-e*B+A*i+a*I+E*b,A*j+a*J-e*C+E*c,d*E+A*k-D*e+a*K, 
+D*f+H*b+a*L+d*F+h*B-g*C-c*G+A*l,A*m+a*M-i*C+B*j-I*c+b*J+e*F+E*f,e*G-D*i+k*B+N*a+K*b+g*E+A*n-d*I,K*c-d*J+a*O+H*e+A*o+h*E-D*j+k*C, 
+n*C+a*P+h*I+k*F+H*i-j*G-N*c+d*M+A*p-B*o+O*b-g*J-D*m+K*f+E*l-e*L)
+
+Wedge(r,s) is non-commutative (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+t = ( c.a, c.b,c.c,c.d,c.e, c.f,c.g,c.h,c.i,c.j,c.k, c.l,c.m,c.n,c.o, c.p)
+Wedge is associative (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = AntiWedge(r,s) = 
+(n*C+a*P+h*I+k*F+H*i-j*G-N*c+d*M+A*p-B*o+O*b-g*J-D*m+K*f+E*l-e*L, 
+l*I-m*G+L*i+B*p+N*f+b*P-g*M+n*F,o*F+L*j-h*M-H*m+O*f+l*J+P*c+C*p,-n*H-N*h+d*P+k*L+g*O+K*l+o*G+D*p,-N*j-n*J+e*P+K*m+o*I+E*p+k*M+O*i, 
+f*P+F*p+l*M-L*m,-n*L+N*l+g*P+p*G,-o*L+O*l+h*P+H*p,N*m-n*M+i*P+I*p,O*m+P*j+p*J-o*M,K*p+n*O+k*P-N*o, 
+l*P+L*p,P*m+p*M,n*P+N*p,O*p+o*P, 
+P*p)
+
+AntiWedge(r,s) is non-commutative (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+t = ( c.a, c.b,c.c,c.d,c.e, c.f,c.g,c.h,c.i,c.j,c.k, c.l,c.m,c.n,c.o, c.p)
+AntiWedge is associative (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = Regressive(r,s) = 
+(-n*C+a*P+h*I+k*F+H*i-j*G+N*c-d*M+A*p+B*o-O*b-g*J+D*m+K*f-E*l+e*L, 
+l*I-m*G+L*i+B*p+N*f+b*P-g*M+n*F,o*F+L*j-h*M-H*m+O*f+l*J+P*c+C*p,-n*H-N*h+d*P+k*L+g*O+K*l+o*G+D*p,-N*j-n*J+e*P+K*m+o*I+E*p+k*M+O*i, 
+f*P+F*p-l*M+L*m,n*L-N*l+g*P+p*G,o*L-O*l+h*P+H*p,-N*m+n*M+i*P+I*p,-O*m+P*j+p*J+o*M,K*p-n*O+k*P+N*o, 
+l*P+L*p,P*m+p*M,n*P+N*p,O*p+o*P, 
+P*p)
+
+Regressive(r,s) is non-commutative (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+t = ( c.a, c.b,c.c,c.d,c.e, c.f,c.g,c.h,c.i,c.j,c.k, c.l,c.m,c.n,c.o, c.p)
+Regressive is associative (as expected)
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = RegressiveViaFormula(r,s) = 
+(-n*C+a*P+h*I+k*F+H*i-j*G+N*c-d*M+A*p+B*o-O*b-g*J+D*m+K*f-E*l+e*L, 
+l*I-m*G+L*i+B*p+N*f+b*P-g*M+n*F,o*F+L*j-h*M-H*m+O*f+l*J+P*c+C*p,-n*H-N*h+d*P+k*L+g*O+K*l+o*G+D*p,-N*j-n*J+e*P+K*m+o*I+E*p+k*M+O*i, 
+f*P+F*p-l*M+L*m,n*L-N*l+g*P+p*G,o*L-O*l+h*P+H*p,-N*m+n*M+i*P+I*p,-O*m+P*j+p*J+o*M,K*p-n*O+k*P+N*o, 
+l*P+L*p,P*m+p*M,n*P+N*p,O*p+o*P, 
+P*p)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = LowerRightViaFormula(r,s) = 
+(-P*p, 
+O*p-o*P,n*P-N*p,-P*m+p*M,-l*P+L*p, 
+K*p+n*O+k*P-N*o,-O*m-P*j-p*J+o*M,N*m-n*M+i*P+I*p,o*L-O*l-h*P-H*p,-n*L+N*l+g*P+p*G,-f*P-F*p-l*M+L*m, 
+N*j-n*J+e*P+K*m+o*I-E*p-k*M-O*i,-n*H+N*h+d*P-k*L-g*O+K*l+o*G-D*p,-o*F+L*j-h*M+H*m+O*f-l*J-P*c+C*p,l*I-m*G-L*i-B*p-N*f+b*P+g*M+n*F, 
+n*C+a*P+h*I+k*F+H*i-j*G-N*c+d*M+A*p-B*o+O*b-g*J-D*m+K*f+E*l-e*L)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = LowerRightViaFormula(r,s) = 
+(-P*p, 
+O*p-o*P,n*P-N*p,-P*m+p*M,-l*P+L*p, 
+K*p+n*O+k*P-N*o,-O*m-P*j-p*J+o*M,N*m-n*M+i*P+I*p,o*L-O*l-h*P-H*p,-n*L+N*l+g*P+p*G,-f*P-F*p-l*M+L*m, 
+N*j-n*J+e*P+K*m+o*I-E*p-k*M-O*i,-n*H+N*h+d*P-k*L-g*O+K*l+o*G-D*p,-o*F+L*j-h*M+H*m+O*f-l*J-P*c+C*p,l*I-m*G-L*i-B*p-N*f+b*P+g*M+n*F, 
+n*C+a*P+h*I+k*F+H*i-j*G-N*c+d*M+A*p-B*o+O*b-g*J-D*m+K*f+E*l-e*L)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = Conserver(r,s) = 
+(A*a, 
+a*B+A*b,a*C+A*c,D*a+d*A,A*e+a*E, 
+i*J+A*f-I*j+h*G+a*F-g*H,H*f+g*A-k*I-h*F+a*G+K*i,g*F+a*H-f*G+K*j+A*h-k*J,g*K-F*j+f*J-k*G+A*i+a*I,K*h+A*j+a*J-I*f+i*F-k*H,i*G+A*k-g*I+H*j+a*K-h*J, 
+N*j-n*J+K*m+o*I+a*L-k*M-O*i+A*l,-n*H+A*m+a*M+N*h-k*L-g*O+K*l+o*G,-o*F+L*j-h*M+N*a+A*n+H*m+O*f-l*J,l*I-m*G-L*i+a*O-N*f+A*o+g*M+n*F, 
+a*P+A*p)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = Shrinker(r,s) = 
+(-E*e+J*j+K*k-L*l+D*d+I*i+B*b-g*G+N*n+O*o-H*h-P*p-F*f+M*m+C*c, 
+O*p+f*C-d*G+m*J-h*L-F*c+g*D-H*l+N*k-E*i-o*P+M*j+e*I+n*K,n*P-E*j+e*J+b*F-d*H-i*M-N*p+g*L+k*O+D*h+K*o+l*G-I*m-B*f,-L*f-O*j-l*F+K*e-g*B-o*J-P*m-h*C+b*G-N*i-n*I+p*M-k*E+H*c,-f*M-g*N-F*m-H*o+b*I-n*G-D*k+d*K-C*j-l*P+c*J+L*p-h*O-B*i, 
+-E*m+K*p+D*l-e*M+n*O+d*L+k*P-N*o,-N*e-n*E-O*m-l*C-P*j-L*c-p*J+o*M,-e*O+N*m-n*M+b*L+i*P+I*p+B*l-E*o,o*L-D*n-d*N-O*l-C*m-c*M-h*P-H*p,-D*o-d*O+B*m-n*L+N*l+b*M+g*P+p*G,O*c-f*P-F*p+n*B-l*M+L*m+o*C+N*b, 
+e*P-E*p,d*P-D*p,-P*c+C*p,-B*p+b*P, 
+0)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = Symmetric(r,s) = 
+(-E*e+J*j+K*k-L*l+D*d+I*i+B*b-g*G+N*n+A*a+O*o-H*h-P*p-F*f+M*m+C*c, 
+m*J-h*L-H*l+N*k+a*B+A*b+M*j+n*K,a*C-i*M+A*c+g*L+k*O+K*o+l*G-I*m,-L*f-O*j-l*F+D*a-o*J+d*A-N*i-n*I,A*e-f*M-g*N-F*m+a*E-H*o-n*G-h*O, 
+-E*m+K*p+D*l-e*M+A*f+d*L+k*P+a*F,g*A-N*e-n*E+a*G-l*C-P*j-L*c-p*J,a*H-e*O+b*L+i*P+A*h+I*p+B*l-E*o,-D*n-d*N-C*m+A*i+a*I-c*M-h*P-H*p,-D*o-d*O+A*j+a*J+B*m+b*M+g*P+p*G,O*c-f*P-F*p+A*k+n*B+o*C+a*K+N*b, 
+D*f+H*b+a*L+d*F+h*B-g*C-c*G+A*l,A*m+a*M-i*C+B*j-I*c+b*J+e*F+E*f,e*G-D*i+k*B+N*a+K*b+g*E+A*n-d*I,K*c-d*J+a*O+H*e+A*o+h*E-D*j+k*C, 
+a*P+h*I+k*F+H*i-j*G+A*p-g*J+K*f)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = AntiSymmetric(r,s) = 
+(0, 
+O*p+f*C-d*G-F*c+g*D-E*i-o*P+e*I,n*P-E*j+e*J+b*F-d*H-N*p+D*h-B*f,K*e-g*B-P*m-h*C+b*G+p*M-k*E+H*c,b*I-D*k+d*K-C*j-l*P+c*J+L*p-B*i, 
+-B*c+i*J+n*O-I*j+h*G+b*C-N*o-g*H,H*f+D*b-d*B-k*I-h*F-O*m+o*M+K*i,g*F+N*m-n*M-d*C-f*G+K*j-k*J+D*c,-e*B+g*K+o*L-F*j+f*J-k*G-O*l+E*b,K*h-I*f-e*C+E*c+i*F-n*L+N*l-k*H,d*E+i*G-g*I-l*M+H*j+L*m-D*e-h*J, 
+N*j-n*J+e*P+K*m+o*I-E*p-k*M-O*i,-n*H+N*h+d*P-k*L-g*O+K*l+o*G-D*p,-o*F+L*j-h*M+H*m+O*f-l*J-P*c+C*p,l*I-m*G-L*i-B*p-N*f+b*P+g*M+n*F, 
+n*C-N*c+d*M-B*o+O*b-D*m+E*l-e*L)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = Inner(r,s) = 
+(-E*e+J*j+K*k-L*l+D*d+I*i+B*b-g*G+N*n+O*o-H*h-P*p-F*f+M*m+C*c, 
+O*p+f*C-d*G+m*J-h*L-F*c+g*D-H*l+N*k-E*i-o*P+M*j+e*I+n*K,n*P-E*j+e*J+b*F-d*H-i*M-N*p+g*L+k*O+D*h+K*o+l*G-I*m-B*f,-L*f-O*j-l*F+K*e-g*B-o*J-P*m-h*C+b*G-N*i-n*I+p*M-k*E+H*c,-f*M-g*N-F*m-H*o+b*I-n*G-D*k+d*K-C*j-l*P+c*J+L*p-h*O-B*i, 
+-E*m+K*p+D*l-e*M+d*L+k*P,-N*e-n*E-l*C-P*j-L*c-p*J,-e*O+b*L+i*P+I*p+B*l-E*o,-D*n-d*N-C*m-c*M-h*P-H*p,-D*o-d*O+B*m+b*M+g*P+p*G,O*c-f*P-F*p+n*B+o*C+N*b, 
+e*P-E*p,d*P-D*p,-P*c+C*p,-B*p+b*P, 
+0)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = LeftContraction(r,s) = 
+(-E*e+J*j+K*k-L*l+D*d+I*i+B*b-g*G+N*n+A*a+O*o-H*h-P*p-F*f+M*m+C*c, 
+-d*G-h*L-F*c+N*k+a*B-o*P+M*j+e*I,n*P+a*C+e*J+b*F-d*H-i*M+g*L+k*O,-L*f-O*j+D*a+K*e-P*m+b*G-N*i+H*c,-f*M-g*N+a*E+b*I+d*K-l*P+c*J-h*O, 
+-e*M+d*L+k*P+a*F,-N*e+a*G-P*j-L*c,a*H-e*O+b*L+i*P,-d*N+a*I-c*M-h*P,-d*O+a*J+b*M+g*P,O*c-f*P+a*K+N*b, 
+e*P+a*L,a*M+d*P,N*a-P*c,a*O+b*P, 
+a*P)
+
+
+r = ( a, b,c,d,e, f,g,h,i,j,k, l,m,n,o, p)
+s = ( A, B,C,D,E, F,G,H,I,J,K, L,M,N,O, P)
+u = RightContraction(r,s) = 
+(-E*e+J*j+K*k-L*l+D*d+I*i+B*b-g*G+N*n+A*a+O*o-H*h-P*p-F*f+M*m+C*c, 
+O*p+f*C+m*J+g*D-H*l-E*i+A*b+n*K,-E*j-N*p+A*c+D*h+K*o+l*G-I*m-B*f,-l*F-g*B-o*J+d*A-h*C-n*I+p*M-k*E,A*e-F*m-H*o-n*G-D*k-C*j+L*p-B*i, 
+-E*m+K*p+D*l+A*f,g*A-n*E-l*C-p*J,A*h+I*p+B*l-E*o,-D*n-C*m+A*i-H*p,-D*o+A*j+B*m+p*G,-F*p+A*k+n*B+o*C, 
+-E*p+A*l,A*m-D*p,A*n+C*p,-B*p+A*o, 
+A*p)
+
+
+X = ( 3, 5,7,11,13, 17,19,23,29,31,37, 41,43,47,53, 59)
+Determinant(X) = -3432336
+
+X = ( 3, 5,7,11,13, 17,19,23,29,31,37, 41,43,47,53, 59)
+u = Adjugate(X) = 
+(-59924, 
+93204,101156,89908,103556, 
+130044,47380,-163556,57188,-157996,41372, 
+141892,120068,-62028,-20924, 
+-28260)
+
+
+X = ( 3, 5,7,11,13, 17,19,23,29,31,37, 41,43,47,53, 59)
+u = Reciprocal(X) = 
+(14981/858084, 
+-7767/286028,-25289/858084,-22477/858084,-25889/858084, 
+-10837/286028,-515/37308,40889/858084,-14297/858084,39499/858084,-10343/858084, 
+-35473/858084,-30017/858084,5169/286028,5231/858084, 
+2355/286028)
+
+X*(1/X) = 
+(1, 
+0,0,0,0, 
+0,0,0,0,0,0, 
+0,0,0,0, 
+0)
+
+
+Verifying 64 Determinant preserving Comp transforms
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Verifying 72 Determinant preserving Magic transforms
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

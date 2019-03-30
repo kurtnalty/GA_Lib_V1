@@ -1,0 +1,10 @@
+Conserved  determinant at index 253854960   Zcount = 12 
+Conserved  determinant at index 378685800   Zcount = 12 
+Conserved  determinant at index 441201240   Zcount = 12 
+Conserved  determinant at index 629944740   Zcount = 12 
+Conserved  determinant at index 693258900   Zcount = 12 
+Conserved  determinant at index 820086540   Zcount = 12 
+Conserved  determinant at index 1148464674   Zcount = 12 
+Conserved  determinant at index 1219122450   Zcount = 12 
+Conserved  determinant at index 1360631946   Zcount = 12 
+Conserved  determinant at index 1644683334   Zcount = 12 

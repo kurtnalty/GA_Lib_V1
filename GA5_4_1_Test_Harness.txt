@@ -1,0 +1,824 @@
+
+MV1 = (a, b,c,d,e,f, g,h,j,k,l,m,n,p,r,s, S,R,P,N,M,L,K,J,H,G, F,E,D,C,B, A)
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+OverBar(MV1) = (A, 
+B,-C,D,-E,F, 
+G,-H,J,-K,L,-M,N,P,-R,S, 
+s,-r,p,n,-m,l,-k,j,-h,g, 
+f,-e,d,-c,b, a)
+
+Determinant is not conserved
+MV1*OverBar(MV1) = (0, 0,0,0,0,-2*D*r+2*E*s-2*g*p+2*h*m-2*d*R+2*H*M+2*N*c+2*A*f+2*a*F-2*K*b+2*C*n-2*G*P-2*k*B+2*e*S-2*L*J-2*l*j, -2*B*c-2*e*r-2*b*C-2*P*F+2*g*A-2*p*f-2*l*H+2*M*j+2*K*n-2*L*h-2*E*R+2*d*s+2*N*k+2*D*S+2*m*J+2*G*a,2*A*h+2*D*b-2*a*H-2*d*B+2*p*J+2*g*L-2*c*s+2*C*S-2*M*F-2*k*R+2*K*r-2*G*l+2*m*f-2*N*E+2*e*n-2*P*j,-2*e*B+2*k*S-2*l*f-2*G*m+2*r*c+2*p*H+2*a*J+2*P*h+2*K*s+2*A*j+2*R*C-2*d*n-2*N*D-2*g*M-2*L*F-2*E*b,0,2*a*L-2*k*e+2*b*s+2*B*S+2*g*H+2*A*l-2*J*F-2*K*E+2*D*c+2*d*C-2*R*n-2*j*f-2*p*M+2*G*h-2*P*m-2*N*r,-2*p*L+2*G*j-2*N*s-2*g*J+2*P*l-2*E*c-2*H*F-2*a*M+2*k*d+2*A*m-2*b*r+2*S*n+2*e*C-2*K*D+2*B*R+2*h*f,0,2*b*n+2*L*m-2*g*f+2*p*A-2*K*C-2*k*c-2*H*j-2*d*E+2*a*P+2*r*S+2*R*s-2*D*e-2*G*F+2*N*B-2*h*J+2*l*M,0,0, 2*a*s+2*A*S-2*K*J+2*G*d+2*L*b-2*E*F+2*H*c-2*k*j-2*e*f+2*l*B-2*N*M+2*h*C-2*m*n-2*P*R+2*g*D-2*p*r,-2*N*L-2*p*s+2*k*h-2*K*H+2*P*S-2*J*c+2*l*n-2*D*F+2*G*e-2*b*M+2*A*R-2*g*E-2*a*r+2*d*f+2*j*C+2*B*m,0,2*L*R+2*a*n-2*f*c+2*N*A-2*D*j-2*h*E-2*F*C+2*m*s+2*P*b+2*l*r-2*K*G-2*H*e-2*k*g+2*p*B+2*M*S-2*d*J,0,0,-2*B*F-2*p*C+2*K*A+2*d*M+2*J*S+2*P*c-2*g*n-2*h*r-2*k*a+2*H*R+2*b*f-2*D*m-2*l*E+2*N*G+2*L*e-2*j*s,0,0,0, 0,-2*N*h+2*k*L-2*a*e-2*K*l-2*f*s-2*B*J+2*F*S+2*G*r+2*b*j-2*D*P-2*M*C+2*H*n-2*g*R+2*A*E+2*m*c+2*d*p,2*r*f-2*H*B+2*p*e-2*l*c-2*J*n+2*g*S-2*h*b-2*k*M-2*L*C+2*P*E+2*D*A+2*G*s-2*N*j-2*K*m+2*d*a+2*R*F,-2*f*n-2*r*J-2*K*p+2*A*C+2*R*j+2*k*P-2*G*B+2*N*F-2*e*m-2*a*c+2*h*S+2*E*M+2*g*b-2*d*l-2*H*s+2*D*L,2*R*m+2*g*c+2*K*F+2*e*j+2*N*p+2*P*n+2*E*J+2*k*f+2*l*S+2*L*s+2*d*h+2*G*C+2*A*B+2*D*H+2*a*b+2*r*M, d^2+G^2+m^2+R^2+D^2+j^2+M^2+b^2+E^2+k^2+N^2+B^2+g^2+K^2+r^2+C^2+h^2+L^2+s^2+e^2+H^2+n^2+S^2+A^2+f^2+J^2+p^2+a^2+c^2+F^2+l^2+P^2)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+UnderBar(MV1) = (A, 
+B,-C,D,-E,F, 
+G,-H,J,-K,L,-M,N,P,-R,S, 
+s,-r,p,n,-m,l,-k,j,-h,g, 
+f,-e,d,-c,b, a)
+
+OverBar(UnderBar(MV1)) = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+UnderBar(OverBar(MV1)) = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Determinant is not conserved
+MV1*UnderBar(MV1) = (0, 0,0,0,0,-2*D*r+2*E*s-2*g*p+2*h*m-2*d*R+2*H*M+2*N*c+2*A*f+2*a*F-2*K*b+2*C*n-2*G*P-2*k*B+2*e*S-2*L*J-2*l*j, -2*B*c-2*e*r-2*b*C-2*P*F+2*g*A-2*p*f-2*l*H+2*M*j+2*K*n-2*L*h-2*E*R+2*d*s+2*N*k+2*D*S+2*m*J+2*G*a,2*A*h+2*D*b-2*a*H-2*d*B+2*p*J+2*g*L-2*c*s+2*C*S-2*M*F-2*k*R+2*K*r-2*G*l+2*m*f-2*N*E+2*e*n-2*P*j,-2*e*B+2*k*S-2*l*f-2*G*m+2*r*c+2*p*H+2*a*J+2*P*h+2*K*s+2*A*j+2*R*C-2*d*n-2*N*D-2*g*M-2*L*F-2*E*b,0,2*a*L-2*k*e+2*b*s+2*B*S+2*g*H+2*A*l-2*J*F-2*K*E+2*D*c+2*d*C-2*R*n-2*j*f-2*p*M+2*G*h-2*P*m-2*N*r,-2*p*L+2*G*j-2*N*s-2*g*J+2*P*l-2*E*c-2*H*F-2*a*M+2*k*d+2*A*m-2*b*r+2*S*n+2*e*C-2*K*D+2*B*R+2*h*f,0,2*b*n+2*L*m-2*g*f+2*p*A-2*K*C-2*k*c-2*H*j-2*d*E+2*a*P+2*r*S+2*R*s-2*D*e-2*G*F+2*N*B-2*h*J+2*l*M,0,0, 2*a*s+2*A*S-2*K*J+2*G*d+2*L*b-2*E*F+2*H*c-2*k*j-2*e*f+2*l*B-2*N*M+2*h*C-2*m*n-2*P*R+2*g*D-2*p*r,-2*N*L-2*p*s+2*k*h-2*K*H+2*P*S-2*J*c+2*l*n-2*D*F+2*G*e-2*b*M+2*A*R-2*g*E-2*a*r+2*d*f+2*j*C+2*B*m,0,2*L*R+2*a*n-2*f*c+2*N*A-2*D*j-2*h*E-2*F*C+2*m*s+2*P*b+2*l*r-2*K*G-2*H*e-2*k*g+2*p*B+2*M*S-2*d*J,0,0,-2*B*F-2*p*C+2*K*A+2*d*M+2*J*S+2*P*c-2*g*n-2*h*r-2*k*a+2*H*R+2*b*f-2*D*m-2*l*E+2*N*G+2*L*e-2*j*s,0,0,0, 0,-2*N*h+2*k*L-2*a*e-2*K*l-2*f*s-2*B*J+2*F*S+2*G*r+2*b*j-2*D*P-2*M*C+2*H*n-2*g*R+2*A*E+2*m*c+2*d*p,2*r*f-2*H*B+2*p*e-2*l*c-2*J*n+2*g*S-2*h*b-2*k*M-2*L*C+2*P*E+2*D*A+2*G*s-2*N*j-2*K*m+2*d*a+2*R*F,-2*f*n-2*r*J-2*K*p+2*A*C+2*R*j+2*k*P-2*G*B+2*N*F-2*e*m-2*a*c+2*h*S+2*E*M+2*g*b-2*d*l-2*H*s+2*D*L,2*R*m+2*g*c+2*K*F+2*e*j+2*N*p+2*P*n+2*E*J+2*k*f+2*l*S+2*L*s+2*d*h+2*G*C+2*A*B+2*D*H+2*a*b+2*r*M, d^2+G^2+m^2+R^2+D^2+j^2+M^2+b^2+E^2+k^2+N^2+B^2+g^2+K^2+r^2+C^2+h^2+L^2+s^2+e^2+H^2+n^2+S^2+A^2+f^2+J^2+p^2+a^2+c^2+F^2+l^2+P^2)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Reverse(MV1) = (a, 
+b,c,d,e,f, 
+-g,-h,-j,-k,-l,-m,-n,-p,-r,-s, 
+-S,-R,-P,-N,-M,-L,-K,-J,-H,-G, 
+F,E,D,C,B, A)
+
+Reverse(Reverse(MV1)) = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Determinant is conserved
+MV1*Reverse(MV1) = (d^2-G^2+m^2+R^2-D^2+j^2-M^2+b^2-E^2-k^2+N^2-B^2+g^2+K^2-r^2-C^2+h^2-L^2-s^2+e^2-H^2-n^2+S^2-A^2-f^2-J^2+p^2+a^2+c^2+F^2+l^2-P^2, 2*R*m+2*g*c+2*K*F+2*e*j+2*N*p-2*P*n-2*E*J-2*k*f+2*l*S-2*L*s+2*d*h-2*G*C-2*A*B-2*D*H+2*a*b-2*r*M,-2*f*n-2*r*J+2*K*p+2*A*C-2*R*j+2*k*P-2*G*B-2*N*F+2*e*m+2*a*c-2*h*S+2*E*M-2*g*b+2*d*l-2*H*s+2*D*L,-2*r*f+2*H*B+2*p*e-2*l*c+2*J*n+2*g*S-2*h*b+2*k*M+2*L*C-2*P*E-2*D*A-2*G*s-2*N*j-2*K*m+2*d*a+2*R*F,2*N*h+2*k*L+2*a*e+2*K*l-2*f*s-2*B*J-2*F*S+2*G*r-2*b*j-2*D*P-2*M*C+2*H*n+2*g*R+2*A*E-2*m*c-2*d*p,-2*N*C+2*g*P-2*E*S+2*h*M+2*l*J+2*L*j+2*A*F+2*a*f-2*d*r-2*c*n+2*H*m-2*D*R-2*K*B+2*G*p-2*k*b-2*e*s, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 2*D*r-2*E*s-2*g*p+2*h*m-2*d*R-2*H*M+2*N*c-2*A*f+2*a*F-2*K*b-2*C*n+2*G*P+2*k*B+2*e*S+2*L*J-2*l*j,-2*A*e+2*f*S-2*N*H+2*G*R-2*k*l+2*K*L-2*F*s-2*b*J-2*m*C-2*g*r+2*h*n+2*M*c+2*D*p+2*B*j-2*d*P+2*a*E,2*r*F-2*H*b+2*l*C+2*N*J-2*h*B-2*g*s-2*P*e-2*G*S-2*k*m+2*D*a+2*j*n-2*p*E+2*R*f+2*L*c+2*d*A-2*K*M,2*a*C+2*K*P+2*N*f-2*A*c-2*F*n-2*e*M-2*k*p-2*G*b-2*D*l+2*g*B-2*h*s+2*E*m+2*d*L+2*H*S-2*R*J+2*r*j,2*K*f+2*R*M-2*p*n-2*l*s+2*k*F-2*N*P-2*g*C+2*d*H-2*E*j-2*L*S-2*e*J-2*G*c+2*r*m+2*A*b+2*D*h+2*a*B, 2*d*D-2*e*E-2*N*n+2*m*M+2*f*F+2*a*A-2*l*L-2*c*C-2*p*P+2*h*H-2*j*J-2*s*S+2*k*K+2*b*B+2*r*R-2*g*G)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Involution(MV1) = (a, 
+-b,-c,-d,-e,-f, 
+g,h,j,k,l,m,n,p,r,s, 
+-S,-R,-P,-N,-M,-L,-K,-J,-H,-G, 
+F,E,D,C,B, -A)
+
+Involution(Involution(MV1)) = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Determinant is not conserved
+MV1*Involution(MV1) = (-d^2-G^2-m^2+R^2-D^2-j^2-M^2-b^2-E^2+k^2+N^2-B^2-g^2+K^2+r^2-C^2-h^2-L^2+s^2-e^2-H^2+n^2+S^2+A^2+f^2-J^2-p^2+a^2-c^2+F^2-l^2-P^2, -2*g*c+2*K*F-2*e*j-2*E*J+2*k*f-2*d*h-2*G*C-2*D*H,2*f*n-2*G*B-2*N*F-2*e*m+2*E*M+2*g*b-2*d*l+2*D*L,2*r*f+2*H*B-2*p*e+2*l*c+2*h*b+2*L*C-2*P*E+2*R*F,2*f*s-2*B*J-2*F*S+2*b*j-2*D*P-2*M*C+2*m*c+2*d*p,-2*N*C-2*E*S+2*d*r+2*c*n-2*D*R-2*K*B+2*k*b+2*e*s, 2*P*f+2*g*a-2*p*F-2*e*R-2*d*S+2*E*r-2*G*A+2*D*s,2*A*H-2*E*n+2*a*h-2*N*e+2*c*S+2*M*f+2*s*C+2*m*F,-2*l*F-2*r*C-2*A*J+2*N*d+2*a*j+2*L*f-2*D*n+2*R*c,-2*p*C-2*K*A+2*d*M+2*P*c+2*k*a-2*D*m-2*l*E+2*L*e,-2*b*S-2*A*L+2*J*f+2*a*l-2*K*e+2*B*s-2*j*F+2*k*E,2*a*m+2*k*D+2*A*M-2*r*B-2*b*R+2*H*f+2*K*d+2*h*F,2*a*n+2*N*A+2*D*j+2*h*E-2*P*b+2*H*e-2*p*B+2*d*J,-2*g*F-2*K*c+2*k*C+2*a*p-2*A*P+2*B*n-2*N*b+2*G*f,-2*J*c+2*G*e-2*b*M-2*A*R-2*g*E+2*a*r+2*j*C+2*B*m,2*a*s+2*A*S-2*G*d-2*L*b-2*H*c-2*l*B-2*h*C-2*g*D, 2*k*J+2*E*f-2*e*F+2*N*m-2*p*R+2*P*r-2*K*j-2*M*n,2*k*H+2*p*S+2*K*h+2*P*s-2*N*l+2*D*f-2*L*n+2*d*F,-2*L*m+2*H*j+2*d*E+2*r*S+2*R*s+2*D*e+2*h*J-2*l*M,-2*F*c+2*f*C-2*L*r-2*K*g-2*m*S+2*k*G+2*l*R+2*M*s,-2*p*L+2*G*j+2*N*s-2*g*J+2*P*l-2*E*c-2*S*n+2*e*C,-2*g*H-2*D*c-2*d*C-2*R*n+2*p*M-2*G*h+2*P*m-2*N*r,-2*H*r+2*J*s-2*h*R+2*B*f+2*b*F+2*G*n+2*j*S+2*N*g,2*e*B+2*k*S+2*G*m-2*p*H-2*P*h+2*K*s+2*g*M+2*E*b,2*D*b-2*d*B+2*p*J+2*g*L+2*k*R-2*K*r-2*G*l-2*P*j,2*B*c+2*b*C+2*l*H-2*M*j+2*K*n+2*L*h+2*N*k-2*m*J, 2*g*p-2*h*m-2*H*M+2*A*f+2*a*F+2*G*P+2*L*J+2*l*j,2*A*e-2*N*H+2*G*R+2*k*l+2*K*L+2*g*r-2*h*n+2*a*E,2*N*J+2*g*s-2*G*S+2*k*m+2*D*a-2*j*n-2*d*A-2*K*M,2*a*C+2*K*P+2*A*c+2*k*p+2*h*s+2*H*S-2*R*J-2*r*j,2*R*M+2*p*n+2*l*s-2*N*P-2*L*S-2*r*m-2*A*b+2*a*B, 0)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Transpose(MV1) = (a, 
+-b,c,d,e,-f, 
+g,h,j,-k,-l,-m,n,-p,r,s, 
+S,R,-P,N,-M,-L,-K,J,H,G, 
+-F,E,D,C,-B, A)
+
+Transpose(Transpose(MV1)) = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Determinant is conserved
+MV1*Transpose(MV1) = (d^2+G^2+m^2-R^2-D^2-j^2-M^2-b^2-E^2-k^2-N^2+B^2-g^2+K^2+r^2-C^2-h^2-L^2+s^2+e^2+H^2+n^2-S^2-A^2+f^2+J^2+p^2+a^2+c^2-F^2+l^2-P^2, 0,2*f*n+2*r*J+2*K*p+2*A*C+2*R*j+2*k*P+2*G*B+2*N*F+2*e*m+2*a*c+2*h*S+2*E*M+2*g*b+2*d*l+2*H*s+2*D*L,2*r*f-2*H*B+2*p*e-2*l*c-2*J*n-2*g*S+2*h*b+2*k*M+2*L*C-2*P*E-2*D*A+2*G*s+2*N*j-2*K*m+2*d*a-2*R*F,-2*N*h+2*k*L+2*a*e+2*K*l+2*f*s+2*B*J+2*F*S-2*G*r+2*b*j-2*D*P-2*M*C-2*H*n-2*g*R+2*A*E-2*m*c-2*d*p,0, 2*k*n+2*P*f+2*m*j+2*g*a+2*l*h+2*b*c+2*p*F+2*B*C+2*e*R+2*M*J+2*d*S+2*L*H+2*E*r+2*G*A+2*N*K+2*D*s,-2*D*B-2*A*H-2*E*n-2*g*l-2*P*J+2*a*h+2*N*e-2*c*S+2*d*b+2*M*f+2*s*C+2*G*L+2*p*j+2*k*r-2*K*R-2*m*F,-2*G*M-2*p*h+2*l*F+2*e*b+2*k*s-2*r*C-2*P*H+2*K*S+2*A*J-2*N*d+2*a*j+2*L*f-2*D*n+2*E*B-2*g*m-2*R*c,0,0,0,-2*L*R+2*a*n-2*f*c-2*N*A+2*D*j+2*h*E+2*F*C+2*m*s-2*P*b+2*l*r-2*K*G-2*H*e+2*k*g+2*p*B-2*M*S-2*d*J,0,-2*N*L+2*p*s+2*k*h+2*K*H+2*P*S+2*J*c-2*l*n-2*D*F-2*G*e-2*b*M+2*A*R-2*g*E+2*a*r-2*d*f+2*j*C-2*B*m,2*a*s-2*A*S-2*K*J+2*G*d-2*L*b+2*E*F+2*H*c+2*k*j-2*e*f+2*l*B+2*N*M-2*h*C-2*m*n+2*P*R-2*g*D-2*p*r, 2*G*D+2*a*S+2*A*s-2*k*J-2*L*B+2*E*f-2*l*b+2*e*F-2*N*m+2*p*R+2*P*r-2*h*c-2*K*j-2*H*C-2*M*n+2*g*d,2*J*C-2*k*H-2*p*S+2*K*h+2*P*s+2*g*e+2*N*l-2*G*E+2*a*R-2*j*c+2*D*f-2*b*m-2*L*n-2*d*F+2*B*M-2*A*r,0,-2*d*j+2*A*n+2*F*c+2*f*C+2*H*E+2*N*a-2*L*r+2*h*e-2*K*g+2*m*S-2*D*J-2*k*G-2*P*B-2*p*b-2*l*R+2*M*s,0,0,0,-2*e*B-2*k*S-2*l*f-2*G*m+2*r*c+2*p*H+2*a*J-2*P*h+2*K*s-2*A*j-2*R*C-2*d*n+2*N*D+2*g*M+2*L*F+2*E*b,2*A*h+2*D*b+2*a*H+2*d*B-2*p*J+2*g*L+2*c*s+2*C*S-2*M*F-2*k*R-2*K*r+2*G*l-2*m*f-2*N*E-2*e*n-2*P*j,-2*B*c-2*e*r+2*b*C+2*P*F-2*g*A-2*p*f-2*l*H-2*M*j+2*K*n+2*L*h+2*E*R+2*d*s-2*N*k-2*D*S+2*m*J+2*G*a, 0,-2*A*e-2*f*S+2*N*H-2*G*R-2*k*l+2*K*L+2*F*s+2*b*J-2*m*C+2*g*r-2*h*n+2*M*c+2*D*p-2*B*j-2*d*P+2*a*E,-2*r*F+2*H*b+2*l*C-2*N*J+2*h*B+2*g*s-2*P*e+2*G*S-2*k*m+2*D*a-2*j*n-2*p*E-2*R*f+2*L*c+2*d*A-2*K*M,2*a*C+2*K*P-2*N*f-2*A*c+2*F*n-2*e*M-2*k*p+2*G*b-2*D*l-2*g*B+2*h*s+2*E*m+2*d*L-2*H*S+2*R*J-2*r*j,0, 2*d*D-2*e*E+2*N*n+2*m*M-2*f*F+2*a*A-2*l*L-2*c*C-2*p*P-2*h*H+2*j*J+2*s*S+2*k*K-2*b*B-2*r*R+2*g*G)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Conjugation(MV1) = (a, 
+-b,-c,-d,-e,-f, 
+-g,-h,-j,-k,-l,-m,-n,-p,-r,-s, 
+-S,-R,-P,-N,-M,-L,-K,-J,-H,-G, 
+-F,-E,-D,-C,-B, -A)
+
+Conjugation(Conjugation(MV1)) = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Determinant is not conserved
+MV1*Conjugation(MV1) = (-d^2-G^2+m^2+R^2+D^2+j^2-M^2-b^2+E^2-k^2+N^2+B^2+g^2+K^2-r^2+C^2+h^2-L^2-s^2-e^2-H^2-n^2+S^2+A^2+f^2-J^2+p^2+a^2-c^2-F^2+l^2-P^2, 2*R*m+2*N*p-2*P*n+2*l*S-2*L*s+2*A*B-2*r*M,-2*r*J+2*K*p-2*A*C-2*R*j+2*k*P-2*h*S-2*H*s,2*J*n+2*g*S+2*k*M+2*D*A-2*G*s-2*N*j-2*K*m,2*N*h+2*k*L+2*K*l+2*G*r+2*H*n+2*g*R-2*A*E,2*g*P+2*h*M+2*l*J+2*L*j-2*A*F+2*H*m+2*G*p, 2*P*f+2*p*F-2*e*R-2*d*S-2*E*r-2*G*A-2*D*s,2*A*H+2*E*n-2*N*e+2*c*S+2*M*f-2*s*C-2*m*F,2*l*F+2*r*C-2*A*J+2*N*d+2*L*f+2*D*n+2*R*c,2*p*C-2*K*A+2*d*M+2*P*c+2*D*m+2*l*E+2*L*e,-2*b*S-2*A*L+2*J*f-2*K*e-2*B*s+2*j*F-2*k*E,-2*k*D+2*A*M+2*r*B-2*b*R+2*H*f+2*K*d-2*h*F,2*N*A-2*D*j-2*h*E-2*P*b+2*H*e+2*p*B+2*d*J,2*g*F-2*K*c-2*k*C-2*A*P-2*B*n-2*N*b+2*G*f,-2*J*c+2*G*e-2*b*M-2*A*R+2*g*E-2*j*C-2*B*m,2*A*S-2*G*d-2*L*b-2*H*c+2*l*B+2*h*C+2*g*D, -2*G*D-2*A*s-2*L*B-2*l*b+2*h*c+2*H*C-2*g*d,-2*J*C-2*g*e+2*G*E+2*j*c-2*b*m+2*B*M+2*A*r,-2*b*n-2*g*f+2*p*A-2*K*C+2*k*c+2*G*F+2*N*B,2*d*j-2*A*n-2*H*E-2*h*e+2*D*J-2*P*B-2*p*b,-2*H*F+2*k*d-2*A*m-2*b*r+2*K*D-2*B*R-2*h*f,2*k*e-2*b*s+2*B*S+2*A*l+2*J*F-2*K*E-2*j*f,2*d*m+2*L*E-2*D*M+2*P*C-2*p*c-2*l*e+2*k*A,-2*l*f-2*r*c+2*A*j+2*R*C+2*d*n-2*N*D+2*L*F,-2*A*h-2*c*s-2*C*S-2*M*F-2*m*f+2*N*E+2*e*n,2*e*r+2*P*F+2*g*A-2*p*f-2*E*R-2*d*s+2*D*S, -2*g*p+2*h*m-2*H*M+2*A*f+2*G*P+2*L*J-2*l*j,2*A*e-2*N*H+2*G*R-2*k*l+2*K*L-2*g*r+2*h*n,2*N*J-2*g*s-2*G*S-2*k*m+2*j*n-2*d*A-2*K*M,2*K*P+2*A*c-2*k*p-2*h*s+2*H*S-2*R*J+2*r*j,2*R*M-2*p*n-2*l*s-2*N*P-2*L*S+2*r*m-2*A*b, -2*d*D+2*e*E-2*N*n+2*m*M-2*f*F-2*l*L+2*c*C-2*p*P+2*h*H-2*j*J-2*s*S+2*k*K-2*b*B+2*r*R-2*g*G)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+CliffordConjugation(MV1) = (a, 
+-b,-c,-d,-e,-f, 
+-g,-h,-j,-k,-l,-m,-n,-p,-r,-s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, -A)
+
+CliffordConjugation(CliffordConjugation(MV1)) = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Determinant is not conserved
+MV1*CliffordConjugation(MV1) = (-d^2+G^2+m^2-R^2-D^2+j^2+M^2-b^2-E^2-k^2-N^2-B^2+g^2-K^2-r^2-C^2+h^2+L^2-s^2-e^2+H^2-n^2-S^2+A^2+f^2+J^2+p^2+a^2-c^2+F^2+l^2+P^2, 0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 2*G*D+2*a*S-2*A*s-2*k*J+2*L*B+2*E*f-2*l*b-2*e*F-2*N*m+2*p*R-2*P*r+2*h*c+2*K*j-2*H*C+2*M*n-2*g*d,2*J*C-2*k*H-2*p*S-2*K*h-2*P*s-2*g*e+2*N*l-2*G*E+2*a*R+2*j*c+2*D*f-2*b*m+2*L*n+2*d*F-2*B*M+2*A*r,-2*b*n+2*L*m-2*g*f+2*p*A+2*K*C+2*k*c-2*H*j+2*d*E+2*a*P-2*r*S-2*R*s+2*D*e-2*G*F-2*N*B-2*h*J+2*l*M,2*d*j-2*A*n-2*F*c+2*f*C+2*H*E+2*N*a+2*L*r-2*h*e+2*K*g+2*m*S-2*D*J-2*k*G+2*P*B-2*p*b-2*l*R-2*M*s,2*p*L-2*G*j-2*N*s+2*g*J-2*P*l-2*E*c+2*H*F+2*a*M+2*k*d-2*A*m-2*b*r+2*S*n+2*e*C-2*K*D+2*B*R-2*h*f,2*a*L+2*k*e-2*b*s-2*B*S+2*g*H+2*A*l-2*J*F+2*K*E-2*D*c-2*d*C+2*R*n-2*j*f-2*p*M+2*G*h-2*P*m+2*N*r,2*H*r-2*J*s+2*K*a+2*h*R+2*B*f+2*d*m+2*b*F-2*L*E+2*D*M-2*P*C-2*p*c-2*l*e+2*k*A-2*G*n-2*j*S-2*N*g,2*e*B-2*k*S-2*l*f-2*G*m-2*r*c+2*p*H+2*a*J+2*P*h-2*K*s+2*A*j-2*R*C+2*d*n+2*N*D-2*g*M-2*L*F+2*E*b,-2*A*h+2*D*b+2*a*H-2*d*B-2*p*J-2*g*L-2*c*s+2*C*S+2*M*F-2*k*R+2*K*r+2*G*l-2*m*f-2*N*E+2*e*n+2*P*j,2*B*c+2*e*r+2*b*C-2*P*F+2*g*A-2*p*f-2*l*H+2*M*j-2*K*n-2*L*h+2*E*R-2*d*s-2*N*k-2*D*S+2*m*J+2*G*a, 2*D*r-2*E*s-2*g*p+2*h*m+2*d*R+2*H*M-2*N*c+2*A*f+2*a*F+2*K*b-2*C*n-2*G*P+2*k*B-2*e*S-2*L*J-2*l*j,2*A*e-2*f*S+2*N*H-2*G*R-2*k*l-2*K*L-2*F*s+2*b*J-2*m*C-2*g*r+2*h*n-2*M*c+2*D*p+2*B*j+2*d*P+2*a*E,2*r*F+2*H*b+2*l*C-2*N*J-2*h*B-2*g*s+2*P*e+2*G*S-2*k*m+2*D*a+2*j*n-2*p*E-2*R*f-2*L*c-2*d*A+2*K*M,2*a*C-2*K*P-2*N*f+2*A*c-2*F*n+2*e*M-2*k*p+2*G*b-2*D*l+2*g*B-2*h*s+2*E*m-2*d*L-2*H*S+2*R*J+2*r*j,-2*K*f-2*R*M-2*p*n-2*l*s+2*k*F+2*N*P-2*g*C-2*d*H-2*E*j+2*L*S+2*e*J+2*G*c+2*r*m-2*A*b+2*D*h+2*a*B, 0)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Dual(MV1) = (A, 
+B,-C,D,-E,-F, 
+-G,H,-J,-K,-L,M,N,-P,-R,S, 
+-s,r,p,-n,-m,l,k,j,-h,g, 
+f,e,-d,c,-b, -a)
+
+Dual(Dual(MV1)) = (-a, 
+-b,-c,-d,-e,-f, 
+-g,-h,-j,-k,-l,-m,-n,-p,-r,-s, 
+-S,-R,-P,-N,-M,-L,-K,-J,-H,-G, 
+-F,-E,-D,-C,-B, -A)
+
+Determinant is conserved
+MV1*Dual(MV1) = (2*d*D-2*e*E+2*N*n-2*m*M+2*f*F+2*a*A+2*l*L-2*c*C+2*p*P-2*h*H+2*j*J+2*s*S-2*k*K+2*b*B-2*r*R+2*g*G, -2*R*M+2*p*n+2*l*s+2*N*P+2*L*S-2*r*m+2*A*b+2*a*B,-2*a*C+2*K*P+2*A*c-2*k*p-2*h*s+2*H*S-2*R*J+2*r*j,-2*N*J+2*g*s+2*G*S+2*k*m+2*D*a-2*j*n+2*d*A+2*K*M,2*A*e-2*N*H+2*G*R-2*k*l+2*K*L-2*g*r+2*h*n-2*a*E,-2*g*p+2*h*m-2*H*M+2*A*f-2*a*F+2*G*P+2*L*J-2*l*j, 2*e*r+2*P*F+2*g*A-2*p*f-2*E*R-2*d*s+2*D*S-2*G*a,2*A*h+2*a*H+2*c*s+2*C*S+2*M*F+2*m*f-2*N*E-2*e*n,-2*l*f-2*r*c-2*a*J+2*A*j+2*R*C+2*d*n-2*N*D+2*L*F,-2*K*a+2*d*m+2*L*E-2*D*M+2*P*C-2*p*c-2*l*e+2*k*A,-2*a*L+2*k*e-2*b*s+2*B*S+2*A*l+2*J*F-2*K*E-2*j*f,2*H*F+2*a*M-2*k*d+2*A*m+2*b*r-2*K*D+2*B*R+2*h*f,-2*d*j+2*A*n+2*H*E+2*N*a+2*h*e-2*D*J+2*P*B+2*p*b,-2*b*n-2*g*f+2*p*A-2*K*C+2*k*c-2*a*P+2*G*F+2*N*B,-2*J*C-2*g*e+2*G*E-2*a*R+2*j*c-2*b*m+2*B*M+2*A*r,2*G*D+2*a*S+2*A*s+2*L*B+2*l*b-2*h*c-2*H*C+2*g*d, -2*a*s+2*A*S-2*G*d-2*L*b-2*H*c+2*l*B+2*h*C+2*g*D,2*J*c-2*G*e+2*b*M+2*A*R-2*g*E+2*a*r+2*j*C+2*B*m,-2*g*F+2*K*c+2*k*C+2*a*p+2*A*P+2*B*n+2*N*b-2*G*f,-2*a*n+2*N*A-2*D*j-2*h*E-2*P*b+2*H*e+2*p*B+2*d*J,-2*a*m-2*k*D+2*A*M+2*r*B-2*b*R+2*H*f+2*K*d-2*h*F,2*b*S+2*A*L-2*J*f+2*a*l+2*K*e+2*B*s-2*j*F+2*k*E,-2*p*C+2*K*A-2*d*M-2*P*c+2*k*a-2*D*m-2*l*E-2*L*e,-2*l*F-2*r*C+2*A*J-2*N*d+2*a*j-2*L*f-2*D*n-2*R*c,2*A*H+2*E*n-2*a*h-2*N*e+2*c*S+2*M*f-2*s*C-2*m*F,-2*P*f+2*g*a-2*p*F+2*e*R+2*d*S+2*E*r+2*G*A+2*D*s, -2*g*P-2*h*M-2*l*J-2*L*j+2*A*F+2*a*f-2*H*m-2*G*p,-2*N*h-2*k*L+2*a*e-2*K*l-2*G*r-2*H*n-2*g*R+2*A*E,2*J*n+2*g*S+2*k*M+2*D*A-2*G*s-2*N*j-2*K*m-2*d*a,2*r*J-2*K*p+2*A*C+2*R*j-2*k*P+2*a*c+2*h*S+2*H*s,2*R*m+2*N*p-2*P*n+2*l*S-2*L*s+2*A*B-2*a*b-2*r*M, -d^2-G^2+m^2+R^2+D^2+j^2-M^2-b^2+E^2-k^2+N^2+B^2+g^2+K^2-r^2+C^2+h^2-L^2-s^2-e^2-H^2-n^2+S^2+A^2+f^2-J^2+p^2-a^2-c^2-F^2+l^2-P^2)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+DorstDual(MV1) = (A, 
+B,-C,D,-E,-F, 
+-G,H,-J,-K,-L,M,N,-P,-R,S, 
+-s,r,p,-n,-m,l,k,j,-h,g, 
+f,e,-d,c,-b, -a)
+
+Determinant is conserved
+MV1*DorstDual(MV1) = (2*d*D-2*e*E+2*N*n-2*m*M+2*f*F+2*a*A+2*l*L-2*c*C+2*p*P-2*h*H+2*j*J+2*s*S-2*k*K+2*b*B-2*r*R+2*g*G, -2*R*M+2*p*n+2*l*s+2*N*P+2*L*S-2*r*m+2*A*b+2*a*B,-2*a*C+2*K*P+2*A*c-2*k*p-2*h*s+2*H*S-2*R*J+2*r*j,-2*N*J+2*g*s+2*G*S+2*k*m+2*D*a-2*j*n+2*d*A+2*K*M,2*A*e-2*N*H+2*G*R-2*k*l+2*K*L-2*g*r+2*h*n-2*a*E,-2*g*p+2*h*m-2*H*M+2*A*f-2*a*F+2*G*P+2*L*J-2*l*j, 2*e*r+2*P*F+2*g*A-2*p*f-2*E*R-2*d*s+2*D*S-2*G*a,2*A*h+2*a*H+2*c*s+2*C*S+2*M*F+2*m*f-2*N*E-2*e*n,-2*l*f-2*r*c-2*a*J+2*A*j+2*R*C+2*d*n-2*N*D+2*L*F,-2*K*a+2*d*m+2*L*E-2*D*M+2*P*C-2*p*c-2*l*e+2*k*A,-2*a*L+2*k*e-2*b*s+2*B*S+2*A*l+2*J*F-2*K*E-2*j*f,2*H*F+2*a*M-2*k*d+2*A*m+2*b*r-2*K*D+2*B*R+2*h*f,-2*d*j+2*A*n+2*H*E+2*N*a+2*h*e-2*D*J+2*P*B+2*p*b,-2*b*n-2*g*f+2*p*A-2*K*C+2*k*c-2*a*P+2*G*F+2*N*B,-2*J*C-2*g*e+2*G*E-2*a*R+2*j*c-2*b*m+2*B*M+2*A*r,2*G*D+2*a*S+2*A*s+2*L*B+2*l*b-2*h*c-2*H*C+2*g*d, -2*a*s+2*A*S-2*G*d-2*L*b-2*H*c+2*l*B+2*h*C+2*g*D,2*J*c-2*G*e+2*b*M+2*A*R-2*g*E+2*a*r+2*j*C+2*B*m,-2*g*F+2*K*c+2*k*C+2*a*p+2*A*P+2*B*n+2*N*b-2*G*f,-2*a*n+2*N*A-2*D*j-2*h*E-2*P*b+2*H*e+2*p*B+2*d*J,-2*a*m-2*k*D+2*A*M+2*r*B-2*b*R+2*H*f+2*K*d-2*h*F,2*b*S+2*A*L-2*J*f+2*a*l+2*K*e+2*B*s-2*j*F+2*k*E,-2*p*C+2*K*A-2*d*M-2*P*c+2*k*a-2*D*m-2*l*E-2*L*e,-2*l*F-2*r*C+2*A*J-2*N*d+2*a*j-2*L*f-2*D*n-2*R*c,2*A*H+2*E*n-2*a*h-2*N*e+2*c*S+2*M*f-2*s*C-2*m*F,-2*P*f+2*g*a-2*p*F+2*e*R+2*d*S+2*E*r+2*G*A+2*D*s, -2*g*P-2*h*M-2*l*J-2*L*j+2*A*F+2*a*f-2*H*m-2*G*p,-2*N*h-2*k*L+2*a*e-2*K*l-2*G*r-2*H*n-2*g*R+2*A*E,2*J*n+2*g*S+2*k*M+2*D*A-2*G*s-2*N*j-2*K*m-2*d*a,2*r*J-2*K*p+2*A*C+2*R*j-2*k*P+2*a*c+2*h*S+2*H*s,2*R*m+2*N*p-2*P*n+2*l*S-2*L*s+2*A*B-2*a*b-2*r*M, -d^2-G^2+m^2+R^2+D^2+j^2-M^2-b^2+E^2-k^2+N^2+B^2+g^2+K^2-r^2+C^2+h^2-L^2-s^2-e^2-H^2-n^2+S^2+A^2+f^2-J^2+p^2-a^2-c^2-F^2+l^2-P^2)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+DorstUnDual(MV1) = (-A, 
+-B,C,-D,E,F, 
+G,-H,J,K,L,-M,-N,P,R,-S, 
+s,-r,-p,n,m,-l,-k,-j,h,-g, 
+-f,-e,d,-c,b, a)
+
+
+DorstUnDual(DorstDual(MV1)) = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+DorstDual(DorstUnDual(MV1)) = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Determinant is conserved
+MV1*DorstUnDual(MV1) = (-2*d*D+2*e*E-2*N*n+2*m*M-2*f*F-2*a*A-2*l*L+2*c*C-2*p*P+2*h*H-2*j*J-2*s*S+2*k*K-2*b*B+2*r*R-2*g*G, 2*R*M-2*p*n-2*l*s-2*N*P-2*L*S+2*r*m-2*A*b-2*a*B,2*a*C-2*K*P-2*A*c+2*k*p+2*h*s-2*H*S+2*R*J-2*r*j,2*N*J-2*g*s-2*G*S-2*k*m-2*D*a+2*j*n-2*d*A-2*K*M,-2*A*e+2*N*H-2*G*R+2*k*l-2*K*L+2*g*r-2*h*n+2*a*E,2*g*p-2*h*m+2*H*M-2*A*f+2*a*F-2*G*P-2*L*J+2*l*j, -2*e*r-2*P*F-2*g*A+2*p*f+2*E*R+2*d*s-2*D*S+2*G*a,-2*A*h-2*a*H-2*c*s-2*C*S-2*M*F-2*m*f+2*N*E+2*e*n,2*l*f+2*r*c+2*a*J-2*A*j-2*R*C-2*d*n+2*N*D-2*L*F,2*K*a-2*d*m-2*L*E+2*D*M-2*P*C+2*p*c+2*l*e-2*k*A,2*a*L-2*k*e+2*b*s-2*B*S-2*A*l-2*J*F+2*K*E+2*j*f,-2*H*F-2*a*M+2*k*d-2*A*m-2*b*r+2*K*D-2*B*R-2*h*f,2*d*j-2*A*n-2*H*E-2*N*a-2*h*e+2*D*J-2*P*B-2*p*b,2*b*n+2*g*f-2*p*A+2*K*C-2*k*c+2*a*P-2*G*F-2*N*B,2*J*C+2*g*e-2*G*E+2*a*R-2*j*c+2*b*m-2*B*M-2*A*r,-2*G*D-2*a*S-2*A*s-2*L*B-2*l*b+2*h*c+2*H*C-2*g*d, 2*a*s-2*A*S+2*G*d+2*L*b+2*H*c-2*l*B-2*h*C-2*g*D,-2*J*c+2*G*e-2*b*M-2*A*R+2*g*E-2*a*r-2*j*C-2*B*m,2*g*F-2*K*c-2*k*C-2*a*p-2*A*P-2*B*n-2*N*b+2*G*f,2*a*n-2*N*A+2*D*j+2*h*E+2*P*b-2*H*e-2*p*B-2*d*J,2*a*m+2*k*D-2*A*M-2*r*B+2*b*R-2*H*f-2*K*d+2*h*F,-2*b*S-2*A*L+2*J*f-2*a*l-2*K*e-2*B*s+2*j*F-2*k*E,2*p*C-2*K*A+2*d*M+2*P*c-2*k*a+2*D*m+2*l*E+2*L*e,2*l*F+2*r*C-2*A*J+2*N*d-2*a*j+2*L*f+2*D*n+2*R*c,-2*A*H-2*E*n+2*a*h+2*N*e-2*c*S-2*M*f+2*s*C+2*m*F,2*P*f-2*g*a+2*p*F-2*e*R-2*d*S-2*E*r-2*G*A-2*D*s, 2*g*P+2*h*M+2*l*J+2*L*j-2*A*F-2*a*f+2*H*m+2*G*p,2*N*h+2*k*L-2*a*e+2*K*l+2*G*r+2*H*n+2*g*R-2*A*E,-2*J*n-2*g*S-2*k*M-2*D*A+2*G*s+2*N*j+2*K*m+2*d*a,-2*r*J+2*K*p-2*A*C-2*R*j+2*k*P-2*a*c-2*h*S-2*H*s,-2*R*m-2*N*p+2*P*n-2*l*S+2*L*s-2*A*B+2*a*b+2*r*M, d^2+G^2-m^2-R^2-D^2-j^2+M^2+b^2-E^2+k^2-N^2-B^2-g^2-K^2+r^2-C^2-h^2+L^2+s^2+e^2+H^2+n^2-S^2-A^2-f^2+J^2-p^2+a^2+c^2+F^2-l^2+P^2)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV1 + MV2 = (b.q+a.q, 
+b.w+a.w,b.x+a.x,b.y+a.y,b.z+a.z,b.t+a.t, 
+a.wx+b.wx,b.wy+a.wy,b.wz+a.wz,b.wt+a.wt,b.xy+a.xy,b.xz+a.xz,b.xt+a.xt,b.yz+a.yz,b.yt+a.yt,b.zt+a.zt, 
+b.wxy+a.wxy,b.wxz+a.wxz,b.wxt+a.wxt,a.wyz+b.wyz,b.wyt+a.wyt,b.wzt+a.wzt,b.xyz+a.xyz,b.xyt+a.xyt,b.xzt+a.xzt,b.yzt+a.yzt, 
+b.wxyz+a.wxyz,b.wxyt+a.wxyt,b.wxzt+a.wxzt,b.wyzt+a.wyzt,b.xyzt+a.xyzt, b.wxyzt+a.wxyzt)
+
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV1 - MV2 = (-b.q+a.q, 
+-b.w+a.w,-b.x+a.x,-b.y+a.y,-b.z+a.z,-b.t+a.t, 
+a.wx-b.wx,-b.wy+a.wy,-b.wz+a.wz,-b.wt+a.wt,-b.xy+a.xy,-b.xz+a.xz,-b.xt+a.xt,-b.yz+a.yz,-b.yt+a.yt,-b.zt+a.zt, 
+-b.wxy+a.wxy,-b.wxz+a.wxz,-b.wxt+a.wxt,a.wyz-b.wyz,-b.wyt+a.wyt,-b.wzt+a.wzt,-b.xyz+a.xyz,-b.xyt+a.xyt,-b.xzt+a.xzt,-b.yzt+a.yzt, 
+-b.wxyz+a.wxyz,-b.wxyt+a.wxyt,-b.wxzt+a.wxzt,-b.wyzt+a.wyzt,-b.xyzt+a.xyzt, -b.wxyzt+a.wxyzt)
+
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV1 != MV2 (as expected)
+MV2 == MV3 (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV1 != MV2 (as expected)
+MV2 == MV3 (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = MV1*MV2 = (-b.xz*a.xz+b.wyt*a.wyt-a.wx*b.wx+b.xt*a.xt+b.yzt*a.yzt-b.t*a.t+b.wt*a.wt-b.xyzt*a.xyzt+b.z*a.z+b.w*a.w+b.yt*a.yt-a.wyz*b.wyz-b.wxyt*a.wxyt-b.wxz*a.wxz+b.zt*a.zt-b.wy*a.wy-b.wxzt*a.wxzt+b.xyt*a.xyt-b.wxy*a.wxy-b.wz*a.wz-b.wyzt*a.wyzt+b.x*a.x-b.xyz*a.xyz+b.wxyz*a.wxyz-b.yz*a.yz+b.wzt*a.wzt+b.wxt*a.wxt-b.wxyzt*a.wxyzt-b.xy*a.xy+b.xzt*a.xzt+b.y*a.y+b.q*a.q, -a.wxy*b.xy+a.wzt*b.zt+b.xyt*a.wxyt-b.wyzt*a.yzt-b.xyzt*a.wxyzt-a.xyt*b.wxyt+b.wzt*a.zt-a.xyzt*b.wxyzt-b.wxy*a.xy+b.wxyz*a.xyz+a.wxt*b.xt-a.x*b.wx-a.z*b.wz+b.xzt*a.wxzt+b.y*a.wy+a.t*b.wt+b.wxt*a.xt+a.wx*b.x+a.wyt*b.yt+b.q*a.w-b.wxz*a.xz-a.wyz*b.yz-b.t*a.wt-a.xzt*b.wxzt-a.y*b.wy+a.q*b.w+b.wyt*a.yt+b.z*a.wz-a.wxyz*b.xyz+a.wyzt*b.yzt-a.yz*b.wyz-a.wxz*b.xz,b.xyt*a.yt+a.wzt*b.wxzt+a.wxz*b.wz+a.xyt*b.yt+a.wxy*b.wy+a.w*b.wx-a.wx*b.w-b.wzt*a.wxzt+b.q*a.x+a.wyzt*b.wxyzt+b.y*a.xy-b.yz*a.xyz+b.xzt*a.zt+a.q*b.x+b.wxy*a.wy+b.wyzt*a.wxyzt-a.wxt*b.wt-b.xyzt*a.yzt-b.t*a.xt+a.xyzt*b.yzt-a.z*b.xz+a.wyt*b.wxyt+a.t*b.xt-b.wxt*a.wt+b.z*a.xz-a.wyz*b.wxyz+b.wxz*a.wz-b.wyt*a.wxyt+a.xzt*b.zt+a.wxyz*b.wyz-a.yz*b.xyz-a.y*b.xy,b.yt*a.t-a.xyzt*b.xzt-b.wyt*a.wt+b.wy*a.w-a.wyzt*b.wzt+b.wxyz*a.wxz+b.yzt*a.zt-a.xyt*b.xt+a.xz*b.xyz-a.wy*b.w-b.yz*a.z-a.xy*b.x-a.wxyz*b.wxz+a.wz*b.wyz+a.wyz*b.wz-a.yt*b.t+b.xyzt*a.xzt+b.q*a.y+b.y*a.q+b.wyzt*a.wzt+a.wxyt*b.wxt-b.wxzt*a.wxyzt+a.yz*b.z-a.wxy*b.wx-b.xyt*a.xt+b.xz*a.xyz-b.wxy*a.wx-b.wxyzt*a.wxzt+b.xy*a.x-a.wyt*b.wt+b.zt*a.yzt-b.wxyt*a.wxt,-b.xzt*a.xt-b.w*a.wz-a.xy*b.xyz-a.xzt*b.xt-b.wyzt*a.wyt+b.q*a.z-a.xyt*b.xyzt-a.yt*b.yzt-a.wx*b.wxz-a.wy*b.wyz+b.zt*a.t-b.wzt*a.wt-b.xy*a.xyz+b.xz*a.x+b.yz*a.y+b.wxy*a.wxyz+a.q*b.z-b.y*a.yz+a.wxyt*b.wxyzt-b.yt*a.yzt-b.wxzt*a.wxt-a.xz*b.x-a.wzt*b.wt+a.w*b.wz+a.wyzt*b.wyt+b.xyt*a.xyzt-a.wxz*b.wx-b.t*a.zt+b.wxt*a.wxzt-a.wyz*b.wy+b.wxyt*a.wxyzt-b.wxyz*a.wxy,-b.xz*a.xzt+a.z*b.zt-a.wxt*b.wx+b.wxz*a.wxzt-b.z*a.zt+b.wxyz*a.wxyzt+a.q*b.t+b.xt*a.x-b.xyzt*a.xyz-b.wyt*a.wy+a.y*b.yt+a.wxyz*b.wxyzt+a.w*b.wt-b.yz*a.yzt-a.wxz*b.wxzt+a.wyzt*b.wyz-a.wxy*b.wxyt-a.yz*b.yzt-b.xyt*a.xy-b.w*a.wt-b.wz*a.wzt-a.wx*b.wxt+b.wxy*a.wxyt-b.y*a.yt-b.wzt*a.wz+a.xyzt*b.xyz-b.x*a.xt-b.wyzt*a.wyz-b.xy*a.xyt+b.q*a.t-b.wy*a.wyt-b.xzt*a.xz, b.xt*a.wt+b.wyzt*a.xyzt-b.wxt*a.t-b.wyt*a.xyt-a.wyz*b.xyz+a.wxyzt*b.yzt+b.wxz*a.z+b.z*a.wxz-b.xz*a.wz-b.wt*a.xt+b.wxyt*a.yt+b.yt*a.wxyt+b.y*a.wxy+b.xzt*a.wzt+b.wxzt*a.zt+b.zt*a.wxzt+b.wy*a.xy+a.w*b.x+b.wxyzt*a.yzt-b.wzt*a.xzt+b.wz*a.xz-b.xy*a.wy-b.t*a.wxt+b.xyt*a.wyt-b.yz*a.wxyz+a.wx*b.q-a.wyzt*b.xyzt-b.wxyz*a.yz+b.wyz*a.xyz+a.q*b.wx+b.wxy*a.y-b.w*a.x,-a.wyt*b.t+a.yz*b.wz-a.xy*b.wx+b.xyzt*a.wxzt+a.wyzt*b.zt+b.q*a.wy+a.wyz*b.z-a.wxy*b.x-b.xzt*a.wxyzt+b.wyzt*a.zt-b.wzt*a.yzt-a.yt*b.wt-a.xyzt*b.wxzt-b.wxz*a.xyz-b.wxy*a.x-a.wxyt*b.xt+a.q*b.wy-a.y*b.w+b.wxyz*a.xz-b.xyt*a.wxt+a.z*b.wyz+b.yt*a.wt-b.wyt*a.t+a.wx*b.xy-b.wxyt*a.xt+a.xyt*b.wxt+a.wxz*b.xyz+b.y*a.w+a.wxyz*b.xz-a.xzt*b.wxyzt+a.wzt*b.yzt-b.yz*a.wz,b.wyt*a.yzt+a.wx*b.xz-b.xy*a.wxyz-b.t*a.wzt+b.yz*a.wy+a.q*b.wz-b.wxyz*a.xy-a.zt*b.wt+b.wxy*a.xyz-b.wxz*a.x-a.xz*b.wx-b.xzt*a.wxt-b.xt*a.wxzt-a.y*b.wyz-a.yz*b.wy-a.wxz*b.x+b.xyt*a.wxyzt-b.w*a.z+b.z*a.w+b.wxyt*a.xyzt-a.wxy*b.xyz+a.xyt*b.wxyzt-b.xyzt*a.wxyt-a.wyzt*b.yt+b.q*a.wz-a.wyt*b.yzt+b.zt*a.wt-b.y*a.wyz-b.wxzt*a.xt-b.wyzt*a.yt+a.xzt*b.wxt-b.wzt*a.t,-b.y*a.wyt-a.wxz*b.xzt-a.wyz*b.yzt+a.wz*b.zt+a.wxyzt*b.xyz-b.w*a.t-a.xy*b.wxyt-a.wxy*b.xyt-b.wy*a.yt-a.y*b.wyt+b.wxy*a.xyt-a.z*b.wzt-b.wz*a.zt+b.wxyz*a.xyzt-b.xy*a.wxyt+b.q*a.wt+a.wy*b.yt+a.wx*b.xt-b.xz*a.wxzt+a.w*b.t+a.yzt*b.wyz-a.wxyz*b.xyzt-b.wyzt*a.yz+b.wxyzt*a.xyz-b.x*a.wxt+b.wxz*a.xzt-a.xt*b.wx+a.q*b.wt-a.xz*b.wxzt-b.z*a.wzt-b.yz*a.wyzt-b.wxt*a.x,-a.wyt*b.wxt+b.wzt*a.wxyzt+b.q*a.xy+b.xyzt*a.zt+a.wyzt*b.wxzt-b.xzt*a.yzt+b.xy*a.q+a.xzt*b.yzt+a.wyz*b.wxz-a.wxyz*b.wz+b.wxyzt*a.wzt-a.yt*b.xt-b.wyzt*a.wxzt+a.wy*b.wx+a.wxyt*b.wt+b.wyt*a.wxt+b.y*a.x+a.xyzt*b.zt-b.xyt*a.t+b.z*a.xyz-a.wx*b.wy+b.wxyt*a.wt-b.yz*a.xz+a.wxy*b.w+b.yt*a.xt-a.xyt*b.t+a.z*b.xyz+b.wxy*a.w-a.y*b.x-b.wxyz*a.wz+a.yz*b.xz-a.wxz*b.wyz,-b.wxt*a.wzt+b.wzt*a.wxt+b.wxyz*a.wy-b.xy*a.yz+a.wxzt*b.wt-a.z*b.x-a.wyt*b.wxyzt+b.z*a.x+b.yz*a.xy-b.y*a.xyz-b.xt*a.zt-b.wyt*a.wxyzt+a.wxyz*b.wy-a.xyt*b.yzt-a.y*b.xyz-b.yt*a.xyzt+a.wz*b.wx+b.wxz*a.w-b.xyzt*a.yt+b.q*a.xz-a.wyzt*b.wxyt+a.wxy*b.wyz-b.xzt*a.t+b.w*a.wxz+b.wxzt*a.wt+b.xyt*a.yzt-a.wx*b.wz+b.zt*a.xt+b.wyzt*a.wxyt-b.wxy*a.wyz+a.q*b.xz-a.xzt*b.t,-b.yzt*a.xyz-b.wxy*a.wyt+a.wz*b.wxzt+b.wy*a.wxyt+a.wxz*b.wzt-a.wxyzt*b.wyz+a.xy*b.yt+b.wz*a.wxzt-a.wx*b.wt-b.yz*a.xyzt+b.q*a.xt-b.y*a.xyt+a.wy*b.wxyt-b.x*a.t-b.xy*a.yt-a.z*b.xzt+a.w*b.wxt+b.wyzt*a.wxyz-b.xz*a.zt+a.q*b.xt+b.xyz*a.yzt-a.yz*b.xyzt-b.z*a.xzt-b.wxz*a.wzt+a.wxy*b.wyt-a.y*b.xyt+b.w*a.wxt-a.wyz*b.wxyzt+a.xz*b.zt-b.wxyz*a.wyzt+b.t*a.x+b.wx*a.wt,b.wyzt*a.wt+a.y*b.z-a.xy*b.xz-b.y*a.z+a.w*b.wyz+b.wxy*a.wxz-b.xyt*a.xzt+a.wyz*b.w+b.xy*a.xz+a.x*b.xyz+b.wy*a.wz+b.xyzt*a.xt+a.wyt*b.wzt+a.xyzt*b.xt-b.wyt*a.wzt-b.t*a.yzt-a.wxyt*b.wxzt+a.yt*b.zt-a.wy*b.wz-a.t*b.yzt-a.wx*b.wxyz+b.yz*a.q-a.wxyz*b.wx-b.yt*a.zt+b.wxyt*a.wxzt+a.wyzt*b.wt+b.wxt*a.wxyzt+b.wxyzt*a.wxt+b.x*a.xyz+a.xyt*b.xzt+b.q*a.yz-a.wxy*b.wxz,-a.wxyt*b.wx+b.wxyz*a.wxzt-a.wy*b.wt-b.yz*a.zt-a.wxy*b.wxt+b.wxz*a.wxyzt-a.wx*b.wxyt+b.xzt*a.xyz+a.wxz*b.wxyzt+b.wxy*a.wxt-b.z*a.yzt-a.wxyz*b.wxzt+a.yz*b.zt+a.wyzt*b.wz-a.xy*b.xt-a.xzt*b.xyz+a.wyt*b.w+b.q*a.yt+b.xyzt*a.xz+a.xyt*b.x-a.wzt*b.wyz+a.wyz*b.wzt+b.xyt*a.x+b.wyzt*a.wz+b.xy*a.xt-b.y*a.t+b.wy*a.wt+a.q*b.yt+b.wyt*a.w-a.z*b.yzt+a.xyzt*b.xz+a.y*b.t,b.w*a.wzt-a.wyz*b.wyt+b.wz*a.wt-a.wxy*b.wxyzt-a.wyzt*b.wy+b.wxz*a.wxt+b.y*a.yzt+a.y*b.yzt+a.z*b.t+a.xyt*b.xyz+b.q*a.zt-a.xz*b.xt-b.wyzt*a.wy-a.wxz*b.wxt-a.wxzt*b.wx-a.xy*b.xyzt-b.wxy*a.wxyzt+b.xzt*a.x+a.q*b.zt-a.wx*b.wxzt-b.xy*a.xyzt+a.wyt*b.wyz-b.wxyz*a.wxyt+b.yz*a.yt-a.yz*b.yt+a.xzt*b.x-a.wz*b.wt+a.w*b.wzt-b.xyt*a.xyz+b.xz*a.xt-b.z*a.t+a.wxyz*b.wxyt, b.wxyt*a.t-b.wz*a.xyz+b.wyt*a.xt+a.xy*b.w+a.xyzt*b.wzt-a.xz*b.wyz+b.yzt*a.wxzt-b.yz*a.wxz+a.xyt*b.wt+a.y*b.wx-a.wyzt*b.xzt-b.wxyz*a.z+a.wyz*b.xz+b.xy*a.w+a.wxyz*b.z-b.wy*a.x-a.yt*b.wxt+a.wz*b.xyz-a.wxyt*b.t+b.zt*a.wxyzt+b.wxy*a.q+a.yz*b.wxz-b.wyzt*a.xzt+b.wxyzt*a.zt-a.wy*b.x+b.q*a.wxy-a.wyt*b.xt+b.y*a.wx+b.wxzt*a.yzt+b.yt*a.wxt-b.xyt*a.wt+b.xyzt*a.wzt,a.xy*b.wyz+a.xzt*b.wt+a.wyzt*b.xyt-a.wz*b.x-b.wyt*a.xyzt+b.xz*a.w-b.xzt*a.wt+b.wxzt*a.t+b.wzt*a.xt-b.wz*a.x+a.wx*b.z+b.wyzt*a.xyt-b.xyzt*a.wyt+b.w*a.xz+b.q*a.wxz-a.wy*b.xyz-a.wxyt*b.yzt-a.yt*b.wxyzt+b.wxyz*a.y+a.z*b.wx-b.wxyt*a.yzt+b.zt*a.wxt+a.q*b.wxz-b.y*a.wxyz-b.wxy*a.yz+b.wy*a.xyz-a.wyz*b.xy-a.wzt*b.xt-b.yt*a.wxyzt+b.yz*a.wxy-b.wxt*a.zt-b.t*a.wxzt,b.wyzt*a.xyz+a.z*b.wxzt+b.q*a.wxt-b.yz*a.wxyzt-a.x*b.wt-b.z*a.wxzt-a.wyz*b.xyzt-b.wxz*a.zt-a.yz*b.wxyzt+a.q*b.wxt+b.wyt*a.xy+a.w*b.xt-b.xz*a.wzt-b.wxyz*a.yzt+a.y*b.wxyt+a.wxz*b.zt+a.wxy*b.yt+b.w*a.xt-b.xzt*a.wz+b.wy*a.xyt+a.wyzt*b.xyz+b.wzt*a.xz-b.xyt*a.wy-a.wxyz*b.yzt-b.xy*a.wyt+a.wx*b.t+b.wz*a.xzt-b.y*a.wxyt+a.t*b.wx-b.wxy*a.yt-b.x*a.wt-a.xyzt*b.wyz,-b.yzt*a.wt-b.wxyz*a.x+b.xyzt*a.wxt-a.wyzt*b.t-b.yt*a.wzt+a.wx*b.xyz+b.z*a.wy+a.wyt*b.zt-a.xy*b.wxz+b.wxyt*a.xzt+a.wxyzt*b.xt+a.wxyz*b.x+a.xyzt*b.wxt+b.wt*a.yzt-b.wyt*a.zt+b.wyzt*a.t-a.xyt*b.wxzt-b.y*a.wz+b.xy*a.wxz-a.wxy*b.xz+b.yz*a.w+a.wyz*b.q-a.y*b.wz+b.wxyzt*a.xt-b.xyt*a.wxzt+a.yz*b.w+b.xzt*a.wxyt+b.wxy*a.xz+a.q*b.wyz+b.wy*a.z+a.yt*b.wzt-b.wx*a.xyz,-a.y*b.wt-a.xyt*b.wx+b.wxy*a.xt+a.wxyz*b.xzt+b.wyzt*a.z+b.wz*a.yzt-b.y*a.wt+a.yz*b.wzt+b.xyzt*a.wxz+b.wy*a.t+b.w*a.yt+b.q*a.wyt-a.wxzt*b.xyz+b.yt*a.w-a.zt*b.wyz+b.wxz*a.xyzt+a.wxyt*b.x+b.wxyz*a.xzt+a.q*b.wyt+a.wx*b.xyt-a.xy*b.wxt+b.xz*a.wxyzt-b.wxzt*a.xyz-a.wyzt*b.z-a.wxy*b.xt-b.wxyt*a.x+b.xy*a.wxt-a.wz*b.yzt+a.wy*b.t-b.yz*a.wzt+a.xz*b.wxyzt+a.wyz*b.zt,b.t*a.wz+a.q*b.wzt+a.wxyt*b.xyz+a.wy*b.yzt-b.wxyz*a.xyt-b.wxy*a.xyzt+a.yt*b.wyz+b.wxz*a.xt-a.xzt*b.wx-a.wyz*b.yt+b.yz*a.wyt-b.z*a.wt-b.xyt*a.wxyz+b.wxyt*a.xyz+b.wz*a.t-a.wxz*b.xt+b.y*a.wyzt-a.yz*b.wyt-b.wxzt*a.x+b.x*a.wxzt-a.xy*b.wxyzt+b.xz*a.wxt+a.w*b.zt+b.q*a.wzt-b.wyzt*a.y-a.z*b.wt-a.xz*b.wxt-b.wy*a.yzt-a.wxy*b.xyzt-b.xy*a.wxyzt+b.w*a.zt+a.wx*b.xzt,b.yz*a.x-a.wx*b.wyz-b.wxyt*a.wzt-a.wyzt*b.wxt+b.wxz*a.wy+a.wyt*b.wxzt-b.yzt*a.xt+b.xt*a.yzt+a.wxy*b.wz+a.xy*b.z-a.y*b.xz-a.xyzt*b.t-b.yt*a.xzt+b.q*a.xyz-a.wxyzt*b.wt+b.wyt*a.wxzt+a.wyz*b.wx+a.yz*b.x-b.wyzt*a.wxt-b.wxy*a.wz+a.xyt*b.zt-b.wxyzt*a.wt+b.xy*a.z-b.xyt*a.zt+b.wxyz*a.w+a.q*b.xyz+b.xzt*a.yt-a.wxyt*b.wzt-b.wy*a.wxz+b.xyzt*a.t-a.wxyz*b.w-b.y*a.xz,b.xy*a.t-a.wxyz*b.wzt+b.q*a.xyt-b.y*a.xt+a.yz*b.xzt-b.wyzt*a.wxz-a.y*b.xt-b.wxy*a.wt-a.xz*b.yzt-b.wxyzt*a.wz+a.wxzt*b.wyz-b.w*a.wxyt-a.zt*b.xyz+b.xyt*a.q-b.z*a.xyzt-a.wx*b.wyt+b.xyzt*a.z+b.wxyt*a.w-b.wz*a.wxyzt-b.yz*a.xzt+a.wyt*b.wx+a.xy*b.t-b.wy*a.wxt+a.yt*b.x-a.wyzt*b.wxz+b.yt*a.x+b.zt*a.xyz+b.xz*a.yzt+a.wxy*b.wt-b.wxyz*a.wzt+a.wy*b.wxt+a.wyz*b.wxzt,-a.y*b.xyzt+a.q*b.xzt+b.wxt*a.wz-a.wxyt*b.wyz+a.yt*b.xyz+b.y*a.xyzt+b.yz*a.xyt+b.xz*a.t-b.z*a.xt-a.wyz*b.wxyt-b.xyt*a.yz-b.wxz*a.wt+a.xy*b.yzt+b.wxyz*a.wyt-b.wz*a.wxt+b.wxy*a.wyzt+b.zt*a.x-b.yt*a.xyz+a.wzt*b.wx-b.xy*a.yzt+b.q*a.xzt+a.wxyz*b.wyt+b.wyzt*a.wxy+b.x*a.zt+a.w*b.wxzt+b.wy*a.wxyzt+a.wxz*b.wt-a.wx*b.wzt-a.z*b.xt+a.xz*b.t+a.wy*b.wxyzt-b.w*a.wxzt,b.xyzt*a.x-a.xyt*b.xz+b.xt*a.xyz-a.wxy*b.wxzt-a.wxyzt*b.wx+a.wyz*b.wt-b.wxyz*a.wxt+b.xyt*a.xz+b.xy*a.xzt+b.q*a.yzt+a.yz*b.t-a.wyt*b.wz-b.wxy*a.wxzt+b.wy*a.wzt-a.wxyz*b.wxt+b.y*a.zt-a.xyzt*b.x+b.wxz*a.wxyt-b.z*a.yt-b.xyz*a.xt+b.wyt*a.wz+b.wxyt*a.wxz+a.q*b.yzt-a.wy*b.wzt-a.wyzt*b.w-a.wx*b.wxyzt-b.yt*a.z+a.y*b.zt+b.yz*a.t-b.wyz*a.wt-a.xy*b.xzt+b.wyzt*a.w, -b.wy*a.xz+a.w*b.xyz-b.wxy*a.z+a.y*b.wxz-b.wxyzt*a.t-b.y*a.wxz+b.xy*a.wz-b.wyzt*a.xt-a.wy*b.xz+a.wyt*b.xzt+b.xyzt*a.wt-b.xyt*a.wzt-a.wxt*b.yzt-a.x*b.wyz-b.wxt*a.yzt+a.wxyt*b.zt-b.w*a.xyz+a.yt*b.wxzt-a.xyzt*b.wt-b.t*a.wxyzt+a.wx*b.yz-b.wxyt*a.zt-a.xyt*b.wzt+b.wxyz*a.q-b.yt*a.wxzt+b.wyt*a.xzt+a.wyz*b.x+b.q*a.wxyz+a.yz*b.wx+a.xy*b.wz+a.wyzt*b.xt+a.wxy*b.z,-a.xyzt*b.wz-b.z*a.wxyzt+b.xyt*a.w-b.yz*a.wxzt-b.wxyz*a.zt+a.wxy*b.t+a.wyt*b.x-a.z*b.wxyzt+a.wx*b.yt-a.wy*b.xt+a.yt*b.wx-a.xyt*b.w-b.y*a.wxt-b.wxz*a.yzt+a.wxyz*b.zt+a.xy*b.wt+a.xzt*b.wyz+a.yz*b.wxzt-b.wzt*a.xyz-b.wyt*a.x+b.xy*a.wt+b.q*a.wxyt+a.wyz*b.xzt+a.wyzt*b.xz-a.wxz*b.yzt-b.wxy*a.t-a.wzt*b.xyz-b.wyzt*a.xz+a.q*b.wxyt+b.xyzt*a.wz-b.wy*a.xt+a.y*b.wxt,-b.z*a.wxt+b.wxy*a.yzt+a.xz*b.wt-a.xyt*b.wyz-b.xyzt*a.wy+a.wzt*b.x-b.wzt*a.x+b.wyt*a.xyz+b.q*a.wxzt-a.wyzt*b.xy+a.z*b.wxt-b.wz*a.xt+a.wxz*b.t+b.y*a.wxyzt-b.w*a.xzt+b.wyzt*a.xy+a.q*b.wxzt+a.zt*b.wx+a.wx*b.zt+a.wyt*b.xyz+b.yz*a.wxyt+b.wxyz*a.yt+a.wxy*b.yzt-a.yz*b.wxyt+b.xzt*a.w+b.xz*a.wt+b.wy*a.xyzt+a.y*b.wxyzt-a.wyz*b.xyt-b.wxz*a.t-a.wz*b.xt-a.wxyz*b.yt,-a.wxt*b.xyz+b.wyt*a.z-b.xz*a.wxyt-b.yt*a.wz-b.z*a.wyt+a.wx*b.xyzt+b.wxyt*a.xz+a.w*b.yzt+b.yz*a.wt-a.wxy*b.xzt+a.xyt*b.wxz-b.wxyz*a.xt-b.w*a.yzt-a.y*b.wzt-a.xy*b.wxzt-b.x*a.wxyzt+b.y*a.wzt+b.wyzt*a.q+b.wy*a.zt-b.wxt*a.xyz+a.yz*b.wt+a.wxyz*b.xt-b.wxyzt*a.x+a.wy*b.zt-a.yt*b.wz+a.wyz*b.t+b.q*a.wyzt+b.xy*a.wxzt-a.t*b.wyz+b.xyt*a.wxz-b.wxy*a.xzt-a.xyzt*b.wx,-b.wxyt*a.wz+a.wxt*b.wyz-b.xz*a.yt-b.wyt*a.wxz+b.wxyz*a.wt-b.wxz*a.wyt-a.xyt*b.z+b.yzt*a.x-b.yt*a.xz+b.yz*a.xt+b.q*a.xyzt+a.wxy*b.wzt-b.wy*a.wxzt+a.yz*b.xt+b.wxy*a.wzt+a.wyzt*b.wx+a.w*b.wxyzt-a.wxyz*b.wt+a.xy*b.zt+b.t*a.xyz+a.q*b.xyzt-a.y*b.xzt-b.x*a.yzt+a.wy*b.wxzt+a.wyz*b.wxt+b.xyt*a.z+b.w*a.wxyzt+b.xy*a.zt-b.wyzt*a.wx-a.t*b.xyz+a.wxyt*b.wz+b.y*a.xzt, -a.wyzt*b.x-b.wy*a.xzt+b.q*a.wxyzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.q*b.wxyzt+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz)
+Product is non-commutative (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Product is associative (as expected)
+
+MV4 = Z*MV3 = (a*Z, 
+b*Z,c*Z,d*Z,e*Z,f*Z, 
+g*Z,h*Z,j*Z,k*Z,l*Z,m*Z,n*Z,p*Z,r*Z,s*Z, 
+S*Z,R*Z,P*Z,N*Z,M*Z,L*Z,K*Z,J*Z,H*Z,G*Z, 
+F*Z,E*Z,D*Z,C*Z,B*Z, A*Z)
+
+MV4 = MV3*Z = (a*Z, 
+Z*b,Z*c,d*Z,Z*e,Z*f, 
+g*Z,Z*h,Z*j,k*Z,Z*l,Z*m,Z*n,p*Z,Z*r,Z*s, 
+Z*S,Z*R,Z*P,N*Z,Z*M,Z*L,K*Z,Z*J,Z*H,G*Z, 
+Z*F,Z*E,D*Z,Z*C,Z*B, Z*A)
+
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = Product(MV1,MV2) = (-b.xz*a.xz+b.wyt*a.wyt-a.wx*b.wx+b.xt*a.xt+b.yzt*a.yzt-b.t*a.t+b.wt*a.wt-b.xyzt*a.xyzt+b.z*a.z+b.w*a.w+b.yt*a.yt-a.wyz*b.wyz-b.wxyt*a.wxyt-b.wxz*a.wxz+b.zt*a.zt-b.wy*a.wy-b.wxzt*a.wxzt+b.xyt*a.xyt-b.wxy*a.wxy-b.wz*a.wz-b.wyzt*a.wyzt+b.x*a.x-b.xyz*a.xyz+b.wxyz*a.wxyz-b.yz*a.yz+b.wzt*a.wzt+b.wxt*a.wxt-b.wxyzt*a.wxyzt-b.xy*a.xy+b.xzt*a.xzt+b.y*a.y+b.q*a.q, -a.wxy*b.xy+a.wzt*b.zt+b.xyt*a.wxyt-b.wyzt*a.yzt-b.xyzt*a.wxyzt-a.xyt*b.wxyt+b.wzt*a.zt-a.xyzt*b.wxyzt-b.wxy*a.xy+b.wxyz*a.xyz+a.wxt*b.xt-a.x*b.wx-a.z*b.wz+b.xzt*a.wxzt+b.y*a.wy+a.t*b.wt+b.wxt*a.xt+a.wx*b.x+a.wyt*b.yt+b.q*a.w-b.wxz*a.xz-a.wyz*b.yz-b.t*a.wt-a.xzt*b.wxzt-a.y*b.wy+a.q*b.w+b.wyt*a.yt+b.z*a.wz-a.wxyz*b.xyz+a.wyzt*b.yzt-a.yz*b.wyz-a.wxz*b.xz,b.xyt*a.yt+a.wzt*b.wxzt+a.wxz*b.wz+a.xyt*b.yt+a.wxy*b.wy+a.w*b.wx-a.wx*b.w-b.wzt*a.wxzt+b.q*a.x+a.wyzt*b.wxyzt+b.y*a.xy-b.yz*a.xyz+b.xzt*a.zt+a.q*b.x+b.wxy*a.wy+b.wyzt*a.wxyzt-a.wxt*b.wt-b.xyzt*a.yzt-b.t*a.xt+a.xyzt*b.yzt-a.z*b.xz+a.wyt*b.wxyt+a.t*b.xt-b.wxt*a.wt+b.z*a.xz-a.wyz*b.wxyz+b.wxz*a.wz-b.wyt*a.wxyt+a.xzt*b.zt+a.wxyz*b.wyz-a.yz*b.xyz-a.y*b.xy,b.yt*a.t-a.xyzt*b.xzt-b.wyt*a.wt+b.wy*a.w-a.wyzt*b.wzt+b.wxyz*a.wxz+b.yzt*a.zt-a.xyt*b.xt+a.xz*b.xyz-a.wy*b.w-b.yz*a.z-a.xy*b.x-a.wxyz*b.wxz+a.wz*b.wyz+a.wyz*b.wz-a.yt*b.t+b.xyzt*a.xzt+b.q*a.y+b.y*a.q+b.wyzt*a.wzt+a.wxyt*b.wxt-b.wxzt*a.wxyzt+a.yz*b.z-a.wxy*b.wx-b.xyt*a.xt+b.xz*a.xyz-b.wxy*a.wx-b.wxyzt*a.wxzt+b.xy*a.x-a.wyt*b.wt+b.zt*a.yzt-b.wxyt*a.wxt,-b.xzt*a.xt-b.w*a.wz-a.xy*b.xyz-a.xzt*b.xt-b.wyzt*a.wyt+b.q*a.z-a.xyt*b.xyzt-a.yt*b.yzt-a.wx*b.wxz-a.wy*b.wyz+b.zt*a.t-b.wzt*a.wt-b.xy*a.xyz+b.xz*a.x+b.yz*a.y+b.wxy*a.wxyz+a.q*b.z-b.y*a.yz+a.wxyt*b.wxyzt-b.yt*a.yzt-b.wxzt*a.wxt-a.xz*b.x-a.wzt*b.wt+a.w*b.wz+a.wyzt*b.wyt+b.xyt*a.xyzt-a.wxz*b.wx-b.t*a.zt+b.wxt*a.wxzt-a.wyz*b.wy+b.wxyt*a.wxyzt-b.wxyz*a.wxy,-b.xz*a.xzt+a.z*b.zt-a.wxt*b.wx+b.wxz*a.wxzt-b.z*a.zt+b.wxyz*a.wxyzt+a.q*b.t+b.xt*a.x-b.xyzt*a.xyz-b.wyt*a.wy+a.y*b.yt+a.wxyz*b.wxyzt+a.w*b.wt-b.yz*a.yzt-a.wxz*b.wxzt+a.wyzt*b.wyz-a.wxy*b.wxyt-a.yz*b.yzt-b.xyt*a.xy-b.w*a.wt-b.wz*a.wzt-a.wx*b.wxt+b.wxy*a.wxyt-b.y*a.yt-b.wzt*a.wz+a.xyzt*b.xyz-b.x*a.xt-b.wyzt*a.wyz-b.xy*a.xyt+b.q*a.t-b.wy*a.wyt-b.xzt*a.xz, b.xt*a.wt+b.wyzt*a.xyzt-b.wxt*a.t-b.wyt*a.xyt-a.wyz*b.xyz+a.wxyzt*b.yzt+b.wxz*a.z+b.z*a.wxz-b.xz*a.wz-b.wt*a.xt+b.wxyt*a.yt+b.yt*a.wxyt+b.y*a.wxy+b.xzt*a.wzt+b.wxzt*a.zt+b.zt*a.wxzt+b.wy*a.xy+a.w*b.x+b.wxyzt*a.yzt-b.wzt*a.xzt+b.wz*a.xz-b.xy*a.wy-b.t*a.wxt+b.xyt*a.wyt-b.yz*a.wxyz+a.wx*b.q-a.wyzt*b.xyzt-b.wxyz*a.yz+b.wyz*a.xyz+a.q*b.wx+b.wxy*a.y-b.w*a.x,-a.wyt*b.t+a.yz*b.wz-a.xy*b.wx+b.xyzt*a.wxzt+a.wyzt*b.zt+b.q*a.wy+a.wyz*b.z-a.wxy*b.x-b.xzt*a.wxyzt+b.wyzt*a.zt-b.wzt*a.yzt-a.yt*b.wt-a.xyzt*b.wxzt-b.wxz*a.xyz-b.wxy*a.x-a.wxyt*b.xt+a.q*b.wy-a.y*b.w+b.wxyz*a.xz-b.xyt*a.wxt+a.z*b.wyz+b.yt*a.wt-b.wyt*a.t+a.wx*b.xy-b.wxyt*a.xt+a.xyt*b.wxt+a.wxz*b.xyz+b.y*a.w+a.wxyz*b.xz-a.xzt*b.wxyzt+a.wzt*b.yzt-b.yz*a.wz,b.wyt*a.yzt+a.wx*b.xz-b.xy*a.wxyz-b.t*a.wzt+b.yz*a.wy+a.q*b.wz-b.wxyz*a.xy-a.zt*b.wt+b.wxy*a.xyz-b.wxz*a.x-a.xz*b.wx-b.xzt*a.wxt-b.xt*a.wxzt-a.y*b.wyz-a.yz*b.wy-a.wxz*b.x+b.xyt*a.wxyzt-b.w*a.z+b.z*a.w+b.wxyt*a.xyzt-a.wxy*b.xyz+a.xyt*b.wxyzt-b.xyzt*a.wxyt-a.wyzt*b.yt+b.q*a.wz-a.wyt*b.yzt+b.zt*a.wt-b.y*a.wyz-b.wxzt*a.xt-b.wyzt*a.yt+a.xzt*b.wxt-b.wzt*a.t,-b.y*a.wyt-a.wxz*b.xzt-a.wyz*b.yzt+a.wz*b.zt+a.wxyzt*b.xyz-b.w*a.t-a.xy*b.wxyt-a.wxy*b.xyt-b.wy*a.yt-a.y*b.wyt+b.wxy*a.xyt-a.z*b.wzt-b.wz*a.zt+b.wxyz*a.xyzt-b.xy*a.wxyt+b.q*a.wt+a.wy*b.yt+a.wx*b.xt-b.xz*a.wxzt+a.w*b.t+a.yzt*b.wyz-a.wxyz*b.xyzt-b.wyzt*a.yz+b.wxyzt*a.xyz-b.x*a.wxt+b.wxz*a.xzt-a.xt*b.wx+a.q*b.wt-a.xz*b.wxzt-b.z*a.wzt-b.yz*a.wyzt-b.wxt*a.x,-a.wyt*b.wxt+b.wzt*a.wxyzt+b.q*a.xy+b.xyzt*a.zt+a.wyzt*b.wxzt-b.xzt*a.yzt+b.xy*a.q+a.xzt*b.yzt+a.wyz*b.wxz-a.wxyz*b.wz+b.wxyzt*a.wzt-a.yt*b.xt-b.wyzt*a.wxzt+a.wy*b.wx+a.wxyt*b.wt+b.wyt*a.wxt+b.y*a.x+a.xyzt*b.zt-b.xyt*a.t+b.z*a.xyz-a.wx*b.wy+b.wxyt*a.wt-b.yz*a.xz+a.wxy*b.w+b.yt*a.xt-a.xyt*b.t+a.z*b.xyz+b.wxy*a.w-a.y*b.x-b.wxyz*a.wz+a.yz*b.xz-a.wxz*b.wyz,-b.wxt*a.wzt+b.wzt*a.wxt+b.wxyz*a.wy-b.xy*a.yz+a.wxzt*b.wt-a.z*b.x-a.wyt*b.wxyzt+b.z*a.x+b.yz*a.xy-b.y*a.xyz-b.xt*a.zt-b.wyt*a.wxyzt+a.wxyz*b.wy-a.xyt*b.yzt-a.y*b.xyz-b.yt*a.xyzt+a.wz*b.wx+b.wxz*a.w-b.xyzt*a.yt+b.q*a.xz-a.wyzt*b.wxyt+a.wxy*b.wyz-b.xzt*a.t+b.w*a.wxz+b.wxzt*a.wt+b.xyt*a.yzt-a.wx*b.wz+b.zt*a.xt+b.wyzt*a.wxyt-b.wxy*a.wyz+a.q*b.xz-a.xzt*b.t,-b.yzt*a.xyz-b.wxy*a.wyt+a.wz*b.wxzt+b.wy*a.wxyt+a.wxz*b.wzt-a.wxyzt*b.wyz+a.xy*b.yt+b.wz*a.wxzt-a.wx*b.wt-b.yz*a.xyzt+b.q*a.xt-b.y*a.xyt+a.wy*b.wxyt-b.x*a.t-b.xy*a.yt-a.z*b.xzt+a.w*b.wxt+b.wyzt*a.wxyz-b.xz*a.zt+a.q*b.xt+b.xyz*a.yzt-a.yz*b.xyzt-b.z*a.xzt-b.wxz*a.wzt+a.wxy*b.wyt-a.y*b.xyt+b.w*a.wxt-a.wyz*b.wxyzt+a.xz*b.zt-b.wxyz*a.wyzt+b.t*a.x+b.wx*a.wt,b.wyzt*a.wt+a.y*b.z-a.xy*b.xz-b.y*a.z+a.w*b.wyz+b.wxy*a.wxz-b.xyt*a.xzt+a.wyz*b.w+b.xy*a.xz+a.x*b.xyz+b.wy*a.wz+b.xyzt*a.xt+a.wyt*b.wzt+a.xyzt*b.xt-b.wyt*a.wzt-b.t*a.yzt-a.wxyt*b.wxzt+a.yt*b.zt-a.wy*b.wz-a.t*b.yzt-a.wx*b.wxyz+b.yz*a.q-a.wxyz*b.wx-b.yt*a.zt+b.wxyt*a.wxzt+a.wyzt*b.wt+b.wxt*a.wxyzt+b.wxyzt*a.wxt+b.x*a.xyz+a.xyt*b.xzt+b.q*a.yz-a.wxy*b.wxz,-a.wxyt*b.wx+b.wxyz*a.wxzt-a.wy*b.wt-b.yz*a.zt-a.wxy*b.wxt+b.wxz*a.wxyzt-a.wx*b.wxyt+b.xzt*a.xyz+a.wxz*b.wxyzt+b.wxy*a.wxt-b.z*a.yzt-a.wxyz*b.wxzt+a.yz*b.zt+a.wyzt*b.wz-a.xy*b.xt-a.xzt*b.xyz+a.wyt*b.w+b.q*a.yt+b.xyzt*a.xz+a.xyt*b.x-a.wzt*b.wyz+a.wyz*b.wzt+b.xyt*a.x+b.wyzt*a.wz+b.xy*a.xt-b.y*a.t+b.wy*a.wt+a.q*b.yt+b.wyt*a.w-a.z*b.yzt+a.xyzt*b.xz+a.y*b.t,b.w*a.wzt-a.wyz*b.wyt+b.wz*a.wt-a.wxy*b.wxyzt-a.wyzt*b.wy+b.wxz*a.wxt+b.y*a.yzt+a.y*b.yzt+a.z*b.t+a.xyt*b.xyz+b.q*a.zt-a.xz*b.xt-b.wyzt*a.wy-a.wxz*b.wxt-a.wxzt*b.wx-a.xy*b.xyzt-b.wxy*a.wxyzt+b.xzt*a.x+a.q*b.zt-a.wx*b.wxzt-b.xy*a.xyzt+a.wyt*b.wyz-b.wxyz*a.wxyt+b.yz*a.yt-a.yz*b.yt+a.xzt*b.x-a.wz*b.wt+a.w*b.wzt-b.xyt*a.xyz+b.xz*a.xt-b.z*a.t+a.wxyz*b.wxyt, b.wxyt*a.t-b.wz*a.xyz+b.wyt*a.xt+a.xy*b.w+a.xyzt*b.wzt-a.xz*b.wyz+b.yzt*a.wxzt-b.yz*a.wxz+a.xyt*b.wt+a.y*b.wx-a.wyzt*b.xzt-b.wxyz*a.z+a.wyz*b.xz+b.xy*a.w+a.wxyz*b.z-b.wy*a.x-a.yt*b.wxt+a.wz*b.xyz-a.wxyt*b.t+b.zt*a.wxyzt+b.wxy*a.q+a.yz*b.wxz-b.wyzt*a.xzt+b.wxyzt*a.zt-a.wy*b.x+b.q*a.wxy-a.wyt*b.xt+b.y*a.wx+b.wxzt*a.yzt+b.yt*a.wxt-b.xyt*a.wt+b.xyzt*a.wzt,a.xy*b.wyz+a.xzt*b.wt+a.wyzt*b.xyt-a.wz*b.x-b.wyt*a.xyzt+b.xz*a.w-b.xzt*a.wt+b.wxzt*a.t+b.wzt*a.xt-b.wz*a.x+a.wx*b.z+b.wyzt*a.xyt-b.xyzt*a.wyt+b.w*a.xz+b.q*a.wxz-a.wy*b.xyz-a.wxyt*b.yzt-a.yt*b.wxyzt+b.wxyz*a.y+a.z*b.wx-b.wxyt*a.yzt+b.zt*a.wxt+a.q*b.wxz-b.y*a.wxyz-b.wxy*a.yz+b.wy*a.xyz-a.wyz*b.xy-a.wzt*b.xt-b.yt*a.wxyzt+b.yz*a.wxy-b.wxt*a.zt-b.t*a.wxzt,b.wyzt*a.xyz+a.z*b.wxzt+b.q*a.wxt-b.yz*a.wxyzt-a.x*b.wt-b.z*a.wxzt-a.wyz*b.xyzt-b.wxz*a.zt-a.yz*b.wxyzt+a.q*b.wxt+b.wyt*a.xy+a.w*b.xt-b.xz*a.wzt-b.wxyz*a.yzt+a.y*b.wxyt+a.wxz*b.zt+a.wxy*b.yt+b.w*a.xt-b.xzt*a.wz+b.wy*a.xyt+a.wyzt*b.xyz+b.wzt*a.xz-b.xyt*a.wy-a.wxyz*b.yzt-b.xy*a.wyt+a.wx*b.t+b.wz*a.xzt-b.y*a.wxyt+a.t*b.wx-b.wxy*a.yt-b.x*a.wt-a.xyzt*b.wyz,-b.yzt*a.wt-b.wxyz*a.x+b.xyzt*a.wxt-a.wyzt*b.t-b.yt*a.wzt+a.wx*b.xyz+b.z*a.wy+a.wyt*b.zt-a.xy*b.wxz+b.wxyt*a.xzt+a.wxyzt*b.xt+a.wxyz*b.x+a.xyzt*b.wxt+b.wt*a.yzt-b.wyt*a.zt+b.wyzt*a.t-a.xyt*b.wxzt-b.y*a.wz+b.xy*a.wxz-a.wxy*b.xz+b.yz*a.w+a.wyz*b.q-a.y*b.wz+b.wxyzt*a.xt-b.xyt*a.wxzt+a.yz*b.w+b.xzt*a.wxyt+b.wxy*a.xz+a.q*b.wyz+b.wy*a.z+a.yt*b.wzt-b.wx*a.xyz,-a.y*b.wt-a.xyt*b.wx+b.wxy*a.xt+a.wxyz*b.xzt+b.wyzt*a.z+b.wz*a.yzt-b.y*a.wt+a.yz*b.wzt+b.xyzt*a.wxz+b.wy*a.t+b.w*a.yt+b.q*a.wyt-a.wxzt*b.xyz+b.yt*a.w-a.zt*b.wyz+b.wxz*a.xyzt+a.wxyt*b.x+b.wxyz*a.xzt+a.q*b.wyt+a.wx*b.xyt-a.xy*b.wxt+b.xz*a.wxyzt-b.wxzt*a.xyz-a.wyzt*b.z-a.wxy*b.xt-b.wxyt*a.x+b.xy*a.wxt-a.wz*b.yzt+a.wy*b.t-b.yz*a.wzt+a.xz*b.wxyzt+a.wyz*b.zt,b.t*a.wz+a.q*b.wzt+a.wxyt*b.xyz+a.wy*b.yzt-b.wxyz*a.xyt-b.wxy*a.xyzt+a.yt*b.wyz+b.wxz*a.xt-a.xzt*b.wx-a.wyz*b.yt+b.yz*a.wyt-b.z*a.wt-b.xyt*a.wxyz+b.wxyt*a.xyz+b.wz*a.t-a.wxz*b.xt+b.y*a.wyzt-a.yz*b.wyt-b.wxzt*a.x+b.x*a.wxzt-a.xy*b.wxyzt+b.xz*a.wxt+a.w*b.zt+b.q*a.wzt-b.wyzt*a.y-a.z*b.wt-a.xz*b.wxt-b.wy*a.yzt-a.wxy*b.xyzt-b.xy*a.wxyzt+b.w*a.zt+a.wx*b.xzt,b.yz*a.x-a.wx*b.wyz-b.wxyt*a.wzt-a.wyzt*b.wxt+b.wxz*a.wy+a.wyt*b.wxzt-b.yzt*a.xt+b.xt*a.yzt+a.wxy*b.wz+a.xy*b.z-a.y*b.xz-a.xyzt*b.t-b.yt*a.xzt+b.q*a.xyz-a.wxyzt*b.wt+b.wyt*a.wxzt+a.wyz*b.wx+a.yz*b.x-b.wyzt*a.wxt-b.wxy*a.wz+a.xyt*b.zt-b.wxyzt*a.wt+b.xy*a.z-b.xyt*a.zt+b.wxyz*a.w+a.q*b.xyz+b.xzt*a.yt-a.wxyt*b.wzt-b.wy*a.wxz+b.xyzt*a.t-a.wxyz*b.w-b.y*a.xz,b.xy*a.t-a.wxyz*b.wzt+b.q*a.xyt-b.y*a.xt+a.yz*b.xzt-b.wyzt*a.wxz-a.y*b.xt-b.wxy*a.wt-a.xz*b.yzt-b.wxyzt*a.wz+a.wxzt*b.wyz-b.w*a.wxyt-a.zt*b.xyz+b.xyt*a.q-b.z*a.xyzt-a.wx*b.wyt+b.xyzt*a.z+b.wxyt*a.w-b.wz*a.wxyzt-b.yz*a.xzt+a.wyt*b.wx+a.xy*b.t-b.wy*a.wxt+a.yt*b.x-a.wyzt*b.wxz+b.yt*a.x+b.zt*a.xyz+b.xz*a.yzt+a.wxy*b.wt-b.wxyz*a.wzt+a.wy*b.wxt+a.wyz*b.wxzt,-a.y*b.xyzt+a.q*b.xzt+b.wxt*a.wz-a.wxyt*b.wyz+a.yt*b.xyz+b.y*a.xyzt+b.yz*a.xyt+b.xz*a.t-b.z*a.xt-a.wyz*b.wxyt-b.xyt*a.yz-b.wxz*a.wt+a.xy*b.yzt+b.wxyz*a.wyt-b.wz*a.wxt+b.wxy*a.wyzt+b.zt*a.x-b.yt*a.xyz+a.wzt*b.wx-b.xy*a.yzt+b.q*a.xzt+a.wxyz*b.wyt+b.wyzt*a.wxy+b.x*a.zt+a.w*b.wxzt+b.wy*a.wxyzt+a.wxz*b.wt-a.wx*b.wzt-a.z*b.xt+a.xz*b.t+a.wy*b.wxyzt-b.w*a.wxzt,b.xyzt*a.x-a.xyt*b.xz+b.xt*a.xyz-a.wxy*b.wxzt-a.wxyzt*b.wx+a.wyz*b.wt-b.wxyz*a.wxt+b.xyt*a.xz+b.xy*a.xzt+b.q*a.yzt+a.yz*b.t-a.wyt*b.wz-b.wxy*a.wxzt+b.wy*a.wzt-a.wxyz*b.wxt+b.y*a.zt-a.xyzt*b.x+b.wxz*a.wxyt-b.z*a.yt-b.xyz*a.xt+b.wyt*a.wz+b.wxyt*a.wxz+a.q*b.yzt-a.wy*b.wzt-a.wyzt*b.w-a.wx*b.wxyzt-b.yt*a.z+a.y*b.zt+b.yz*a.t-b.wyz*a.wt-a.xy*b.xzt+b.wyzt*a.w, -b.wy*a.xz+a.w*b.xyz-b.wxy*a.z+a.y*b.wxz-b.wxyzt*a.t-b.y*a.wxz+b.xy*a.wz-b.wyzt*a.xt-a.wy*b.xz+a.wyt*b.xzt+b.xyzt*a.wt-b.xyt*a.wzt-a.wxt*b.yzt-a.x*b.wyz-b.wxt*a.yzt+a.wxyt*b.zt-b.w*a.xyz+a.yt*b.wxzt-a.xyzt*b.wt-b.t*a.wxyzt+a.wx*b.yz-b.wxyt*a.zt-a.xyt*b.wzt+b.wxyz*a.q-b.yt*a.wxzt+b.wyt*a.xzt+a.wyz*b.x+b.q*a.wxyz+a.yz*b.wx+a.xy*b.wz+a.wyzt*b.xt+a.wxy*b.z,-a.xyzt*b.wz-b.z*a.wxyzt+b.xyt*a.w-b.yz*a.wxzt-b.wxyz*a.zt+a.wxy*b.t+a.wyt*b.x-a.z*b.wxyzt+a.wx*b.yt-a.wy*b.xt+a.yt*b.wx-a.xyt*b.w-b.y*a.wxt-b.wxz*a.yzt+a.wxyz*b.zt+a.xy*b.wt+a.xzt*b.wyz+a.yz*b.wxzt-b.wzt*a.xyz-b.wyt*a.x+b.xy*a.wt+b.q*a.wxyt+a.wyz*b.xzt+a.wyzt*b.xz-a.wxz*b.yzt-b.wxy*a.t-a.wzt*b.xyz-b.wyzt*a.xz+a.q*b.wxyt+b.xyzt*a.wz-b.wy*a.xt+a.y*b.wxt,-b.z*a.wxt+b.wxy*a.yzt+a.xz*b.wt-a.xyt*b.wyz-b.xyzt*a.wy+a.wzt*b.x-b.wzt*a.x+b.wyt*a.xyz+b.q*a.wxzt-a.wyzt*b.xy+a.z*b.wxt-b.wz*a.xt+a.wxz*b.t+b.y*a.wxyzt-b.w*a.xzt+b.wyzt*a.xy+a.q*b.wxzt+a.zt*b.wx+a.wx*b.zt+a.wyt*b.xyz+b.yz*a.wxyt+b.wxyz*a.yt+a.wxy*b.yzt-a.yz*b.wxyt+b.xzt*a.w+b.xz*a.wt+b.wy*a.xyzt+a.y*b.wxyzt-a.wyz*b.xyt-b.wxz*a.t-a.wz*b.xt-a.wxyz*b.yt,-a.wxt*b.xyz+b.wyt*a.z-b.xz*a.wxyt-b.yt*a.wz-b.z*a.wyt+a.wx*b.xyzt+b.wxyt*a.xz+a.w*b.yzt+b.yz*a.wt-a.wxy*b.xzt+a.xyt*b.wxz-b.wxyz*a.xt-b.w*a.yzt-a.y*b.wzt-a.xy*b.wxzt-b.x*a.wxyzt+b.y*a.wzt+b.wyzt*a.q+b.wy*a.zt-b.wxt*a.xyz+a.yz*b.wt+a.wxyz*b.xt-b.wxyzt*a.x+a.wy*b.zt-a.yt*b.wz+a.wyz*b.t+b.q*a.wyzt+b.xy*a.wxzt-a.t*b.wyz+b.xyt*a.wxz-b.wxy*a.xzt-a.xyzt*b.wx,-b.wxyt*a.wz+a.wxt*b.wyz-b.xz*a.yt-b.wyt*a.wxz+b.wxyz*a.wt-b.wxz*a.wyt-a.xyt*b.z+b.yzt*a.x-b.yt*a.xz+b.yz*a.xt+b.q*a.xyzt+a.wxy*b.wzt-b.wy*a.wxzt+a.yz*b.xt+b.wxy*a.wzt+a.wyzt*b.wx+a.w*b.wxyzt-a.wxyz*b.wt+a.xy*b.zt+b.t*a.xyz+a.q*b.xyzt-a.y*b.xzt-b.x*a.yzt+a.wy*b.wxzt+a.wyz*b.wxt+b.xyt*a.z+b.w*a.wxyzt+b.xy*a.zt-b.wyzt*a.wx-a.t*b.xyz+a.wxyt*b.wz+b.y*a.xzt, -a.wyzt*b.x-b.wy*a.xzt+b.q*a.wxyzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.q*b.wxyzt+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz)
+Product(MV1,MV2) is non-commutative (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Product is associative (as expected)
+
+MV1 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+MV2 = MV1/2 = (1/2*a, 
+1/2*b,1/2*c,1/2*d,1/2*e,1/2*f, 
+1/2*g,1/2*h,1/2*j,1/2*k,1/2*l,1/2*m,1/2*n,1/2*p,1/2*r,1/2*s, 
+1/2*S,1/2*R,1/2*P,1/2*N,1/2*M,1/2*L,1/2*K,1/2*J,1/2*H,1/2*G, 
+1/2*F,1/2*E,1/2*D,1/2*C,1/2*B, 1/2*A)
+
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = MV1^MV2 = (b.q*a.q, b.q*a.w+a.q*b.w,b.q*a.x+a.q*b.x,b.q*a.y+b.y*a.q,b.q*a.z+a.q*b.z,a.q*b.t+b.q*a.t, a.w*b.x+a.wx*b.q+a.q*b.wx-b.w*a.x,b.q*a.wy+a.q*b.wy-a.y*b.w+b.y*a.w,a.q*b.wz-b.w*a.z+b.z*a.w+b.q*a.wz,-b.w*a.t+b.q*a.wt+a.w*b.t+a.q*b.wt,b.q*a.xy+b.xy*a.q+b.y*a.x-a.y*b.x,-a.z*b.x+b.z*a.x+b.q*a.xz+a.q*b.xz,b.q*a.xt-b.x*a.t+a.q*b.xt+b.t*a.x,a.y*b.z-b.y*a.z+b.yz*a.q+b.q*a.yz,b.q*a.yt-b.y*a.t+a.q*b.yt+a.y*b.t,a.z*b.t+b.q*a.zt+a.q*b.zt-b.z*a.t, a.xy*b.w+a.y*b.wx+b.xy*a.w-b.wy*a.x+b.wxy*a.q-a.wy*b.x+b.q*a.wxy+b.y*a.wx,-a.wz*b.x+b.xz*a.w-b.wz*a.x+a.wx*b.z+b.w*a.xz+b.q*a.wxz+a.z*b.wx+a.q*b.wxz,b.q*a.wxt-a.x*b.wt+a.q*b.wxt+a.w*b.xt+b.w*a.xt+a.wx*b.t+a.t*b.wx-b.x*a.wt,b.z*a.wy-b.y*a.wz+b.yz*a.w+a.wyz*b.q-a.y*b.wz+a.yz*b.w+a.q*b.wyz+b.wy*a.z,-a.y*b.wt-b.y*a.wt+b.wy*a.t+b.w*a.yt+b.q*a.wyt+b.yt*a.w+a.q*b.wyt+a.wy*b.t,b.t*a.wz+a.q*b.wzt-b.z*a.wt+b.wz*a.t+a.w*b.zt+b.q*a.wzt-a.z*b.wt+b.w*a.zt,b.yz*a.x+a.xy*b.z-a.y*b.xz+b.q*a.xyz+a.yz*b.x+b.xy*a.z+a.q*b.xyz-b.y*a.xz,b.xy*a.t+b.q*a.xyt-b.y*a.xt-a.y*b.xt+b.xyt*a.q+a.xy*b.t+a.yt*b.x+b.yt*a.x,a.q*b.xzt+b.xz*a.t-b.z*a.xt+b.zt*a.x+b.q*a.xzt+b.x*a.zt-a.z*b.xt+a.xz*b.t,b.q*a.yzt+a.yz*b.t+b.y*a.zt-b.z*a.yt+a.q*b.yzt-b.yt*a.z+a.y*b.zt+b.yz*a.t, -b.wy*a.xz+a.w*b.xyz-b.wxy*a.z+a.y*b.wxz-b.y*a.wxz+b.xy*a.wz-a.wy*b.xz-a.x*b.wyz-b.w*a.xyz+a.wx*b.yz+b.wxyz*a.q+a.wyz*b.x+b.q*a.wxyz+a.yz*b.wx+a.xy*b.wz+a.wxy*b.z,b.xyt*a.w+a.wxy*b.t+a.wyt*b.x+a.wx*b.yt-a.wy*b.xt+a.yt*b.wx-a.xyt*b.w-b.y*a.wxt+a.xy*b.wt-b.wyt*a.x+b.xy*a.wt+b.q*a.wxyt-b.wxy*a.t+a.q*b.wxyt-b.wy*a.xt+a.y*b.wxt,-b.z*a.wxt+a.xz*b.wt+a.wzt*b.x-b.wzt*a.x+b.q*a.wxzt+a.z*b.wxt-b.wz*a.xt+a.wxz*b.t-b.w*a.xzt+a.q*b.wxzt+a.zt*b.wx+a.wx*b.zt+b.xzt*a.w+b.xz*a.wt-b.wxz*a.t-a.wz*b.xt,b.wyt*a.z-b.yt*a.wz-b.z*a.wyt+a.w*b.yzt+b.yz*a.wt-b.w*a.yzt-a.y*b.wzt+b.y*a.wzt+b.wyzt*a.q+b.wy*a.zt+a.yz*b.wt+a.wy*b.zt-a.yt*b.wz+a.wyz*b.t+b.q*a.wyzt-a.t*b.wyz,-b.xz*a.yt-a.xyt*b.z+b.yzt*a.x-b.yt*a.xz+b.yz*a.xt+b.q*a.xyzt+a.yz*b.xt+a.xy*b.zt+b.t*a.xyz+a.q*b.xyzt-a.y*b.xzt-b.x*a.yzt+b.xyt*a.z+b.xy*a.zt-a.t*b.xyz+b.y*a.xzt, -a.wyzt*b.x-b.wy*a.xzt+b.q*a.wxyzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.q*b.wxyzt+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = Wedge(MV1,MV2) = (b.q*a.q, b.q*a.w+a.q*b.w,b.q*a.x+a.q*b.x,b.q*a.y+b.y*a.q,b.q*a.z+a.q*b.z,a.q*b.t+b.q*a.t, a.w*b.x+a.wx*b.q+a.q*b.wx-b.w*a.x,b.q*a.wy+a.q*b.wy-a.y*b.w+b.y*a.w,a.q*b.wz-b.w*a.z+b.z*a.w+b.q*a.wz,-b.w*a.t+b.q*a.wt+a.w*b.t+a.q*b.wt,b.q*a.xy+b.xy*a.q+b.y*a.x-a.y*b.x,-a.z*b.x+b.z*a.x+b.q*a.xz+a.q*b.xz,b.q*a.xt-b.x*a.t+a.q*b.xt+b.t*a.x,a.y*b.z-b.y*a.z+b.yz*a.q+b.q*a.yz,b.q*a.yt-b.y*a.t+a.q*b.yt+a.y*b.t,a.z*b.t+b.q*a.zt+a.q*b.zt-b.z*a.t, a.xy*b.w+a.y*b.wx+b.xy*a.w-b.wy*a.x+b.wxy*a.q-a.wy*b.x+b.q*a.wxy+b.y*a.wx,-a.wz*b.x+b.xz*a.w-b.wz*a.x+a.wx*b.z+b.w*a.xz+b.q*a.wxz+a.z*b.wx+a.q*b.wxz,b.q*a.wxt-a.x*b.wt+a.q*b.wxt+a.w*b.xt+b.w*a.xt+a.wx*b.t+a.t*b.wx-b.x*a.wt,b.z*a.wy-b.y*a.wz+b.yz*a.w+a.wyz*b.q-a.y*b.wz+a.yz*b.w+a.q*b.wyz+b.wy*a.z,-a.y*b.wt-b.y*a.wt+b.wy*a.t+b.w*a.yt+b.q*a.wyt+b.yt*a.w+a.q*b.wyt+a.wy*b.t,b.t*a.wz+a.q*b.wzt-b.z*a.wt+b.wz*a.t+a.w*b.zt+b.q*a.wzt-a.z*b.wt+b.w*a.zt,b.yz*a.x+a.xy*b.z-a.y*b.xz+b.q*a.xyz+a.yz*b.x+b.xy*a.z+a.q*b.xyz-b.y*a.xz,b.xy*a.t+b.q*a.xyt-b.y*a.xt-a.y*b.xt+b.xyt*a.q+a.xy*b.t+a.yt*b.x+b.yt*a.x,a.q*b.xzt+b.xz*a.t-b.z*a.xt+b.zt*a.x+b.q*a.xzt+b.x*a.zt-a.z*b.xt+a.xz*b.t,b.q*a.yzt+a.yz*b.t+b.y*a.zt-b.z*a.yt+a.q*b.yzt-b.yt*a.z+a.y*b.zt+b.yz*a.t, -b.wy*a.xz+a.w*b.xyz-b.wxy*a.z+a.y*b.wxz-b.y*a.wxz+b.xy*a.wz-a.wy*b.xz-a.x*b.wyz-b.w*a.xyz+a.wx*b.yz+b.wxyz*a.q+a.wyz*b.x+b.q*a.wxyz+a.yz*b.wx+a.xy*b.wz+a.wxy*b.z,b.xyt*a.w+a.wxy*b.t+a.wyt*b.x+a.wx*b.yt-a.wy*b.xt+a.yt*b.wx-a.xyt*b.w-b.y*a.wxt+a.xy*b.wt-b.wyt*a.x+b.xy*a.wt+b.q*a.wxyt-b.wxy*a.t+a.q*b.wxyt-b.wy*a.xt+a.y*b.wxt,-b.z*a.wxt+a.xz*b.wt+a.wzt*b.x-b.wzt*a.x+b.q*a.wxzt+a.z*b.wxt-b.wz*a.xt+a.wxz*b.t-b.w*a.xzt+a.q*b.wxzt+a.zt*b.wx+a.wx*b.zt+b.xzt*a.w+b.xz*a.wt-b.wxz*a.t-a.wz*b.xt,b.wyt*a.z-b.yt*a.wz-b.z*a.wyt+a.w*b.yzt+b.yz*a.wt-b.w*a.yzt-a.y*b.wzt+b.y*a.wzt+b.wyzt*a.q+b.wy*a.zt+a.yz*b.wt+a.wy*b.zt-a.yt*b.wz+a.wyz*b.t+b.q*a.wyzt-a.t*b.wyz,-b.xz*a.yt-a.xyt*b.z+b.yzt*a.x-b.yt*a.xz+b.yz*a.xt+b.q*a.xyzt+a.yz*b.xt+a.xy*b.zt+b.t*a.xyz+a.q*b.xyzt-a.y*b.xzt-b.x*a.yzt+b.xyt*a.z+b.xy*a.zt-a.t*b.xyz+b.y*a.xzt, -a.wyzt*b.x-b.wy*a.xzt+b.q*a.wxyzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.q*b.wxyzt+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz)
+Wedge(MV1,MV2) is non-commutative (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Wedge is associative (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = AntiWedge(MV1,MV2) = (-a.wyzt*b.x-b.wy*a.xzt+b.q*a.wxyzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.q*b.wxyzt+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz, b.wxyt*a.wz+a.wxt*b.wyz-b.wyt*a.wxz-b.wxyz*a.wt-b.wxz*a.wyt+a.wxy*b.wzt+b.wy*a.wxzt+b.wxy*a.wzt-a.wyzt*b.wx+a.w*b.wxyzt+a.wxyz*b.wt-a.wy*b.wxzt+a.wyz*b.wxt+b.w*a.wxyzt+b.wyzt*a.wx-a.wxyt*b.wz,a.wxt*b.xyz-b.xz*a.wxyt+a.wx*b.xyzt+b.wxyt*a.xz+a.wxy*b.xzt-a.xyt*b.wxz-b.wxyz*a.xt-a.xy*b.wxzt+b.x*a.wxyzt+b.wxt*a.xyz+a.wxyz*b.xt+b.wxyzt*a.x+b.xy*a.wxzt-b.xyt*a.wxz+b.wxy*a.xzt-a.xyzt*b.wx,b.wxy*a.yzt-a.xyt*b.wyz+b.xyzt*a.wy+b.wyt*a.xyz+a.wyzt*b.xy+b.y*a.wxyzt-b.wyzt*a.xy+a.wyt*b.xyz-b.yz*a.wxyt-b.wxyz*a.yt+a.wxy*b.yzt+a.yz*b.wxyt-b.wy*a.xyzt+a.y*b.wxyzt-a.wyz*b.xyt+a.wxyz*b.yt,-a.xyzt*b.wz+b.z*a.wxyzt-b.yz*a.wxzt-b.wxyz*a.zt+a.z*b.wxyzt+b.wxz*a.yzt+a.wxyz*b.zt-a.xzt*b.wyz+a.yz*b.wxzt+b.wzt*a.xyz-a.wyz*b.xzt+a.wyzt*b.xz+a.wxz*b.yzt+a.wzt*b.xyz-b.wyzt*a.xz+b.xyzt*a.wz,b.wxyzt*a.t-b.wyzt*a.xt-a.wyt*b.xzt+b.xyzt*a.wt+b.xyt*a.wzt+a.wxt*b.yzt+b.wxt*a.yzt+a.wxyt*b.zt+a.yt*b.wxzt-a.xyzt*b.wt+b.t*a.wxyzt-b.wxyt*a.zt+a.xyt*b.wzt-b.yt*a.wxzt-b.wyt*a.xzt+a.wyzt*b.xt, a.wxy*b.wxzt+a.wxyzt*b.wx+b.wxyz*a.wxt+b.wxy*a.wxzt+a.wxyz*b.wxt-b.wxz*a.wxyt-b.wxyt*a.wxz+a.wx*b.wxyzt,-a.wxyt*b.wyz-a.wyz*b.wxyt+b.wxyz*a.wyt+b.wxy*a.wyzt+a.wxyz*b.wyt+b.wyzt*a.wxy+b.wy*a.wxyzt+a.wy*b.wxyzt,a.wxyz*b.wzt+b.wyzt*a.wxz+b.wxyzt*a.wz-a.wxzt*b.wyz+b.wz*a.wxyzt+a.wyzt*b.wxz+b.wxyz*a.wzt-a.wyz*b.wxzt,b.wxyt*a.wzt+a.wyzt*b.wxt-a.wyt*b.wxzt+a.wxyzt*b.wt-b.wyt*a.wxzt+b.wyzt*a.wxt+b.wxyzt*a.wt+a.wxyt*b.wzt,-a.wxyt*b.xyz+b.wxyz*a.xyt+b.wxy*a.xyzt+b.xyt*a.wxyz-b.wxyt*a.xyz+a.xy*b.wxyzt+a.wxy*b.xyzt+b.xy*a.wxyzt,a.wxyz*b.xzt+b.xyzt*a.wxz-a.wxzt*b.xyz+b.wxz*a.xyzt+b.wxyz*a.xzt+b.xz*a.wxyzt-b.wxzt*a.xyz+a.xz*b.wxyzt,b.xyzt*a.wxt+b.wxyt*a.xzt+a.wxyzt*b.xt+a.xyzt*b.wxt-a.xyt*b.wxzt+b.wxyzt*a.xt-b.xyt*a.wxzt+b.xzt*a.wxyt,-b.wyzt*a.xyz+b.yz*a.wxyzt+a.wyz*b.xyzt+a.yz*b.wxyzt+b.wxyz*a.yzt-a.wyzt*b.xyz+a.wxyz*b.yzt+a.xyzt*b.wyz,-a.wyzt*b.xyt+b.wyt*a.xyzt-b.wyzt*a.xyt+b.xyzt*a.wyt+a.wxyt*b.yzt+a.yt*b.wxyzt+b.wxyt*a.yzt+b.yt*a.wxyzt,a.xyzt*b.wzt+b.yzt*a.wxzt-a.wyzt*b.xzt+b.zt*a.wxyzt-b.wyzt*a.xzt+b.wxyzt*a.zt+b.wxzt*a.yzt+b.xyzt*a.wzt, a.wxy*b.wxyzt+b.wxy*a.wxyzt-b.wxyz*a.wxyt+a.wxyz*b.wxyt,-b.wxyz*a.wxzt+b.wxz*a.wxyzt+a.wxz*b.wxyzt+a.wxyz*b.wxzt,a.wxyt*b.wxzt-b.wxyt*a.wxzt+b.wxt*a.wxyzt+b.wxyzt*a.wxt,a.wxyzt*b.wyz+b.wyzt*a.wxyz+a.wyz*b.wxyzt-b.wxyz*a.wyzt,a.wyt*b.wxyzt+b.wyt*a.wxyzt-a.wyzt*b.wxyt+b.wyzt*a.wxyt,b.wzt*a.wxyzt-a.wyzt*b.wxzt+b.wxyzt*a.wzt+b.wyzt*a.wxzt,a.wxyzt*b.xyz-b.wxyz*a.xyzt+a.wxyz*b.xyzt+b.wxyzt*a.xyz,b.xyt*a.wxyzt-b.wxyt*a.xyzt+a.xyt*b.wxyzt+b.xyzt*a.wxyt,b.xyzt*a.wxzt+b.xzt*a.wxyzt-a.xyzt*b.wxzt+a.xzt*b.wxyzt,-b.wyzt*a.xyzt+a.wxyzt*b.yzt+b.wxyzt*a.yzt+a.wyzt*b.xyzt, b.wxyz*a.wxyzt+a.wxyz*b.wxyzt,a.wxyt*b.wxyzt+b.wxyt*a.wxyzt,b.wxzt*a.wxyzt+b.wxyzt*a.wxzt,a.wyzt*b.wxyzt+b.wyzt*a.wxyzt,b.xyzt*a.wxyzt+a.xyzt*b.wxyzt, b.wxyzt*a.wxyzt)
+AntiWedge(MV1,MV2) is non-commutative (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+AntiWedge is associative (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = Regressive(MV1,MV2) = (-a.wyzt*b.x-b.wy*a.xzt+b.q*a.wxyzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.q*b.wxyzt+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz, -b.wxyt*a.wz+a.wxt*b.wyz-b.wyt*a.wxz+b.wxyz*a.wt-b.wxz*a.wyt+a.wxy*b.wzt-b.wy*a.wxzt+b.wxy*a.wzt+a.wyzt*b.wx+a.w*b.wxyzt-a.wxyz*b.wt+a.wy*b.wxzt+a.wyz*b.wxt+b.w*a.wxyzt-b.wyzt*a.wx+a.wxyt*b.wz,a.wxt*b.xyz+b.xz*a.wxyt-a.wx*b.xyzt-b.wxyt*a.xz+a.wxy*b.xzt-a.xyt*b.wxz+b.wxyz*a.xt+a.xy*b.wxzt+b.x*a.wxyzt+b.wxt*a.xyz-a.wxyz*b.xt+b.wxyzt*a.x-b.xy*a.wxzt-b.xyt*a.wxz+b.wxy*a.xzt+a.xyzt*b.wx,b.wxy*a.yzt-a.xyt*b.wyz-b.xyzt*a.wy+b.wyt*a.xyz-a.wyzt*b.xy+b.y*a.wxyzt+b.wyzt*a.xy+a.wyt*b.xyz+b.yz*a.wxyt+b.wxyz*a.yt+a.wxy*b.yzt-a.yz*b.wxyt+b.wy*a.xyzt+a.y*b.wxyzt-a.wyz*b.xyt-a.wxyz*b.yt,a.xyzt*b.wz+b.z*a.wxyzt+b.yz*a.wxzt+b.wxyz*a.zt+a.z*b.wxyzt+b.wxz*a.yzt-a.wxyz*b.zt-a.xzt*b.wyz-a.yz*b.wxzt+b.wzt*a.xyz-a.wyz*b.xzt-a.wyzt*b.xz+a.wxz*b.yzt+a.wzt*b.xyz+b.wyzt*a.xz-b.xyzt*a.wz,b.wxyzt*a.t+b.wyzt*a.xt-a.wyt*b.xzt-b.xyzt*a.wt+b.xyt*a.wzt+a.wxt*b.yzt+b.wxt*a.yzt-a.wxyt*b.zt-a.yt*b.wxzt+a.xyzt*b.wt+b.t*a.wxyzt+b.wxyt*a.zt+a.xyt*b.wzt+b.yt*a.wxzt-b.wyt*a.xzt-a.wyzt*b.xt, a.wxy*b.wxzt+a.wxyzt*b.wx+b.wxyz*a.wxt+b.wxy*a.wxzt+a.wxyz*b.wxt-b.wxz*a.wxyt-b.wxyt*a.wxz+a.wx*b.wxyzt,-a.wxyt*b.wyz-a.wyz*b.wxyt+b.wxyz*a.wyt+b.wxy*a.wyzt+a.wxyz*b.wyt+b.wyzt*a.wxy+b.wy*a.wxyzt+a.wy*b.wxyzt,a.wxyz*b.wzt+b.wyzt*a.wxz+b.wxyzt*a.wz-a.wxzt*b.wyz+b.wz*a.wxyzt+a.wyzt*b.wxz+b.wxyz*a.wzt-a.wyz*b.wxzt,b.wxyt*a.wzt+a.wyzt*b.wxt-a.wyt*b.wxzt+a.wxyzt*b.wt-b.wyt*a.wxzt+b.wyzt*a.wxt+b.wxyzt*a.wt+a.wxyt*b.wzt,-a.wxyt*b.xyz+b.wxyz*a.xyt+b.wxy*a.xyzt+b.xyt*a.wxyz-b.wxyt*a.xyz+a.xy*b.wxyzt+a.wxy*b.xyzt+b.xy*a.wxyzt,a.wxyz*b.xzt+b.xyzt*a.wxz-a.wxzt*b.xyz+b.wxz*a.xyzt+b.wxyz*a.xzt+b.xz*a.wxyzt-b.wxzt*a.xyz+a.xz*b.wxyzt,b.xyzt*a.wxt+b.wxyt*a.xzt+a.wxyzt*b.xt+a.xyzt*b.wxt-a.xyt*b.wxzt+b.wxyzt*a.xt-b.xyt*a.wxzt+b.xzt*a.wxyt,-b.wyzt*a.xyz+b.yz*a.wxyzt+a.wyz*b.xyzt+a.yz*b.wxyzt+b.wxyz*a.yzt-a.wyzt*b.xyz+a.wxyz*b.yzt+a.xyzt*b.wyz,-a.wyzt*b.xyt+b.wyt*a.xyzt-b.wyzt*a.xyt+b.xyzt*a.wyt+a.wxyt*b.yzt+a.yt*b.wxyzt+b.wxyt*a.yzt+b.yt*a.wxyzt,a.xyzt*b.wzt+b.yzt*a.wxzt-a.wyzt*b.xzt+b.zt*a.wxyzt-b.wyzt*a.xzt+b.wxyzt*a.zt+b.wxzt*a.yzt+b.xyzt*a.wzt, a.wxy*b.wxyzt+b.wxy*a.wxyzt+b.wxyz*a.wxyt-a.wxyz*b.wxyt,b.wxyz*a.wxzt+b.wxz*a.wxyzt+a.wxz*b.wxyzt-a.wxyz*b.wxzt,-a.wxyt*b.wxzt+b.wxyt*a.wxzt+b.wxt*a.wxyzt+b.wxyzt*a.wxt,a.wxyzt*b.wyz-b.wyzt*a.wxyz+a.wyz*b.wxyzt+b.wxyz*a.wyzt,a.wyt*b.wxyzt+b.wyt*a.wxyzt+a.wyzt*b.wxyt-b.wyzt*a.wxyt,b.wzt*a.wxyzt+a.wyzt*b.wxzt+b.wxyzt*a.wzt-b.wyzt*a.wxzt,a.wxyzt*b.xyz+b.wxyz*a.xyzt-a.wxyz*b.xyzt+b.wxyzt*a.xyz,b.xyt*a.wxyzt+b.wxyt*a.xyzt+a.xyt*b.wxyzt-b.xyzt*a.wxyt,-b.xyzt*a.wxzt+b.xzt*a.wxyzt+a.xyzt*b.wxzt+a.xzt*b.wxyzt,b.wyzt*a.xyzt+a.wxyzt*b.yzt+b.wxyzt*a.yzt-a.wyzt*b.xyzt, b.wxyz*a.wxyzt+a.wxyz*b.wxyzt,a.wxyt*b.wxyzt+b.wxyt*a.wxyzt,b.wxzt*a.wxyzt+b.wxyzt*a.wxzt,a.wyzt*b.wxyzt+b.wyzt*a.wxyzt,b.xyzt*a.wxyzt+a.xyzt*b.wxyzt, b.wxyzt*a.wxyzt)
+Regressive(MV1,MV2) is non-commutative (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = (a, 
+b,c,d,e,f, 
+g,h,j,k,l,m,n,p,r,s, 
+S,R,P,N,M,L,K,J,H,G, 
+F,E,D,C,B, A)
+
+Regressive is associative (as expected)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = RegressiveViaFormula(MV1,MV2) = (-a.wyzt*b.x-b.wy*a.xzt+b.q*a.wxyzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.q*b.wxyzt+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz, -b.wxyt*a.wz+a.wxt*b.wyz-b.wyt*a.wxz+b.wxyz*a.wt-b.wxz*a.wyt+a.wxy*b.wzt-b.wy*a.wxzt+b.wxy*a.wzt+a.wyzt*b.wx+a.w*b.wxyzt-a.wxyz*b.wt+a.wy*b.wxzt+a.wyz*b.wxt+b.w*a.wxyzt-b.wyzt*a.wx+a.wxyt*b.wz,a.wxt*b.xyz+b.xz*a.wxyt-a.wx*b.xyzt-b.wxyt*a.xz+a.wxy*b.xzt-a.xyt*b.wxz+b.wxyz*a.xt+a.xy*b.wxzt+b.x*a.wxyzt+b.wxt*a.xyz-a.wxyz*b.xt+b.wxyzt*a.x-b.xy*a.wxzt-b.xyt*a.wxz+b.wxy*a.xzt+a.xyzt*b.wx,b.wxy*a.yzt-a.xyt*b.wyz-b.xyzt*a.wy+b.wyt*a.xyz-a.wyzt*b.xy+b.y*a.wxyzt+b.wyzt*a.xy+a.wyt*b.xyz+b.yz*a.wxyt+b.wxyz*a.yt+a.wxy*b.yzt-a.yz*b.wxyt+b.wy*a.xyzt+a.y*b.wxyzt-a.wyz*b.xyt-a.wxyz*b.yt,a.xyzt*b.wz+b.z*a.wxyzt+b.yz*a.wxzt+b.wxyz*a.zt+a.z*b.wxyzt+b.wxz*a.yzt-a.wxyz*b.zt-a.xzt*b.wyz-a.yz*b.wxzt+b.wzt*a.xyz-a.wyz*b.xzt-a.wyzt*b.xz+a.wxz*b.yzt+a.wzt*b.xyz+b.wyzt*a.xz-b.xyzt*a.wz,b.wxyzt*a.t+b.wyzt*a.xt-a.wyt*b.xzt-b.xyzt*a.wt+b.xyt*a.wzt+a.wxt*b.yzt+b.wxt*a.yzt-a.wxyt*b.zt-a.yt*b.wxzt+a.xyzt*b.wt+b.t*a.wxyzt+b.wxyt*a.zt+a.xyt*b.wzt+b.yt*a.wxzt-b.wyt*a.xzt-a.wyzt*b.xt, a.wxy*b.wxzt+a.wxyzt*b.wx+b.wxyz*a.wxt+b.wxy*a.wxzt+a.wxyz*b.wxt-b.wxz*a.wxyt-b.wxyt*a.wxz+a.wx*b.wxyzt,-a.wxyt*b.wyz-a.wyz*b.wxyt+b.wxyz*a.wyt+b.wxy*a.wyzt+a.wxyz*b.wyt+b.wyzt*a.wxy+b.wy*a.wxyzt+a.wy*b.wxyzt,a.wxyz*b.wzt+b.wyzt*a.wxz+b.wxyzt*a.wz-a.wxzt*b.wyz+b.wz*a.wxyzt+a.wyzt*b.wxz+b.wxyz*a.wzt-a.wyz*b.wxzt,b.wxyt*a.wzt+a.wyzt*b.wxt-a.wyt*b.wxzt+a.wxyzt*b.wt-b.wyt*a.wxzt+b.wyzt*a.wxt+b.wxyzt*a.wt+a.wxyt*b.wzt,-a.wxyt*b.xyz+b.wxyz*a.xyt+b.wxy*a.xyzt+b.xyt*a.wxyz-b.wxyt*a.xyz+a.xy*b.wxyzt+a.wxy*b.xyzt+b.xy*a.wxyzt,a.wxyz*b.xzt+b.xyzt*a.wxz-a.wxzt*b.xyz+b.wxz*a.xyzt+b.wxyz*a.xzt+b.xz*a.wxyzt-b.wxzt*a.xyz+a.xz*b.wxyzt,b.xyzt*a.wxt+b.wxyt*a.xzt+a.wxyzt*b.xt+a.xyzt*b.wxt-a.xyt*b.wxzt+b.wxyzt*a.xt-b.xyt*a.wxzt+b.xzt*a.wxyt,-b.wyzt*a.xyz+b.yz*a.wxyzt+a.wyz*b.xyzt+a.yz*b.wxyzt+b.wxyz*a.yzt-a.wyzt*b.xyz+a.wxyz*b.yzt+a.xyzt*b.wyz,-a.wyzt*b.xyt+b.wyt*a.xyzt-b.wyzt*a.xyt+b.xyzt*a.wyt+a.wxyt*b.yzt+a.yt*b.wxyzt+b.wxyt*a.yzt+b.yt*a.wxyzt,a.xyzt*b.wzt+b.yzt*a.wxzt-a.wyzt*b.xzt+b.zt*a.wxyzt-b.wyzt*a.xzt+b.wxyzt*a.zt+b.wxzt*a.yzt+b.xyzt*a.wzt, a.wxy*b.wxyzt+b.wxy*a.wxyzt+b.wxyz*a.wxyt-a.wxyz*b.wxyt,b.wxyz*a.wxzt+b.wxz*a.wxyzt+a.wxz*b.wxyzt-a.wxyz*b.wxzt,-a.wxyt*b.wxzt+b.wxyt*a.wxzt+b.wxt*a.wxyzt+b.wxyzt*a.wxt,a.wxyzt*b.wyz-b.wyzt*a.wxyz+a.wyz*b.wxyzt+b.wxyz*a.wyzt,a.wyt*b.wxyzt+b.wyt*a.wxyzt+a.wyzt*b.wxyt-b.wyzt*a.wxyt,b.wzt*a.wxyzt+a.wyzt*b.wxzt+b.wxyzt*a.wzt-b.wyzt*a.wxzt,a.wxyzt*b.xyz+b.wxyz*a.xyzt-a.wxyz*b.xyzt+b.wxyzt*a.xyz,b.xyt*a.wxyzt+b.wxyt*a.xyzt+a.xyt*b.wxyzt-b.xyzt*a.wxyt,-b.xyzt*a.wxzt+b.xzt*a.wxyzt+a.xyzt*b.wxzt+a.xzt*b.wxyzt,b.wyzt*a.xyzt+a.wxyzt*b.yzt+b.wxyzt*a.yzt-a.wyzt*b.xyzt, b.wxyz*a.wxyzt+a.wxyz*b.wxyzt,a.wxyt*b.wxyzt+b.wxyt*a.wxyzt,b.wxzt*a.wxyzt+b.wxyzt*a.wxzt,a.wyzt*b.wxyzt+b.wyzt*a.wxyzt,b.xyzt*a.wxyzt+a.xyzt*b.wxyzt, b.wxyzt*a.wxyzt)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = LowerRightViaFormula(MV1,MV2) = (-b.wxyzt*a.wxyzt, -b.xyzt*a.wxyzt-a.xyzt*b.wxyzt,a.wyzt*b.wxyzt+b.wyzt*a.wxyzt,-b.wxzt*a.wxyzt-b.wxyzt*a.wxzt,a.wxyt*b.wxyzt+b.wxyt*a.wxyzt,b.wxyz*a.wxyzt+a.wxyz*b.wxyzt, b.wyzt*a.xyzt+a.wxyzt*b.yzt+b.wxyzt*a.yzt-a.wyzt*b.xyzt,b.xyzt*a.wxzt-b.xzt*a.wxyzt-a.xyzt*b.wxzt-a.xzt*b.wxyzt,b.xyt*a.wxyzt+b.wxyt*a.xyzt+a.xyt*b.wxyzt-b.xyzt*a.wxyt,a.wxyzt*b.xyz+b.wxyz*a.xyzt-a.wxyz*b.xyzt+b.wxyzt*a.xyz,b.wzt*a.wxyzt+a.wyzt*b.wxzt+b.wxyzt*a.wzt-b.wyzt*a.wxzt,-a.wyt*b.wxyzt-b.wyt*a.wxyzt-a.wyzt*b.wxyt+b.wyzt*a.wxyt,-a.wxyzt*b.wyz+b.wyzt*a.wxyz-a.wyz*b.wxyzt-b.wxyz*a.wyzt,-a.wxyt*b.wxzt+b.wxyt*a.wxzt+b.wxt*a.wxyzt+b.wxyzt*a.wxt,b.wxyz*a.wxzt+b.wxz*a.wxyzt+a.wxz*b.wxyzt-a.wxyz*b.wxzt,-a.wxy*b.wxyzt-b.wxy*a.wxyzt-b.wxyz*a.wxyt+a.wxyz*b.wxyt, a.xyzt*b.wzt+b.yzt*a.wxzt-a.wyzt*b.xzt+b.zt*a.wxyzt-b.wyzt*a.xzt+b.wxyzt*a.zt+b.wxzt*a.yzt+b.xyzt*a.wzt,a.wyzt*b.xyt-b.wyt*a.xyzt+b.wyzt*a.xyt-b.xyzt*a.wyt-a.wxyt*b.yzt-a.yt*b.wxyzt-b.wxyt*a.yzt-b.yt*a.wxyzt,b.wyzt*a.xyz-b.yz*a.wxyzt-a.wyz*b.xyzt-a.yz*b.wxyzt-b.wxyz*a.yzt+a.wyzt*b.xyz-a.wxyz*b.yzt-a.xyzt*b.wyz,b.xyzt*a.wxt+b.wxyt*a.xzt+a.wxyzt*b.xt+a.xyzt*b.wxt-a.xyt*b.wxzt+b.wxyzt*a.xt-b.xyt*a.wxzt+b.xzt*a.wxyt,a.wxyz*b.xzt+b.xyzt*a.wxz-a.wxzt*b.xyz+b.wxz*a.xyzt+b.wxyz*a.xzt+b.xz*a.wxyzt-b.wxzt*a.xyz+a.xz*b.wxyzt,a.wxyt*b.xyz-b.wxyz*a.xyt-b.wxy*a.xyzt-b.xyt*a.wxyz+b.wxyt*a.xyz-a.xy*b.wxyzt-a.wxy*b.xyzt-b.xy*a.wxyzt,-b.wxyt*a.wzt-a.wyzt*b.wxt+a.wyt*b.wxzt-a.wxyzt*b.wt+b.wyt*a.wxzt-b.wyzt*a.wxt-b.wxyzt*a.wt-a.wxyt*b.wzt,-a.wxyz*b.wzt-b.wyzt*a.wxz-b.wxyzt*a.wz+a.wxzt*b.wyz-b.wz*a.wxyzt-a.wyzt*b.wxz-b.wxyz*a.wzt+a.wyz*b.wxzt,-a.wxyt*b.wyz-a.wyz*b.wxyt+b.wxyz*a.wyt+b.wxy*a.wyzt+a.wxyz*b.wyt+b.wyzt*a.wxy+b.wy*a.wxyzt+a.wy*b.wxyzt,-a.wxy*b.wxzt-a.wxyzt*b.wx-b.wxyz*a.wxt-b.wxy*a.wxzt-a.wxyz*b.wxt+b.wxz*a.wxyt+b.wxyt*a.wxz-a.wx*b.wxyzt, -b.wxyzt*a.t-b.wyzt*a.xt+a.wyt*b.xzt+b.xyzt*a.wt-b.xyt*a.wzt-a.wxt*b.yzt-b.wxt*a.yzt+a.wxyt*b.zt+a.yt*b.wxzt-a.xyzt*b.wt-b.t*a.wxyzt-b.wxyt*a.zt-a.xyt*b.wzt-b.yt*a.wxzt+b.wyt*a.xzt+a.wyzt*b.xt,-a.xyzt*b.wz-b.z*a.wxyzt-b.yz*a.wxzt-b.wxyz*a.zt-a.z*b.wxyzt-b.wxz*a.yzt+a.wxyz*b.zt+a.xzt*b.wyz+a.yz*b.wxzt-b.wzt*a.xyz+a.wyz*b.xzt+a.wyzt*b.xz-a.wxz*b.yzt-a.wzt*b.xyz-b.wyzt*a.xz+b.xyzt*a.wz,b.wxy*a.yzt-a.xyt*b.wyz-b.xyzt*a.wy+b.wyt*a.xyz-a.wyzt*b.xy+b.y*a.wxyzt+b.wyzt*a.xy+a.wyt*b.xyz+b.yz*a.wxyt+b.wxyz*a.yt+a.wxy*b.yzt-a.yz*b.wxyt+b.wy*a.xyzt+a.y*b.wxyzt-a.wyz*b.xyt-a.wxyz*b.yt,-a.wxt*b.xyz-b.xz*a.wxyt+a.wx*b.xyzt+b.wxyt*a.xz-a.wxy*b.xzt+a.xyt*b.wxz-b.wxyz*a.xt-a.xy*b.wxzt-b.x*a.wxyzt-b.wxt*a.xyz+a.wxyz*b.xt-b.wxyzt*a.x+b.xy*a.wxzt+b.xyt*a.wxz-b.wxy*a.xzt-a.xyzt*b.wx,-b.wxyt*a.wz+a.wxt*b.wyz-b.wyt*a.wxz+b.wxyz*a.wt-b.wxz*a.wyt+a.wxy*b.wzt-b.wy*a.wxzt+b.wxy*a.wzt+a.wyzt*b.wx+a.w*b.wxyzt-a.wxyz*b.wt+a.wy*b.wxzt+a.wyz*b.wxt+b.w*a.wxyzt-b.wyzt*a.wx+a.wxyt*b.wz, -a.wyzt*b.x-b.wy*a.xzt+b.q*a.wxyzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.q*b.wxyzt+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = Expander(MV1,MV2) = (0, 0,0,0,0,0, a.w*b.x-b.w*a.x,-a.y*b.w+b.y*a.w,-b.w*a.z+b.z*a.w,-b.w*a.t+a.w*b.t,b.y*a.x-a.y*b.x,-a.z*b.x+b.z*a.x,-b.x*a.t+b.t*a.x,a.y*b.z-b.y*a.z,-b.y*a.t+a.y*b.t,a.z*b.t-b.z*a.t, a.xy*b.w+a.y*b.wx+b.xy*a.w-b.wy*a.x-a.wy*b.x+b.y*a.wx,-a.wz*b.x+b.xz*a.w-b.wz*a.x+a.wx*b.z+b.w*a.xz+a.z*b.wx,-a.x*b.wt+a.w*b.xt+b.w*a.xt+a.wx*b.t+a.t*b.wx-b.x*a.wt,b.z*a.wy-b.y*a.wz+b.yz*a.w-a.y*b.wz+a.yz*b.w+b.wy*a.z,-a.y*b.wt-b.y*a.wt+b.wy*a.t+b.w*a.yt+b.yt*a.w+a.wy*b.t,b.t*a.wz-b.z*a.wt+b.wz*a.t+a.w*b.zt-a.z*b.wt+b.w*a.zt,b.yz*a.x+a.xy*b.z-a.y*b.xz+a.yz*b.x+b.xy*a.z-b.y*a.xz,b.xy*a.t-b.y*a.xt-a.y*b.xt+a.xy*b.t+a.yt*b.x+b.yt*a.x,b.xz*a.t-b.z*a.xt+b.zt*a.x+b.x*a.zt-a.z*b.xt+a.xz*b.t,a.yz*b.t+b.y*a.zt-b.z*a.yt-b.yt*a.z+a.y*b.zt+b.yz*a.t, -b.wy*a.xz+a.w*b.xyz-b.wxy*a.z+a.y*b.wxz-b.y*a.wxz+b.xy*a.wz-a.wy*b.xz+a.wyt*b.xzt-b.xyt*a.wzt-a.wxt*b.yzt-a.x*b.wyz-b.wxt*a.yzt-b.w*a.xyz+a.wx*b.yz-a.xyt*b.wzt+b.wyt*a.xzt+a.wyz*b.x+a.yz*b.wx+a.xy*b.wz+a.wxy*b.z,b.xyt*a.w+a.wxy*b.t+a.wyt*b.x+a.wx*b.yt-a.wy*b.xt+a.yt*b.wx-a.xyt*b.w-b.y*a.wxt-b.wxz*a.yzt+a.xy*b.wt+a.xzt*b.wyz-b.wzt*a.xyz-b.wyt*a.x+b.xy*a.wt+a.wyz*b.xzt-a.wxz*b.yzt-b.wxy*a.t-a.wzt*b.xyz-b.wy*a.xt+a.y*b.wxt,-b.z*a.wxt+b.wxy*a.yzt+a.xz*b.wt-a.xyt*b.wyz+a.wzt*b.x-b.wzt*a.x+b.wyt*a.xyz+a.z*b.wxt-b.wz*a.xt+a.wxz*b.t-b.w*a.xzt+a.zt*b.wx+a.wx*b.zt+a.wyt*b.xyz+a.wxy*b.yzt+b.xzt*a.w+b.xz*a.wt-a.wyz*b.xyt-b.wxz*a.t-a.wz*b.xt,-a.wxt*b.xyz+b.wyt*a.z-b.yt*a.wz-b.z*a.wyt+a.w*b.yzt+b.yz*a.wt-a.wxy*b.xzt+a.xyt*b.wxz-b.w*a.yzt-a.y*b.wzt+b.y*a.wzt+b.wy*a.zt-b.wxt*a.xyz+a.yz*b.wt+a.wy*b.zt-a.yt*b.wz+a.wyz*b.t-a.t*b.wyz+b.xyt*a.wxz-b.wxy*a.xzt,a.wxt*b.wyz-b.xz*a.yt-b.wyt*a.wxz-b.wxz*a.wyt-a.xyt*b.z+b.yzt*a.x-b.yt*a.xz+b.yz*a.xt+a.wxy*b.wzt+a.yz*b.xt+b.wxy*a.wzt+a.xy*b.zt+b.t*a.xyz-a.y*b.xzt-b.x*a.yzt+a.wyz*b.wxt+b.xyt*a.z+b.xy*a.zt-a.t*b.xyz+b.y*a.xzt, -a.wyzt*b.x-b.wy*a.xzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = Conserver(MV1,MV2) = (b.q*a.q, b.q*a.w+a.q*b.w,b.q*a.x+a.q*b.x,b.q*a.y+b.y*a.q,b.q*a.z+a.q*b.z,a.q*b.t+b.q*a.t, b.xt*a.wt-b.xz*a.wz-b.wt*a.xt+b.wy*a.xy+b.wz*a.xz-b.xy*a.wy+a.wx*b.q+a.q*b.wx,a.yz*b.wz-a.xy*b.wx+b.q*a.wy-a.yt*b.wt+a.q*b.wy+b.yt*a.wt+a.wx*b.xy-b.yz*a.wz,a.wx*b.xz+b.yz*a.wy+a.q*b.wz-a.zt*b.wt-a.xz*b.wx-a.yz*b.wy+b.q*a.wz+b.zt*a.wt,a.wz*b.zt-b.wy*a.yt-b.wz*a.zt+b.q*a.wt+a.wy*b.yt+a.wx*b.xt-a.xt*b.wx+a.q*b.wt,b.q*a.xy+b.xy*a.q-a.yt*b.xt+a.wy*b.wx-a.wx*b.wy-b.yz*a.xz+b.yt*a.xt+a.yz*b.xz,-b.xy*a.yz+b.yz*a.xy-b.xt*a.zt+a.wz*b.wx+b.q*a.xz-a.wx*b.wz+b.zt*a.xt+a.q*b.xz,a.xy*b.yt-a.wx*b.wt+b.q*a.xt-b.xy*a.yt-b.xz*a.zt+a.q*b.xt+a.xz*b.zt+b.wx*a.wt,-a.xy*b.xz+b.xy*a.xz+b.wy*a.wz+a.yt*b.zt-a.wy*b.wz+b.yz*a.q-b.yt*a.zt+b.q*a.yz,-a.wy*b.wt-b.yz*a.zt+a.yz*b.zt-a.xy*b.xt+b.q*a.yt+b.xy*a.xt+b.wy*a.wt+a.q*b.yt,b.wz*a.wt+b.q*a.zt-a.xz*b.xt+a.q*b.zt+b.yz*a.yt-a.yz*b.yt-a.wz*b.wt+b.xz*a.xt, -b.wz*a.xyz+b.wyt*a.xt-a.xz*b.wyz-b.yz*a.wxz+a.xyt*b.wt+a.wyz*b.xz-a.yt*b.wxt+a.wz*b.xyz+b.wxy*a.q+a.yz*b.wxz+b.q*a.wxy-a.wyt*b.xt+b.yt*a.wxt-b.xyt*a.wt,a.xy*b.wyz+a.xzt*b.wt-b.xzt*a.wt+b.wzt*a.xt+b.q*a.wxz-a.wy*b.xyz+b.zt*a.wxt+a.q*b.wxz-b.wxy*a.yz+b.wy*a.xyz-a.wyz*b.xy-a.wzt*b.xt+b.yz*a.wxy-b.wxt*a.zt,b.q*a.wxt-b.wxz*a.zt+a.q*b.wxt+b.wyt*a.xy-b.xz*a.wzt+a.wxz*b.zt+a.wxy*b.yt-b.xzt*a.wz+b.wy*a.xyt+b.wzt*a.xz-b.xyt*a.wy-b.xy*a.wyt+b.wz*a.xzt-b.wxy*a.yt,-b.yzt*a.wt-b.yt*a.wzt+a.wx*b.xyz+a.wyt*b.zt-a.xy*b.wxz+b.wt*a.yzt-b.wyt*a.zt+b.xy*a.wxz-a.wxy*b.xz+a.wyz*b.q+b.wxy*a.xz+a.q*b.wyz+a.yt*b.wzt-b.wx*a.xyz,-a.xyt*b.wx+b.wxy*a.xt+b.wz*a.yzt+a.yz*b.wzt+b.q*a.wyt-a.zt*b.wyz+a.q*b.wyt+a.wx*b.xyt-a.xy*b.wxt-a.wxy*b.xt+b.xy*a.wxt-a.wz*b.yzt-b.yz*a.wzt+a.wyz*b.zt,a.q*b.wzt+a.wy*b.yzt+a.yt*b.wyz+b.wxz*a.xt-a.xzt*b.wx-a.wyz*b.yt+b.yz*a.wyt-a.wxz*b.xt-a.yz*b.wyt+b.xz*a.wxt+b.q*a.wzt-a.xz*b.wxt-b.wy*a.yzt+a.wx*b.xzt,-a.wx*b.wyz+b.wxz*a.wy-b.yzt*a.xt+b.xt*a.yzt+a.wxy*b.wz-b.yt*a.xzt+b.q*a.xyz+a.wyz*b.wx-b.wxy*a.wz+a.xyt*b.zt-b.xyt*a.zt+a.q*b.xyz+b.xzt*a.yt-b.wy*a.wxz,b.q*a.xyt+a.yz*b.xzt-b.wxy*a.wt-a.xz*b.yzt-a.zt*b.xyz+b.xyt*a.q-a.wx*b.wyt-b.yz*a.xzt+a.wyt*b.wx-b.wy*a.wxt+b.zt*a.xyz+b.xz*a.yzt+a.wxy*b.wt+a.wy*b.wxt,a.q*b.xzt+b.wxt*a.wz+a.yt*b.xyz+b.yz*a.xyt-b.xyt*a.yz-b.wxz*a.wt+a.xy*b.yzt-b.wz*a.wxt-b.yt*a.xyz+a.wzt*b.wx-b.xy*a.yzt+b.q*a.xzt+a.wxz*b.wt-a.wx*b.wzt,-a.xyt*b.xz+b.xt*a.xyz+a.wyz*b.wt+b.xyt*a.xz+b.xy*a.xzt+b.q*a.yzt-a.wyt*b.wz+b.wy*a.wzt-b.xyz*a.xt+b.wyt*a.wz+a.q*b.yzt-a.wy*b.wzt-b.wyz*a.wt-a.xy*b.xzt, -b.wyzt*a.xt+b.xyzt*a.wt+a.wxyt*b.zt+a.yt*b.wxzt-a.xyzt*b.wt-b.wxyt*a.zt+b.wxyz*a.q-b.yt*a.wxzt+b.q*a.wxyz+a.wyzt*b.xt,-a.xyzt*b.wz-b.yz*a.wxzt-b.wxyz*a.zt+a.wxyz*b.zt+a.yz*b.wxzt+b.q*a.wxyt+a.wyzt*b.xz-b.wyzt*a.xz+a.q*b.wxyt+b.xyzt*a.wz,-b.xyzt*a.wy+b.q*a.wxzt-a.wyzt*b.xy+b.wyzt*a.xy+a.q*b.wxzt+b.yz*a.wxyt+b.wxyz*a.yt-a.yz*b.wxyt+b.wy*a.xyzt-a.wxyz*b.yt,-b.xz*a.wxyt+a.wx*b.xyzt+b.wxyt*a.xz-b.wxyz*a.xt-a.xy*b.wxzt+b.wyzt*a.q+a.wxyz*b.xt+b.q*a.wyzt+b.xy*a.wxzt-a.xyzt*b.wx,-b.wxyt*a.wz+b.wxyz*a.wt+b.q*a.xyzt-b.wy*a.wxzt+a.wyzt*b.wx-a.wxyz*b.wt+a.q*b.xyzt+a.wy*b.wxzt-b.wyzt*a.wx+a.wxyt*b.wz, b.q*a.wxyzt+a.q*b.wxyzt)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = Shrinker(MV1,MV2) = (-b.xz*a.xz+b.wyt*a.wyt-a.wx*b.wx+b.xt*a.xt+b.yzt*a.yzt-b.t*a.t+b.wt*a.wt-b.xyzt*a.xyzt+b.z*a.z+b.w*a.w+b.yt*a.yt-a.wyz*b.wyz-b.wxyt*a.wxyt-b.wxz*a.wxz+b.zt*a.zt-b.wy*a.wy-b.wxzt*a.wxzt+b.xyt*a.xyt-b.wxy*a.wxy-b.wz*a.wz-b.wyzt*a.wyzt+b.x*a.x-b.xyz*a.xyz+b.wxyz*a.wxyz-b.yz*a.yz+b.wzt*a.wzt+b.wxt*a.wxt-b.wxyzt*a.wxyzt-b.xy*a.xy+b.xzt*a.xzt+b.y*a.y, -a.wxy*b.xy+a.wzt*b.zt+b.xyt*a.wxyt-b.wyzt*a.yzt-b.xyzt*a.wxyzt-a.xyt*b.wxyt+b.wzt*a.zt-a.xyzt*b.wxyzt-b.wxy*a.xy+b.wxyz*a.xyz+a.wxt*b.xt-a.x*b.wx-a.z*b.wz+b.xzt*a.wxzt+b.y*a.wy+a.t*b.wt+b.wxt*a.xt+a.wx*b.x+a.wyt*b.yt-b.wxz*a.xz-a.wyz*b.yz-b.t*a.wt-a.xzt*b.wxzt-a.y*b.wy+b.wyt*a.yt+b.z*a.wz-a.wxyz*b.xyz+a.wyzt*b.yzt-a.yz*b.wyz-a.wxz*b.xz,b.xyt*a.yt+a.wzt*b.wxzt+a.wxz*b.wz+a.xyt*b.yt+a.wxy*b.wy+a.w*b.wx-a.wx*b.w-b.wzt*a.wxzt+a.wyzt*b.wxyzt+b.y*a.xy-b.yz*a.xyz+b.xzt*a.zt+b.wxy*a.wy+b.wyzt*a.wxyzt-a.wxt*b.wt-b.xyzt*a.yzt-b.t*a.xt+a.xyzt*b.yzt-a.z*b.xz+a.wyt*b.wxyt+a.t*b.xt-b.wxt*a.wt+b.z*a.xz-a.wyz*b.wxyz+b.wxz*a.wz-b.wyt*a.wxyt+a.xzt*b.zt+a.wxyz*b.wyz-a.yz*b.xyz-a.y*b.xy,b.yt*a.t-a.xyzt*b.xzt-b.wyt*a.wt+b.wy*a.w-a.wyzt*b.wzt+b.wxyz*a.wxz+b.yzt*a.zt-a.xyt*b.xt+a.xz*b.xyz-a.wy*b.w-b.yz*a.z-a.xy*b.x-a.wxyz*b.wxz+a.wz*b.wyz+a.wyz*b.wz-a.yt*b.t+b.xyzt*a.xzt+b.wyzt*a.wzt+a.wxyt*b.wxt-b.wxzt*a.wxyzt+a.yz*b.z-a.wxy*b.wx-b.xyt*a.xt+b.xz*a.xyz-b.wxy*a.wx-b.wxyzt*a.wxzt+b.xy*a.x-a.wyt*b.wt+b.zt*a.yzt-b.wxyt*a.wxt,-b.xzt*a.xt-b.w*a.wz-a.xy*b.xyz-a.xzt*b.xt-b.wyzt*a.wyt-a.xyt*b.xyzt-a.yt*b.yzt-a.wx*b.wxz-a.wy*b.wyz+b.zt*a.t-b.wzt*a.wt-b.xy*a.xyz+b.xz*a.x+b.yz*a.y+b.wxy*a.wxyz-b.y*a.yz+a.wxyt*b.wxyzt-b.yt*a.yzt-b.wxzt*a.wxt-a.xz*b.x-a.wzt*b.wt+a.w*b.wz+a.wyzt*b.wyt+b.xyt*a.xyzt-a.wxz*b.wx-b.t*a.zt+b.wxt*a.wxzt-a.wyz*b.wy+b.wxyt*a.wxyzt-b.wxyz*a.wxy,-b.xz*a.xzt+a.z*b.zt-a.wxt*b.wx+b.wxz*a.wxzt-b.z*a.zt+b.wxyz*a.wxyzt+b.xt*a.x-b.xyzt*a.xyz-b.wyt*a.wy+a.y*b.yt+a.wxyz*b.wxyzt+a.w*b.wt-b.yz*a.yzt-a.wxz*b.wxzt+a.wyzt*b.wyz-a.wxy*b.wxyt-a.yz*b.yzt-b.xyt*a.xy-b.w*a.wt-b.wz*a.wzt-a.wx*b.wxt+b.wxy*a.wxyt-b.y*a.yt-b.wzt*a.wz+a.xyzt*b.xyz-b.x*a.xt-b.wyzt*a.wyz-b.xy*a.xyt-b.wy*a.wyt-b.xzt*a.xz, b.wyzt*a.xyzt-b.wxt*a.t-b.wyt*a.xyt-a.wyz*b.xyz+a.wxyzt*b.yzt+b.wxz*a.z+b.z*a.wxz+b.wxyt*a.yt+b.yt*a.wxyt+b.y*a.wxy+b.xzt*a.wzt+b.wxzt*a.zt+b.zt*a.wxzt+b.wxyzt*a.yzt-b.wzt*a.xzt-b.t*a.wxt+b.xyt*a.wyt-b.yz*a.wxyz-a.wyzt*b.xyzt-b.wxyz*a.yz+b.wyz*a.xyz+b.wxy*a.y,-a.wyt*b.t+b.xyzt*a.wxzt+a.wyzt*b.zt+a.wyz*b.z-a.wxy*b.x-b.xzt*a.wxyzt+b.wyzt*a.zt-b.wzt*a.yzt-a.xyzt*b.wxzt-b.wxz*a.xyz-b.wxy*a.x-a.wxyt*b.xt+b.wxyz*a.xz-b.xyt*a.wxt+a.z*b.wyz-b.wyt*a.t-b.wxyt*a.xt+a.xyt*b.wxt+a.wxz*b.xyz+a.wxyz*b.xz-a.xzt*b.wxyzt+a.wzt*b.yzt,b.wyt*a.yzt-b.xy*a.wxyz-b.t*a.wzt-b.wxyz*a.xy+b.wxy*a.xyz-b.wxz*a.x-b.xzt*a.wxt-b.xt*a.wxzt-a.y*b.wyz-a.wxz*b.x+b.xyt*a.wxyzt+b.wxyt*a.xyzt-a.wxy*b.xyz+a.xyt*b.wxyzt-b.xyzt*a.wxyt-a.wyzt*b.yt-a.wyt*b.yzt-b.y*a.wyz-b.wxzt*a.xt-b.wyzt*a.yt+a.xzt*b.wxt-b.wzt*a.t,-b.y*a.wyt-a.wxz*b.xzt-a.wyz*b.yzt+a.wxyzt*b.xyz-a.xy*b.wxyt-a.wxy*b.xyt-a.y*b.wyt+b.wxy*a.xyt-a.z*b.wzt+b.wxyz*a.xyzt-b.xy*a.wxyt-b.xz*a.wxzt+a.yzt*b.wyz-a.wxyz*b.xyzt-b.wyzt*a.yz+b.wxyzt*a.xyz-b.x*a.wxt+b.wxz*a.xzt-a.xz*b.wxzt-b.z*a.wzt-b.yz*a.wyzt-b.wxt*a.x,-a.wyt*b.wxt+b.wzt*a.wxyzt+b.xyzt*a.zt+a.wyzt*b.wxzt-b.xzt*a.yzt+a.xzt*b.yzt+a.wyz*b.wxz-a.wxyz*b.wz+b.wxyzt*a.wzt-b.wyzt*a.wxzt+a.wxyt*b.wt+b.wyt*a.wxt+a.xyzt*b.zt-b.xyt*a.t+b.z*a.xyz+b.wxyt*a.wt+a.wxy*b.w-a.xyt*b.t+a.z*b.xyz+b.wxy*a.w-b.wxyz*a.wz-a.wxz*b.wyz,-b.wxt*a.wzt+b.wzt*a.wxt+b.wxyz*a.wy+a.wxzt*b.wt-a.wyt*b.wxyzt-b.y*a.xyz-b.wyt*a.wxyzt+a.wxyz*b.wy-a.xyt*b.yzt-a.y*b.xyz-b.yt*a.xyzt+b.wxz*a.w-b.xyzt*a.yt-a.wyzt*b.wxyt+a.wxy*b.wyz-b.xzt*a.t+b.w*a.wxz+b.wxzt*a.wt+b.xyt*a.yzt+b.wyzt*a.wxyt-b.wxy*a.wyz-a.xzt*b.t,-b.yzt*a.xyz-b.wxy*a.wyt+a.wz*b.wxzt+b.wy*a.wxyt+a.wxz*b.wzt-a.wxyzt*b.wyz+b.wz*a.wxzt-b.yz*a.xyzt-b.y*a.xyt+a.wy*b.wxyt-a.z*b.xzt+a.w*b.wxt+b.wyzt*a.wxyz+b.xyz*a.yzt-a.yz*b.xyzt-b.z*a.xzt-b.wxz*a.wzt+a.wxy*b.wyt-a.y*b.xyt+b.w*a.wxt-a.wyz*b.wxyzt-b.wxyz*a.wyzt,b.wyzt*a.wt+a.w*b.wyz+b.wxy*a.wxz-b.xyt*a.xzt+a.wyz*b.w+a.x*b.xyz+b.xyzt*a.xt+a.wyt*b.wzt+a.xyzt*b.xt-b.wyt*a.wzt-b.t*a.yzt-a.wxyt*b.wxzt-a.t*b.yzt-a.wx*b.wxyz-a.wxyz*b.wx+b.wxyt*a.wxzt+a.wyzt*b.wt+b.wxt*a.wxyzt+b.wxyzt*a.wxt+b.x*a.xyz+a.xyt*b.xzt-a.wxy*b.wxz,-a.wxyt*b.wx+b.wxyz*a.wxzt-a.wxy*b.wxt+b.wxz*a.wxyzt-a.wx*b.wxyt+b.xzt*a.xyz+a.wxz*b.wxyzt+b.wxy*a.wxt-b.z*a.yzt-a.wxyz*b.wxzt+a.wyzt*b.wz-a.xzt*b.xyz+a.wyt*b.w+b.xyzt*a.xz+a.xyt*b.x-a.wzt*b.wyz+a.wyz*b.wzt+b.xyt*a.x+b.wyzt*a.wz+b.wyt*a.w-a.z*b.yzt+a.xyzt*b.xz,b.w*a.wzt-a.wyz*b.wyt-a.wxy*b.wxyzt-a.wyzt*b.wy+b.wxz*a.wxt+b.y*a.yzt+a.y*b.yzt+a.xyt*b.xyz-b.wyzt*a.wy-a.wxz*b.wxt-a.wxzt*b.wx-a.xy*b.xyzt-b.wxy*a.wxyzt+b.xzt*a.x-a.wx*b.wxzt-b.xy*a.xyzt+a.wyt*b.wyz-b.wxyz*a.wxyt+a.xzt*b.x+a.w*b.wzt-b.xyt*a.xyz+a.wxyz*b.wxyt, b.wxyt*a.t+a.xyzt*b.wzt+b.yzt*a.wxzt-a.wyzt*b.xzt-b.wxyz*a.z+a.wxyz*b.z-a.wxyt*b.t+b.zt*a.wxyzt-b.wyzt*a.xzt+b.wxyzt*a.zt+b.wxzt*a.yzt+b.xyzt*a.wzt,a.wyzt*b.xyt-b.wyt*a.xyzt+b.wxzt*a.t+b.wyzt*a.xyt-b.xyzt*a.wyt-a.wxyt*b.yzt-a.yt*b.wxyzt+b.wxyz*a.y-b.wxyt*a.yzt-b.y*a.wxyz-b.yt*a.wxyzt-b.t*a.wxzt,b.wyzt*a.xyz+a.z*b.wxzt-b.yz*a.wxyzt-b.z*a.wxzt-a.wyz*b.xyzt-a.yz*b.wxyzt-b.wxyz*a.yzt+a.y*b.wxyt+a.wyzt*b.xyz-a.wxyz*b.yzt-b.y*a.wxyt-a.xyzt*b.wyz,-b.wxyz*a.x+b.xyzt*a.wxt-a.wyzt*b.t+b.wxyt*a.xzt+a.wxyzt*b.xt+a.wxyz*b.x+a.xyzt*b.wxt+b.wyzt*a.t-a.xyt*b.wxzt+b.wxyzt*a.xt-b.xyt*a.wxzt+b.xzt*a.wxyt,a.wxyz*b.xzt+b.wyzt*a.z+b.xyzt*a.wxz-a.wxzt*b.xyz+b.wxz*a.xyzt+a.wxyt*b.x+b.wxyz*a.xzt+b.xz*a.wxyzt-b.wxzt*a.xyz-a.wyzt*b.z-b.wxyt*a.x+a.xz*b.wxyzt,a.wxyt*b.xyz-b.wxyz*a.xyt-b.wxy*a.xyzt-b.xyt*a.wxyz+b.wxyt*a.xyz+b.y*a.wyzt-b.wxzt*a.x+b.x*a.wxzt-a.xy*b.wxyzt-b.wyzt*a.y-a.wxy*b.xyzt-b.xy*a.wxyzt,-b.wxyt*a.wzt-a.wyzt*b.wxt+a.wyt*b.wxzt-a.xyzt*b.t-a.wxyzt*b.wt+b.wyt*a.wxzt-b.wyzt*a.wxt-b.wxyzt*a.wt+b.wxyz*a.w-a.wxyt*b.wzt+b.xyzt*a.t-a.wxyz*b.w,-a.wxyz*b.wzt-b.wyzt*a.wxz-b.wxyzt*a.wz+a.wxzt*b.wyz-b.w*a.wxyt-b.z*a.xyzt+b.xyzt*a.z+b.wxyt*a.w-b.wz*a.wxyzt-a.wyzt*b.wxz-b.wxyz*a.wzt+a.wyz*b.wxzt,-a.y*b.xyzt-a.wxyt*b.wyz+b.y*a.xyzt-a.wyz*b.wxyt+b.wxyz*a.wyt+b.wxy*a.wyzt+a.wxyz*b.wyt+b.wyzt*a.wxy+a.w*b.wxzt+b.wy*a.wxyzt+a.wy*b.wxyzt-b.w*a.wxzt,b.xyzt*a.x-a.wxy*b.wxzt-a.wxyzt*b.wx-b.wxyz*a.wxt-b.wxy*a.wxzt-a.wxyz*b.wxt-a.xyzt*b.x+b.wxz*a.wxyt+b.wxyt*a.wxz-a.wyzt*b.w-a.wx*b.wxyzt+b.wyzt*a.w, -b.wxyzt*a.t-b.t*a.wxyzt,-b.z*a.wxyzt-a.z*b.wxyzt,b.y*a.wxyzt+a.y*b.wxyzt,-b.x*a.wxyzt-b.wxyzt*a.x,a.w*b.wxyzt+b.w*a.wxyzt, 0)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = Symmetric(MV1,MV2) = (-b.xz*a.xz+b.wyt*a.wyt-a.wx*b.wx+b.xt*a.xt+b.yzt*a.yzt-b.t*a.t+b.wt*a.wt-b.xyzt*a.xyzt+b.z*a.z+b.w*a.w+b.yt*a.yt-a.wyz*b.wyz-b.wxyt*a.wxyt-b.wxz*a.wxz+b.zt*a.zt-b.wy*a.wy-b.wxzt*a.wxzt+b.xyt*a.xyt-b.wxy*a.wxy-b.wz*a.wz-b.wyzt*a.wyzt+b.x*a.x-b.xyz*a.xyz+b.wxyz*a.wxyz-b.yz*a.yz+b.wzt*a.wzt+b.wxt*a.wxt-b.wxyzt*a.wxyzt-b.xy*a.xy+b.xzt*a.xzt+b.y*a.y+b.q*a.q, -a.wxy*b.xy+a.wzt*b.zt-b.xyzt*a.wxyzt+b.wzt*a.zt-a.xyzt*b.wxyzt-b.wxy*a.xy+a.wxt*b.xt+b.wxt*a.xt+a.wyt*b.yt+b.q*a.w-b.wxz*a.xz-a.wyz*b.yz+a.q*b.w+b.wyt*a.yt-a.yz*b.wyz-a.wxz*b.xz,b.xyt*a.yt+a.wxz*b.wz+a.xyt*b.yt+a.wxy*b.wy+b.q*a.x+a.wyzt*b.wxyzt-b.yz*a.xyz+b.xzt*a.zt+a.q*b.x+b.wxy*a.wy+b.wyzt*a.wxyzt-a.wxt*b.wt-b.wxt*a.wt+b.wxz*a.wz+a.xzt*b.zt-a.yz*b.xyz,-b.wyt*a.wt+b.yzt*a.zt-a.xyt*b.xt+a.xz*b.xyz+a.wz*b.wyz+a.wyz*b.wz+b.q*a.y+b.y*a.q-b.wxzt*a.wxyzt-a.wxy*b.wx-b.xyt*a.xt+b.xz*a.xyz-b.wxy*a.wx-b.wxyzt*a.wxzt-a.wyt*b.wt+b.zt*a.yzt,-b.xzt*a.xt-a.xy*b.xyz-a.xzt*b.xt+b.q*a.z-a.yt*b.yzt-a.wx*b.wxz-a.wy*b.wyz-b.wzt*a.wt-b.xy*a.xyz+a.q*b.z+a.wxyt*b.wxyzt-b.yt*a.yzt-a.wzt*b.wt-a.wxz*b.wx-a.wyz*b.wy+b.wxyt*a.wxyzt,-b.xz*a.xzt-a.wxt*b.wx+b.wxyz*a.wxyzt+a.q*b.t-b.wyt*a.wy+a.wxyz*b.wxyzt-b.yz*a.yzt-a.yz*b.yzt-b.xyt*a.xy-b.wz*a.wzt-a.wx*b.wxt-b.wzt*a.wz-b.xy*a.xyt+b.q*a.t-b.wy*a.wyt-b.xzt*a.xz, -b.wxt*a.t+a.wxyzt*b.yzt+b.wxz*a.z+b.z*a.wxz+b.wxyt*a.yt+b.yt*a.wxyt+b.y*a.wxy+b.wxzt*a.zt+b.zt*a.wxzt+b.wxyzt*a.yzt-b.t*a.wxt-b.yz*a.wxyz+a.wx*b.q-b.wxyz*a.yz+a.q*b.wx+b.wxy*a.y,-a.wyt*b.t+a.wyzt*b.zt+b.q*a.wy+a.wyz*b.z-a.wxy*b.x-b.xzt*a.wxyzt+b.wyzt*a.zt-b.wxy*a.x-a.wxyt*b.xt+a.q*b.wy+b.wxyz*a.xz+a.z*b.wyz-b.wyt*a.t-b.wxyt*a.xt+a.wxyz*b.xz-a.xzt*b.wxyzt,-b.xy*a.wxyz-b.t*a.wzt+a.q*b.wz-b.wxyz*a.xy-b.wxz*a.x-b.xt*a.wxzt-a.y*b.wyz-a.wxz*b.x+b.xyt*a.wxyzt+a.xyt*b.wxyzt-a.wyzt*b.yt+b.q*a.wz-b.y*a.wyz-b.wxzt*a.xt-b.wyzt*a.yt-b.wzt*a.t,-b.y*a.wyt+a.wxyzt*b.xyz-a.xy*b.wxyt-a.y*b.wyt-a.z*b.wzt-b.xy*a.wxyt+b.q*a.wt-b.xz*a.wxzt-b.wyzt*a.yz+b.wxyzt*a.xyz-b.x*a.wxt+a.q*b.wt-a.xz*b.wxzt-b.z*a.wzt-b.yz*a.wyzt-b.wxt*a.x,b.wzt*a.wxyzt+b.q*a.xy+b.xyzt*a.zt+b.xy*a.q-a.wxyz*b.wz+b.wxyzt*a.wzt+a.wxyt*b.wt+a.xyzt*b.zt-b.xyt*a.t+b.z*a.xyz+b.wxyt*a.wt+a.wxy*b.w-a.xyt*b.t+a.z*b.xyz+b.wxy*a.w-b.wxyz*a.wz,b.wxyz*a.wy+a.wxzt*b.wt-a.wyt*b.wxyzt-b.y*a.xyz-b.wyt*a.wxyzt+a.wxyz*b.wy-a.y*b.xyz-b.yt*a.xyzt+b.wxz*a.w-b.xyzt*a.yt+b.q*a.xz-b.xzt*a.t+b.w*a.wxz+b.wxzt*a.wt+a.q*b.xz-a.xzt*b.t,a.wz*b.wxzt+b.wy*a.wxyt-a.wxyzt*b.wyz+b.wz*a.wxzt-b.yz*a.xyzt+b.q*a.xt-b.y*a.xyt+a.wy*b.wxyt-a.z*b.xzt+a.w*b.wxt+a.q*b.xt-a.yz*b.xyzt-b.z*a.xzt-a.y*b.xyt+b.w*a.wxt-a.wyz*b.wxyzt,b.wyzt*a.wt+a.w*b.wyz+a.wyz*b.w+a.x*b.xyz+b.xyzt*a.xt+a.xyzt*b.xt-b.t*a.yzt-a.t*b.yzt-a.wx*b.wxyz+b.yz*a.q-a.wxyz*b.wx+a.wyzt*b.wt+b.wxt*a.wxyzt+b.wxyzt*a.wxt+b.x*a.xyz+b.q*a.yz,-a.wxyt*b.wx+b.wxz*a.wxyzt-a.wx*b.wxyt+a.wxz*b.wxyzt-b.z*a.yzt+a.wyzt*b.wz+a.wyt*b.w+b.q*a.yt+b.xyzt*a.xz+a.xyt*b.x+b.xyt*a.x+b.wyzt*a.wz+a.q*b.yt+b.wyt*a.w-a.z*b.yzt+a.xyzt*b.xz,b.w*a.wzt-a.wxy*b.wxyzt-a.wyzt*b.wy+b.y*a.yzt+a.y*b.yzt+b.q*a.zt-b.wyzt*a.wy-a.wxzt*b.wx-a.xy*b.xyzt-b.wxy*a.wxyzt+b.xzt*a.x+a.q*b.zt-a.wx*b.wxzt-b.xy*a.xyzt+a.xzt*b.x+a.w*b.wzt, a.xy*b.w+a.xyzt*b.wzt+b.yzt*a.wxzt+a.y*b.wx-a.wyzt*b.xzt+b.xy*a.w-b.wy*a.x+b.zt*a.wxyzt+b.wxy*a.q-b.wyzt*a.xzt+b.wxyzt*a.zt-a.wy*b.x+b.q*a.wxy+b.y*a.wx+b.wxzt*a.yzt+b.xyzt*a.wzt,a.wyzt*b.xyt-a.wz*b.x-b.wyt*a.xyzt+b.xz*a.w-b.wz*a.x+a.wx*b.z+b.wyzt*a.xyt-b.xyzt*a.wyt+b.w*a.xz+b.q*a.wxz-a.wxyt*b.yzt-a.yt*b.wxyzt+a.z*b.wx-b.wxyt*a.yzt+a.q*b.wxz-b.yt*a.wxyzt,b.wyzt*a.xyz+b.q*a.wxt-b.yz*a.wxyzt-a.x*b.wt-a.wyz*b.xyzt-a.yz*b.wxyzt+a.q*b.wxt+a.w*b.xt-b.wxyz*a.yzt+b.w*a.xt+a.wyzt*b.xyz-a.wxyz*b.yzt+a.wx*b.t+a.t*b.wx-b.x*a.wt-a.xyzt*b.wyz,b.xyzt*a.wxt+b.z*a.wy+b.wxyt*a.xzt+a.wxyzt*b.xt+a.xyzt*b.wxt-a.xyt*b.wxzt-b.y*a.wz+b.yz*a.w+a.wyz*b.q-a.y*b.wz+b.wxyzt*a.xt-b.xyt*a.wxzt+a.yz*b.w+b.xzt*a.wxyt+a.q*b.wyz+b.wy*a.z,-a.y*b.wt+a.wxyz*b.xzt-b.y*a.wt+b.xyzt*a.wxz+b.wy*a.t+b.w*a.yt+b.q*a.wyt-a.wxzt*b.xyz+b.yt*a.w+b.wxz*a.xyzt+b.wxyz*a.xzt+a.q*b.wyt+b.xz*a.wxyzt-b.wxzt*a.xyz+a.wy*b.t+a.xz*b.wxyzt,b.t*a.wz+a.q*b.wzt+a.wxyt*b.xyz-b.wxyz*a.xyt-b.wxy*a.xyzt-b.z*a.wt-b.xyt*a.wxyz+b.wxyt*a.xyz+b.wz*a.t-a.xy*b.wxyzt+a.w*b.zt+b.q*a.wzt-a.z*b.wt-a.wxy*b.xyzt-b.xy*a.wxyzt+b.w*a.zt,b.yz*a.x-b.wxyt*a.wzt-a.wyzt*b.wxt+a.wyt*b.wxzt+a.xy*b.z-a.y*b.xz+b.q*a.xyz-a.wxyzt*b.wt+b.wyt*a.wxzt+a.yz*b.x-b.wyzt*a.wxt-b.wxyzt*a.wt+b.xy*a.z+a.q*b.xyz-a.wxyt*b.wzt-b.y*a.xz,b.xy*a.t-a.wxyz*b.wzt+b.q*a.xyt-b.y*a.xt-b.wyzt*a.wxz-a.y*b.xt-b.wxyzt*a.wz+a.wxzt*b.wyz+b.xyt*a.q-b.wz*a.wxyzt+a.xy*b.t+a.yt*b.x-a.wyzt*b.wxz+b.yt*a.x-b.wxyz*a.wzt+a.wyz*b.wxzt,a.q*b.xzt-a.wxyt*b.wyz+b.xz*a.t-b.z*a.xt-a.wyz*b.wxyt+b.wxyz*a.wyt+b.wxy*a.wyzt+b.zt*a.x+b.q*a.xzt+a.wxyz*b.wyt+b.wyzt*a.wxy+b.x*a.zt+b.wy*a.wxyzt-a.z*b.xt+a.xz*b.t+a.wy*b.wxyzt,-a.wxy*b.wxzt-a.wxyzt*b.wx-b.wxyz*a.wxt+b.q*a.yzt+a.yz*b.t-b.wxy*a.wxzt-a.wxyz*b.wxt+b.y*a.zt+b.wxz*a.wxyt-b.z*a.yt+b.wxyt*a.wxz+a.q*b.yzt-a.wx*b.wxyzt-b.yt*a.z+a.y*b.zt+b.yz*a.t, -b.wy*a.xz-b.wxyzt*a.t+b.xy*a.wz-a.wy*b.xz+a.wyt*b.xzt-b.xyt*a.wzt-a.wxt*b.yzt-b.wxt*a.yzt-b.t*a.wxyzt+a.wx*b.yz-a.xyt*b.wzt+b.wxyz*a.q+b.wyt*a.xzt+b.q*a.wxyz+a.yz*b.wx+a.xy*b.wz,-b.z*a.wxyzt-a.z*b.wxyzt+a.wx*b.yt-a.wy*b.xt+a.yt*b.wx-b.wxz*a.yzt+a.xy*b.wt+a.xzt*b.wyz-b.wzt*a.xyz+b.xy*a.wt+b.q*a.wxyt+a.wyz*b.xzt-a.wxz*b.yzt-a.wzt*b.xyz+a.q*b.wxyt-b.wy*a.xt,b.wxy*a.yzt+a.xz*b.wt-a.xyt*b.wyz+b.wyt*a.xyz+b.q*a.wxzt-b.wz*a.xt+b.y*a.wxyzt+a.q*b.wxzt+a.zt*b.wx+a.wx*b.zt+a.wyt*b.xyz+a.wxy*b.yzt+b.xz*a.wt+a.y*b.wxyzt-a.wyz*b.xyt-a.wz*b.xt,-a.wxt*b.xyz-b.yt*a.wz+b.yz*a.wt-a.wxy*b.xzt+a.xyt*b.wxz-b.x*a.wxyzt+b.wyzt*a.q+b.wy*a.zt-b.wxt*a.xyz+a.yz*b.wt-b.wxyzt*a.x+a.wy*b.zt-a.yt*b.wz+b.q*a.wyzt+b.xyt*a.wxz-b.wxy*a.xzt,a.wxt*b.wyz-b.xz*a.yt-b.wyt*a.wxz-b.wxz*a.wyt-b.yt*a.xz+b.yz*a.xt+b.q*a.xyzt+a.wxy*b.wzt+a.yz*b.xt+b.wxy*a.wzt+a.w*b.wxyzt+a.xy*b.zt+a.q*b.xyzt+a.wyz*b.wxt+b.w*a.wxyzt+b.xy*a.zt, -a.wyzt*b.x-b.wy*a.xzt+b.q*a.wxyzt+a.wyz*b.xt+b.xy*a.wzt+b.yz*a.wxt+a.wxy*b.zt-b.wt*a.xyz+a.q*b.wxyzt+a.yz*b.wxt-b.wyzt*a.x+b.xyt*a.wz+a.wx*b.yzt+a.wxyz*b.t+b.y*a.wxzt+b.wxy*a.zt-b.yt*a.wxz-b.z*a.wxyt+a.yzt*b.wx-b.wxz*a.yt-b.wxyt*a.z+b.xyzt*a.w-a.wyt*b.xz+b.w*a.xyzt-b.xyz*a.wt-a.wy*b.xzt+a.xt*b.wyz+a.xy*b.wzt+a.y*b.wxzt+b.wxyz*a.t-b.wyt*a.xz+a.xyt*b.wz)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = AntiSymmetric(MV1,MV2) = (0, b.xyt*a.wxyt-b.wyzt*a.yzt-a.xyt*b.wxyt+b.wxyz*a.xyz-a.x*b.wx-a.z*b.wz+b.xzt*a.wxzt+b.y*a.wy+a.t*b.wt+a.wx*b.x-b.t*a.wt-a.xzt*b.wxzt-a.y*b.wy+b.z*a.wz-a.wxyz*b.xyz+a.wyzt*b.yzt,a.wzt*b.wxzt+a.w*b.wx-a.wx*b.w-b.wzt*a.wxzt+b.y*a.xy-b.xyzt*a.yzt-b.t*a.xt+a.xyzt*b.yzt-a.z*b.xz+a.wyt*b.wxyt+a.t*b.xt+b.z*a.xz-a.wyz*b.wxyz-b.wyt*a.wxyt+a.wxyz*b.wyz-a.y*b.xy,b.yt*a.t-a.xyzt*b.xzt+b.wy*a.w-a.wyzt*b.wzt+b.wxyz*a.wxz-a.wy*b.w-b.yz*a.z-a.xy*b.x-a.wxyz*b.wxz-a.yt*b.t+b.xyzt*a.xzt+b.wyzt*a.wzt+a.wxyt*b.wxt+a.yz*b.z+b.xy*a.x-b.wxyt*a.wxt,-b.w*a.wz-b.wyzt*a.wyt-a.xyt*b.xyzt+b.zt*a.t+b.xz*a.x+b.yz*a.y+b.wxy*a.wxyz-b.y*a.yz-b.wxzt*a.wxt-a.xz*b.x+a.w*b.wz+a.wyzt*b.wyt+b.xyt*a.xyzt-b.t*a.zt+b.wxt*a.wxzt-b.wxyz*a.wxy,a.z*b.zt+b.wxz*a.wxzt-b.z*a.zt+b.xt*a.x-b.xyzt*a.xyz+a.y*b.yt+a.w*b.wt-a.wxz*b.wxzt+a.wyzt*b.wyz-a.wxy*b.wxyt-b.w*a.wt+b.wxy*a.wxyt-b.y*a.yt+a.xyzt*b.xyz-b.x*a.xt-b.wyzt*a.wyz, b.xt*a.wt+b.wyzt*a.xyzt-b.wyt*a.xyt-a.wyz*b.xyz-b.xz*a.wz-b.wt*a.xt+b.xzt*a.wzt+b.wy*a.xy+a.w*b.x-b.wzt*a.xzt+b.wz*a.xz-b.xy*a.wy+b.xyt*a.wyt-a.wyzt*b.xyzt+b.wyz*a.xyz-b.w*a.x,a.yz*b.wz-a.xy*b.wx+b.xyzt*a.wxzt-b.wzt*a.yzt-a.yt*b.wt-a.xyzt*b.wxzt-b.wxz*a.xyz-a.y*b.w-b.xyt*a.wxt+b.yt*a.wt+a.wx*b.xy+a.xyt*b.wxt+a.wxz*b.xyz+b.y*a.w+a.wzt*b.yzt-b.yz*a.wz,b.wyt*a.yzt+a.wx*b.xz+b.yz*a.wy-a.zt*b.wt+b.wxy*a.xyz-a.xz*b.wx-b.xzt*a.wxt-a.yz*b.wy-b.w*a.z+b.z*a.w+b.wxyt*a.xyzt-a.wxy*b.xyz-b.xyzt*a.wxyt-a.wyt*b.yzt+b.zt*a.wt+a.xzt*b.wxt,-a.wxz*b.xzt-a.wyz*b.yzt+a.wz*b.zt-b.w*a.t-a.wxy*b.xyt-b.wy*a.yt+b.wxy*a.xyt-b.wz*a.zt+b.wxyz*a.xyzt+a.wy*b.yt+a.wx*b.xt+a.w*b.t+a.yzt*b.wyz-a.wxyz*b.xyzt+b.wxz*a.xzt-a.xt*b.wx,-a.wyt*b.wxt+a.wyzt*b.wxzt-b.xzt*a.yzt+a.xzt*b.yzt+a.wyz*b.wxz-a.yt*b.xt-b.wyzt*a.wxzt+a.wy*b.wx+b.wyt*a.wxt+b.y*a.x-a.wx*b.wy-b.yz*a.xz+b.yt*a.xt-a.y*b.x+a.yz*b.xz-a.wxz*b.wyz,-b.wxt*a.wzt+b.wzt*a.wxt-b.xy*a.yz-a.z*b.x+b.z*a.x+b.yz*a.xy-b.xt*a.zt-a.xyt*b.yzt+a.wz*b.wx-a.wyzt*b.wxyt+a.wxy*b.wyz+b.xyt*a.yzt-a.wx*b.wz+b.zt*a.xt+b.wyzt*a.wxyt-b.wxy*a.wyz,-b.yzt*a.xyz-b.wxy*a.wyt+a.wxz*b.wzt+a.xy*b.yt-a.wx*b.wt-b.x*a.t-b.xy*a.yt+b.wyzt*a.wxyz-b.xz*a.zt+b.xyz*a.yzt-b.wxz*a.wzt+a.wxy*b.wyt+a.xz*b.zt-b.wxyz*a.wyzt+b.t*a.x+b.wx*a.wt,a.y*b.z-a.xy*b.xz-b.y*a.z+b.wxy*a.wxz-b.xyt*a.xzt+b.xy*a.xz+b.wy*a.wz+a.wyt*b.wzt-b.wyt*a.wzt-a.wxyt*b.wxzt+a.yt*b.zt-a.wy*b.wz-b.yt*a.zt+b.wxyt*a.wxzt+a.xyt*b.xzt-a.wxy*b.wxz,b.wxyz*a.wxzt-a.wy*b.wt-b.yz*a.zt-a.wxy*b.wxt+b.xzt*a.xyz+b.wxy*a.wxt-a.wxyz*b.wxzt+a.yz*b.zt-a.xy*b.xt-a.xzt*b.xyz-a.wzt*b.wyz+a.wyz*b.wzt+b.xy*a.xt-b.y*a.t+b.wy*a.wt+a.y*b.t,-a.wyz*b.wyt+b.wz*a.wt+b.wxz*a.wxt+a.z*b.t+a.xyt*b.xyz-a.xz*b.xt-a.wxz*b.wxt+a.wyt*b.wyz-b.wxyz*a.wxyt+b.yz*a.yt-a.yz*b.yt-a.wz*b.wt-b.xyt*a.xyz+b.xz*a.xt-b.z*a.t+a.wxyz*b.wxyt, b.wxyt*a.t-b.wz*a.xyz+b.wyt*a.xt-a.xz*b.wyz-b.yz*a.wxz+a.xyt*b.wt-b.wxyz*a.z+a.wyz*b.xz+a.wxyz*b.z-a.yt*b.wxt+a.wz*b.xyz-a.wxyt*b.t+a.yz*b.wxz-a.wyt*b.xt+b.yt*a.wxt-b.xyt*a.wt,a.xy*b.wyz+a.xzt*b.wt-b.xzt*a.wt+b.wxzt*a.t+b.wzt*a.xt-a.wy*b.xyz+b.wxyz*a.y+b.zt*a.wxt-b.y*a.wxyz-b.wxy*a.yz+b.wy*a.xyz-a.wyz*b.xy-a.wzt*b.xt+b.yz*a.wxy-b.wxt*a.zt-b.t*a.wxzt,a.z*b.wxzt-b.z*a.wxzt-b.wxz*a.zt+b.wyt*a.xy-b.xz*a.wzt+a.y*b.wxyt+a.wxz*b.zt+a.wxy*b.yt-b.xzt*a.wz+b.wy*a.xyt+b.wzt*a.xz-b.xyt*a.wy-b.xy*a.wyt+b.wz*a.xzt-b.y*a.wxyt-b.wxy*a.yt,-b.yzt*a.wt-b.wxyz*a.x-a.wyzt*b.t-b.yt*a.wzt+a.wx*b.xyz+a.wyt*b.zt-a.xy*b.wxz+a.wxyz*b.x+b.wt*a.yzt-b.wyt*a.zt+b.wyzt*a.t+b.xy*a.wxz-a.wxy*b.xz+b.wxy*a.xz+a.yt*b.wzt-b.wx*a.xyz,-a.xyt*b.wx+b.wxy*a.xt+b.wyzt*a.z+b.wz*a.yzt+a.yz*b.wzt-a.zt*b.wyz+a.wxyt*b.x+a.wx*b.xyt-a.xy*b.wxt-a.wyzt*b.z-a.wxy*b.xt-b.wxyt*a.x+b.xy*a.wxt-a.wz*b.yzt-b.yz*a.wzt+a.wyz*b.zt,a.wy*b.yzt+a.yt*b.wyz+b.wxz*a.xt-a.xzt*b.wx-a.wyz*b.yt+b.yz*a.wyt-a.wxz*b.xt+b.y*a.wyzt-a.yz*b.wyt-b.wxzt*a.x+b.x*a.wxzt+b.xz*a.wxt-b.wyzt*a.y-a.xz*b.wxt-b.wy*a.yzt+a.wx*b.xzt,-a.wx*b.wyz+b.wxz*a.wy-b.yzt*a.xt+b.xt*a.yzt+a.wxy*b.wz-a.xyzt*b.t-b.yt*a.xzt+a.wyz*b.wx-b.wxy*a.wz+a.xyt*b.zt-b.xyt*a.zt+b.wxyz*a.w+b.xzt*a.yt-b.wy*a.wxz+b.xyzt*a.t-a.wxyz*b.w,a.yz*b.xzt-b.wxy*a.wt-a.xz*b.yzt-b.w*a.wxyt-a.zt*b.xyz-b.z*a.xyzt-a.wx*b.wyt+b.xyzt*a.z+b.wxyt*a.w-b.yz*a.xzt+a.wyt*b.wx-b.wy*a.wxt+b.zt*a.xyz+b.xz*a.yzt+a.wxy*b.wt+a.wy*b.wxt,-a.y*b.xyzt+b.wxt*a.wz+a.yt*b.xyz+b.y*a.xyzt+b.yz*a.xyt-b.xyt*a.yz-b.wxz*a.wt+a.xy*b.yzt-b.wz*a.wxt-b.yt*a.xyz+a.wzt*b.wx-b.xy*a.yzt+a.w*b.wxzt+a.wxz*b.wt-a.wx*b.wzt-b.w*a.wxzt,b.xyzt*a.x-a.xyt*b.xz+b.xt*a.xyz+a.wyz*b.wt+b.xyt*a.xz+b.xy*a.xzt-a.wyt*b.wz+b.wy*a.wzt-a.xyzt*b.x-b.xyz*a.xt+b.wyt*a.wz-a.wy*b.wzt-a.wyzt*b.w-b.wyz*a.wt-a.xy*b.xzt+b.wyzt*a.w, a.w*b.xyz-b.wxy*a.z+a.y*b.wxz-b.y*a.wxz-b.wyzt*a.xt+b.xyzt*a.wt-a.x*b.wyz+a.wxyt*b.zt-b.w*a.xyz+a.yt*b.wxzt-a.xyzt*b.wt-b.wxyt*a.zt-b.yt*a.wxzt+a.wyz*b.x+a.wyzt*b.xt+a.wxy*b.z,-a.xyzt*b.wz+b.xyt*a.w-b.yz*a.wxzt-b.wxyz*a.zt+a.wxy*b.t+a.wyt*b.x-a.xyt*b.w-b.y*a.wxt+a.wxyz*b.zt+a.yz*b.wxzt-b.wyt*a.x+a.wyzt*b.xz-b.wxy*a.t-b.wyzt*a.xz+b.xyzt*a.wz+a.y*b.wxt,-b.z*a.wxt-b.xyzt*a.wy+a.wzt*b.x-b.wzt*a.x-a.wyzt*b.xy+a.z*b.wxt+a.wxz*b.t-b.w*a.xzt+b.wyzt*a.xy+b.yz*a.wxyt+b.wxyz*a.yt-a.yz*b.wxyt+b.xzt*a.w+b.wy*a.xyzt-b.wxz*a.t-a.wxyz*b.yt,b.wyt*a.z-b.xz*a.wxyt-b.z*a.wyt+a.wx*b.xyzt+b.wxyt*a.xz+a.w*b.yzt-b.wxyz*a.xt-b.w*a.yzt-a.y*b.wzt-a.xy*b.wxzt+b.y*a.wzt+a.wxyz*b.xt+a.wyz*b.t+b.xy*a.wxzt-a.t*b.wyz-a.xyzt*b.wx,-b.wxyt*a.wz+b.wxyz*a.wt-a.xyt*b.z+b.yzt*a.x-b.wy*a.wxzt+a.wyzt*b.wx-a.wxyz*b.wt+b.t*a.xyz-a.y*b.xzt-b.x*a.yzt+a.wy*b.wxzt+b.xyt*a.z-b.wyzt*a.wx-a.t*b.xyz+a.wxyt*b.wz+b.y*a.xzt, 0)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = Inner(MV1,MV2) = (-b.xz*a.xz+b.wyt*a.wyt-a.wx*b.wx+b.xt*a.xt+b.yzt*a.yzt-b.t*a.t+b.wt*a.wt-b.xyzt*a.xyzt+b.z*a.z+b.w*a.w+b.yt*a.yt-a.wyz*b.wyz-b.wxyt*a.wxyt-b.wxz*a.wxz+b.zt*a.zt-b.wy*a.wy-b.wxzt*a.wxzt+b.xyt*a.xyt-b.wxy*a.wxy-b.wz*a.wz-b.wyzt*a.wyzt+b.x*a.x-b.xyz*a.xyz+b.wxyz*a.wxyz-b.yz*a.yz+b.wzt*a.wzt+b.wxt*a.wxt-b.wxyzt*a.wxyzt-b.xy*a.xy+b.xzt*a.xzt+b.y*a.y, -a.wxy*b.xy+a.wzt*b.zt+b.xyt*a.wxyt-b.wyzt*a.yzt-b.xyzt*a.wxyzt-a.xyt*b.wxyt+b.wzt*a.zt-a.xyzt*b.wxyzt-b.wxy*a.xy+b.wxyz*a.xyz+a.wxt*b.xt-a.x*b.wx-a.z*b.wz+b.xzt*a.wxzt+b.y*a.wy+a.t*b.wt+b.wxt*a.xt+a.wx*b.x+a.wyt*b.yt-b.wxz*a.xz-a.wyz*b.yz-b.t*a.wt-a.xzt*b.wxzt-a.y*b.wy+b.wyt*a.yt+b.z*a.wz-a.wxyz*b.xyz+a.wyzt*b.yzt-a.yz*b.wyz-a.wxz*b.xz,b.xyt*a.yt+a.wzt*b.wxzt+a.wxz*b.wz+a.xyt*b.yt+a.wxy*b.wy+a.w*b.wx-a.wx*b.w-b.wzt*a.wxzt+a.wyzt*b.wxyzt+b.y*a.xy-b.yz*a.xyz+b.xzt*a.zt+b.wxy*a.wy+b.wyzt*a.wxyzt-a.wxt*b.wt-b.xyzt*a.yzt-b.t*a.xt+a.xyzt*b.yzt-a.z*b.xz+a.wyt*b.wxyt+a.t*b.xt-b.wxt*a.wt+b.z*a.xz-a.wyz*b.wxyz+b.wxz*a.wz-b.wyt*a.wxyt+a.xzt*b.zt+a.wxyz*b.wyz-a.yz*b.xyz-a.y*b.xy,b.yt*a.t-a.xyzt*b.xzt-b.wyt*a.wt+b.wy*a.w-a.wyzt*b.wzt+b.wxyz*a.wxz+b.yzt*a.zt-a.xyt*b.xt+a.xz*b.xyz-a.wy*b.w-b.yz*a.z-a.xy*b.x-a.wxyz*b.wxz+a.wz*b.wyz+a.wyz*b.wz-a.yt*b.t+b.xyzt*a.xzt+b.wyzt*a.wzt+a.wxyt*b.wxt-b.wxzt*a.wxyzt+a.yz*b.z-a.wxy*b.wx-b.xyt*a.xt+b.xz*a.xyz-b.wxy*a.wx-b.wxyzt*a.wxzt+b.xy*a.x-a.wyt*b.wt+b.zt*a.yzt-b.wxyt*a.wxt,-b.xzt*a.xt-b.w*a.wz-a.xy*b.xyz-a.xzt*b.xt-b.wyzt*a.wyt-a.xyt*b.xyzt-a.yt*b.yzt-a.wx*b.wxz-a.wy*b.wyz+b.zt*a.t-b.wzt*a.wt-b.xy*a.xyz+b.xz*a.x+b.yz*a.y+b.wxy*a.wxyz-b.y*a.yz+a.wxyt*b.wxyzt-b.yt*a.yzt-b.wxzt*a.wxt-a.xz*b.x-a.wzt*b.wt+a.w*b.wz+a.wyzt*b.wyt+b.xyt*a.xyzt-a.wxz*b.wx-b.t*a.zt+b.wxt*a.wxzt-a.wyz*b.wy+b.wxyt*a.wxyzt-b.wxyz*a.wxy,-b.xz*a.xzt+a.z*b.zt-a.wxt*b.wx+b.wxz*a.wxzt-b.z*a.zt+b.wxyz*a.wxyzt+b.xt*a.x-b.xyzt*a.xyz-b.wyt*a.wy+a.y*b.yt+a.wxyz*b.wxyzt+a.w*b.wt-b.yz*a.yzt-a.wxz*b.wxzt+a.wyzt*b.wyz-a.wxy*b.wxyt-a.yz*b.yzt-b.xyt*a.xy-b.w*a.wt-b.wz*a.wzt-a.wx*b.wxt+b.wxy*a.wxyt-b.y*a.yt-b.wzt*a.wz+a.xyzt*b.xyz-b.x*a.xt-b.wyzt*a.wyz-b.xy*a.xyt-b.wy*a.wyt-b.xzt*a.xz, -b.wxt*a.t+a.wxyzt*b.yzt+b.wxz*a.z+b.z*a.wxz+b.wxyt*a.yt+b.yt*a.wxyt+b.y*a.wxy+b.wxzt*a.zt+b.zt*a.wxzt+b.wxyzt*a.yzt-b.t*a.wxt-b.yz*a.wxyz-b.wxyz*a.yz+b.wxy*a.y,-a.wyt*b.t+a.wyzt*b.zt+a.wyz*b.z-a.wxy*b.x-b.xzt*a.wxyzt+b.wyzt*a.zt-b.wxy*a.x-a.wxyt*b.xt+b.wxyz*a.xz+a.z*b.wyz-b.wyt*a.t-b.wxyt*a.xt+a.wxyz*b.xz-a.xzt*b.wxyzt,-b.xy*a.wxyz-b.t*a.wzt-b.wxyz*a.xy-b.wxz*a.x-b.xt*a.wxzt-a.y*b.wyz-a.wxz*b.x+b.xyt*a.wxyzt+a.xyt*b.wxyzt-a.wyzt*b.yt-b.y*a.wyz-b.wxzt*a.xt-b.wyzt*a.yt-b.wzt*a.t,-b.y*a.wyt+a.wxyzt*b.xyz-a.xy*b.wxyt-a.y*b.wyt-a.z*b.wzt-b.xy*a.wxyt-b.xz*a.wxzt-b.wyzt*a.yz+b.wxyzt*a.xyz-b.x*a.wxt-a.xz*b.wxzt-b.z*a.wzt-b.yz*a.wyzt-b.wxt*a.x,b.wzt*a.wxyzt+b.xyzt*a.zt-a.wxyz*b.wz+b.wxyzt*a.wzt+a.wxyt*b.wt+a.xyzt*b.zt-b.xyt*a.t+b.z*a.xyz+b.wxyt*a.wt+a.wxy*b.w-a.xyt*b.t+a.z*b.xyz+b.wxy*a.w-b.wxyz*a.wz,b.wxyz*a.wy+a.wxzt*b.wt-a.wyt*b.wxyzt-b.y*a.xyz-b.wyt*a.wxyzt+a.wxyz*b.wy-a.y*b.xyz-b.yt*a.xyzt+b.wxz*a.w-b.xyzt*a.yt-b.xzt*a.t+b.w*a.wxz+b.wxzt*a.wt-a.xzt*b.t,a.wz*b.wxzt+b.wy*a.wxyt-a.wxyzt*b.wyz+b.wz*a.wxzt-b.yz*a.xyzt-b.y*a.xyt+a.wy*b.wxyt-a.z*b.xzt+a.w*b.wxt-a.yz*b.xyzt-b.z*a.xzt-a.y*b.xyt+b.w*a.wxt-a.wyz*b.wxyzt,b.wyzt*a.wt+a.w*b.wyz+a.wyz*b.w+a.x*b.xyz+b.xyzt*a.xt+a.xyzt*b.xt-b.t*a.yzt-a.t*b.yzt-a.wx*b.wxyz-a.wxyz*b.wx+a.wyzt*b.wt+b.wxt*a.wxyzt+b.wxyzt*a.wxt+b.x*a.xyz,-a.wxyt*b.wx+b.wxz*a.wxyzt-a.wx*b.wxyt+a.wxz*b.wxyzt-b.z*a.yzt+a.wyzt*b.wz+a.wyt*b.w+b.xyzt*a.xz+a.xyt*b.x+b.xyt*a.x+b.wyzt*a.wz+b.wyt*a.w-a.z*b.yzt+a.xyzt*b.xz,b.w*a.wzt-a.wxy*b.wxyzt-a.wyzt*b.wy+b.y*a.yzt+a.y*b.yzt-b.wyzt*a.wy-a.wxzt*b.wx-a.xy*b.xyzt-b.wxy*a.wxyzt+b.xzt*a.x-a.wx*b.wxzt-b.xy*a.xyzt+a.xzt*b.x+a.w*b.wzt, b.wxyt*a.t-b.wxyz*a.z+a.wxyz*b.z-a.wxyt*b.t+b.zt*a.wxyzt+b.wxyzt*a.zt,b.wxzt*a.t-a.yt*b.wxyzt+b.wxyz*a.y-b.y*a.wxyz-b.yt*a.wxyzt-b.t*a.wxzt,a.z*b.wxzt-b.yz*a.wxyzt-b.z*a.wxzt-a.yz*b.wxyzt+a.y*b.wxyt-b.y*a.wxyt,-b.wxyz*a.x-a.wyzt*b.t+a.wxyzt*b.xt+a.wxyz*b.x+b.wyzt*a.t+b.wxyzt*a.xt,b.wyzt*a.z+a.wxyt*b.x+b.xz*a.wxyzt-a.wyzt*b.z-b.wxyt*a.x+a.xz*b.wxyzt,b.y*a.wyzt-b.wxzt*a.x+b.x*a.wxzt-a.xy*b.wxyzt-b.wyzt*a.y-b.xy*a.wxyzt,-a.xyzt*b.t-a.wxyzt*b.wt-b.wxyzt*a.wt+b.wxyz*a.w+b.xyzt*a.t-a.wxyz*b.w,-b.wxyzt*a.wz-b.w*a.wxyt-b.z*a.xyzt+b.xyzt*a.z+b.wxyt*a.w-b.wz*a.wxyzt,-a.y*b.xyzt+b.y*a.xyzt+a.w*b.wxzt+b.wy*a.wxyzt+a.wy*b.wxyzt-b.w*a.wxzt,b.xyzt*a.x-a.wxyzt*b.wx-a.xyzt*b.x-a.wyzt*b.w-a.wx*b.wxyzt+b.wyzt*a.w, -b.wxyzt*a.t-b.t*a.wxyzt,-b.z*a.wxyzt-a.z*b.wxyzt,b.y*a.wxyzt+a.y*b.wxyzt,-b.x*a.wxyzt-b.wxyzt*a.x,a.w*b.wxyzt+b.w*a.wxyzt, 0)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = LeftContraction(MV1,MV2) = (-b.xz*a.xz+b.wyt*a.wyt-a.wx*b.wx+b.xt*a.xt+b.yzt*a.yzt-b.t*a.t+b.wt*a.wt-b.xyzt*a.xyzt+b.z*a.z+b.w*a.w+b.yt*a.yt-a.wyz*b.wyz-b.wxyt*a.wxyt-b.wxz*a.wxz+b.zt*a.zt-b.wy*a.wy-b.wxzt*a.wxzt+b.xyt*a.xyt-b.wxy*a.wxy-b.wz*a.wz-b.wyzt*a.wyzt+b.x*a.x-b.xyz*a.xyz+b.wxyz*a.wxyz-b.yz*a.yz+b.wzt*a.wzt+b.wxt*a.wxt-b.wxyzt*a.wxyzt-b.xy*a.xy+b.xzt*a.xzt+b.y*a.y+b.q*a.q, -b.wyzt*a.yzt-a.xyt*b.wxyt+b.wzt*a.zt-a.xyzt*b.wxyzt-b.wxy*a.xy+b.wxyz*a.xyz-a.x*b.wx-a.z*b.wz+a.t*b.wt+b.wxt*a.xt-b.wxz*a.xz-a.xzt*b.wxzt-a.y*b.wy+a.q*b.w+b.wyt*a.yt-a.yz*b.wyz,b.xyt*a.yt+a.wzt*b.wxzt+a.w*b.wx+a.wyzt*b.wxyzt+b.xzt*a.zt+a.q*b.x+b.wxy*a.wy-b.xyzt*a.yzt-a.z*b.xz+a.wyt*b.wxyt+a.t*b.xt-b.wxt*a.wt-a.wyz*b.wxyz+b.wxz*a.wz-a.yz*b.xyz-a.y*b.xy,b.yt*a.t-b.wyt*a.wt+b.wy*a.w+b.wxyz*a.wxz+b.yzt*a.zt+a.xz*b.xyz-b.yz*a.z+a.wz*b.wyz+b.xyzt*a.xzt+b.y*a.q+b.wyzt*a.wzt-b.xyt*a.xt-b.wxy*a.wx-b.wxyzt*a.wxzt+b.xy*a.x-b.wxyt*a.wxt,-b.xzt*a.xt-a.xy*b.xyz-b.wyzt*a.wyt-a.xyt*b.xyzt-a.yt*b.yzt-a.wx*b.wxz-a.wy*b.wyz+b.zt*a.t-b.wzt*a.wt+b.xz*a.x+b.yz*a.y+a.q*b.z+a.wxyt*b.wxyzt-b.wxzt*a.wxt+a.w*b.wz-b.wxyz*a.wxy,a.z*b.zt+a.q*b.t+b.xt*a.x-b.xyzt*a.xyz-b.wyt*a.wy+a.y*b.yt+a.wxyz*b.wxyzt+a.w*b.wt-a.wxz*b.wxzt-a.wxy*b.wxyt-a.yz*b.yzt-b.xyt*a.xy-a.wx*b.wxt-b.wzt*a.wz-b.wyzt*a.wyz-b.xzt*a.xz, -b.wxt*a.t+b.wxz*a.z+b.wxyt*a.yt+b.wxzt*a.zt+b.wxyzt*a.yzt-b.wxyz*a.yz+a.q*b.wx+b.wxy*a.y,b.wyzt*a.zt-b.wxy*a.x+a.q*b.wy+b.wxyz*a.xz+a.z*b.wyz-b.wyt*a.t-b.wxyt*a.xt-a.xzt*b.wxyzt,a.q*b.wz-b.wxyz*a.xy-b.wxz*a.x-a.y*b.wyz+a.xyt*b.wxyzt-b.wxzt*a.xt-b.wyzt*a.yt-b.wzt*a.t,-a.xy*b.wxyt-a.y*b.wyt-a.z*b.wzt-b.wyzt*a.yz+b.wxyzt*a.xyz+a.q*b.wt-a.xz*b.wxzt-b.wxt*a.x,b.xyzt*a.zt+b.xy*a.q+b.wxyzt*a.wzt-b.xyt*a.t+b.wxyt*a.wt+a.z*b.xyz+b.wxy*a.w-b.wxyz*a.wz,b.wxyz*a.wy-a.wyt*b.wxyzt-a.y*b.xyz+b.wxz*a.w-b.xyzt*a.yt-b.xzt*a.t+b.wxzt*a.wt+a.q*b.xz,a.wz*b.wxzt+a.wy*b.wxyt-a.z*b.xzt+a.w*b.wxt+a.q*b.xt-a.yz*b.xyzt-a.y*b.xyt-a.wyz*b.wxyzt,b.wyzt*a.wt+a.w*b.wyz+a.x*b.xyz+b.xyzt*a.xt-a.t*b.yzt-a.wx*b.wxyz+b.yz*a.q+b.wxyzt*a.wxt,-a.wx*b.wxyt+a.wxz*b.wxyzt+b.xyzt*a.xz+b.xyt*a.x+b.wyzt*a.wz+a.q*b.yt+b.wyt*a.w-a.z*b.yzt,-a.wxy*b.wxyzt+a.y*b.yzt-b.wyzt*a.wy-a.xy*b.xyzt+b.xzt*a.x+a.q*b.zt-a.wx*b.wxzt+a.w*b.wzt, b.wxyt*a.t-b.wxyz*a.z+b.wxy*a.q+b.wxyzt*a.zt,b.wxzt*a.t-a.yt*b.wxyzt+b.wxyz*a.y+a.q*b.wxz,a.z*b.wxzt-a.yz*b.wxyzt+a.q*b.wxt+a.y*b.wxyt,-b.wxyz*a.x+b.wyzt*a.t+b.wxyzt*a.xt+a.q*b.wyz,b.wyzt*a.z+a.q*b.wyt-b.wxyt*a.x+a.xz*b.wxyzt,a.q*b.wzt-b.wxzt*a.x-a.xy*b.wxyzt-b.wyzt*a.y,-b.wxyzt*a.wt+b.wxyz*a.w+a.q*b.xyz+b.xyzt*a.t,-b.wxyzt*a.wz+b.xyt*a.q+b.xyzt*a.z+b.wxyt*a.w,-a.y*b.xyzt+a.q*b.xzt+a.w*b.wxzt+a.wy*b.wxyzt,b.xyzt*a.x+a.q*b.yzt-a.wx*b.wxyzt+b.wyzt*a.w, -b.wxyzt*a.t+b.wxyz*a.q,-a.z*b.wxyzt+a.q*b.wxyt,a.q*b.wxzt+a.y*b.wxyzt,b.wyzt*a.q-b.wxyzt*a.x,a.w*b.wxyzt+a.q*b.xyzt, a.q*b.wxyzt)
+
+MV1 = (a.q, 
+a.w,a.x,a.y,a.z,a.t, 
+a.wx,a.wy,a.wz,a.wt,a.xy,a.xz,a.xt,a.yz,a.yt,a.zt, 
+a.wxy,a.wxz,a.wxt,a.wyz,a.wyt,a.wzt,a.xyz,a.xyt,a.xzt,a.yzt, 
+a.wxyz,a.wxyt,a.wxzt,a.wyzt,a.xyzt, a.wxyzt)
+
+MV2 = (b.q, 
+b.w,b.x,b.y,b.z,b.t, 
+b.wx,b.wy,b.wz,b.wt,b.xy,b.xz,b.xt,b.yz,b.yt,b.zt, 
+b.wxy,b.wxz,b.wxt,b.wyz,b.wyt,b.wzt,b.xyz,b.xyt,b.xzt,b.yzt, 
+b.wxyz,b.wxyt,b.wxzt,b.wyzt,b.xyzt, b.wxyzt)
+
+MV3 = RightContraction(MV1,MV2) = (-b.xz*a.xz+b.wyt*a.wyt-a.wx*b.wx+b.xt*a.xt+b.yzt*a.yzt-b.t*a.t+b.wt*a.wt-b.xyzt*a.xyzt+b.z*a.z+b.w*a.w+b.yt*a.yt-a.wyz*b.wyz-b.wxyt*a.wxyt-b.wxz*a.wxz+b.zt*a.zt-b.wy*a.wy-b.wxzt*a.wxzt+b.xyt*a.xyt-b.wxy*a.wxy-b.wz*a.wz-b.wyzt*a.wyzt+b.x*a.x-b.xyz*a.xyz+b.wxyz*a.wxyz-b.yz*a.yz+b.wzt*a.wzt+b.wxt*a.wxt-b.wxyzt*a.wxyzt-b.xy*a.xy+b.xzt*a.xzt+b.y*a.y+b.q*a.q, -a.wxy*b.xy+a.wzt*b.zt+b.xyt*a.wxyt-b.xyzt*a.wxyzt+a.wxt*b.xt+b.xzt*a.wxzt+b.y*a.wy+a.wx*b.x+a.wyt*b.yt+b.q*a.w-a.wyz*b.yz-b.t*a.wt+b.z*a.wz-a.wxyz*b.xyz+a.wyzt*b.yzt-a.wxz*b.xz,a.wxz*b.wz+a.xyt*b.yt+a.wxy*b.wy-a.wx*b.w-b.wzt*a.wxzt+b.q*a.x+b.y*a.xy-b.yz*a.xyz+b.wyzt*a.wxyzt-a.wxt*b.wt-b.t*a.xt+a.xyzt*b.yzt+b.z*a.xz-b.wyt*a.wxyt+a.xzt*b.zt+a.wxyz*b.wyz,-a.xyzt*b.xzt-a.wyzt*b.wzt-a.xyt*b.xt-a.wy*b.w-a.xy*b.x-a.wxyz*b.wxz+a.wyz*b.wz-a.yt*b.t+b.q*a.y+a.wxyt*b.wxt-b.wxzt*a.wxyzt+a.yz*b.z-a.wxy*b.wx+b.xz*a.xyz-a.wyt*b.wt+b.zt*a.yzt,-b.w*a.wz-a.xzt*b.xt+b.q*a.z-b.xy*a.xyz+b.wxy*a.wxyz-b.y*a.yz-b.yt*a.yzt-a.xz*b.x-a.wzt*b.wt+a.wyzt*b.wyt+b.xyt*a.xyzt-a.wxz*b.wx-b.t*a.zt+b.wxt*a.wxzt-a.wyz*b.wy+b.wxyt*a.wxyzt,-b.xz*a.xzt-a.wxt*b.wx+b.wxz*a.wxzt-b.z*a.zt+b.wxyz*a.wxyzt-b.yz*a.yzt+a.wyzt*b.wyz-b.w*a.wt-b.wz*a.wzt+b.wxy*a.wxyt-b.y*a.yt+a.xyzt*b.xyz-b.x*a.xt-b.xy*a.xyt+b.q*a.t-b.wy*a.wyt, a.wxyzt*b.yzt+b.z*a.wxz+b.yt*a.wxyt+b.y*a.wxy+b.zt*a.wxzt-b.t*a.wxt-b.yz*a.wxyz+a.wx*b.q,-a.wyt*b.t+a.wyzt*b.zt+b.q*a.wy+a.wyz*b.z-a.wxy*b.x-b.xzt*a.wxyzt-a.wxyt*b.xt+a.wxyz*b.xz,-b.xy*a.wxyz-b.t*a.wzt-b.xt*a.wxzt-a.wxz*b.x+b.xyt*a.wxyzt-a.wyzt*b.yt+b.q*a.wz-b.y*a.wyz,-b.y*a.wyt+a.wxyzt*b.xyz-b.xy*a.wxyt+b.q*a.wt-b.xz*a.wxzt-b.x*a.wxt-b.z*a.wzt-b.yz*a.wyzt,b.wzt*a.wxyzt+b.q*a.xy-a.wxyz*b.wz+a.wxyt*b.wt+a.xyzt*b.zt+b.z*a.xyz+a.wxy*b.w-a.xyt*b.t,a.wxzt*b.wt-b.y*a.xyz-b.wyt*a.wxyzt+a.wxyz*b.wy-b.yt*a.xyzt+b.q*a.xz+b.w*a.wxz-a.xzt*b.t,b.wy*a.wxyt-a.wxyzt*b.wyz+b.wz*a.wxzt-b.yz*a.xyzt+b.q*a.xt-b.y*a.xyt-b.z*a.xzt+b.w*a.wxt,a.wyz*b.w+a.xyzt*b.xt-b.t*a.yzt-a.wxyz*b.wx+a.wyzt*b.wt+b.wxt*a.wxyzt+b.x*a.xyz+b.q*a.yz,-a.wxyt*b.wx+b.wxz*a.wxyzt-b.z*a.yzt+a.wyzt*b.wz+a.wyt*b.w+b.q*a.yt+a.xyt*b.x+a.xyzt*b.xz,b.w*a.wzt-a.wyzt*b.wy+b.y*a.yzt+b.q*a.zt-a.wxzt*b.wx-b.wxy*a.wxyzt-b.xy*a.xyzt+a.xzt*b.x, a.wxyz*b.z-a.wxyt*b.t+b.zt*a.wxyzt+b.q*a.wxy,b.q*a.wxz-b.y*a.wxyz-b.yt*a.wxyzt-b.t*a.wxzt,b.q*a.wxt-b.yz*a.wxyzt-b.z*a.wxzt-b.y*a.wxyt,-a.wyzt*b.t+a.wxyzt*b.xt+a.wxyz*b.x+a.wyz*b.q,b.q*a.wyt+a.wxyt*b.x+b.xz*a.wxyzt-a.wyzt*b.z,b.y*a.wyzt+b.x*a.wxzt+b.q*a.wzt-b.xy*a.wxyzt,-a.xyzt*b.t+b.q*a.xyz-a.wxyzt*b.wt-a.wxyz*b.w,b.q*a.xyt-b.w*a.wxyt-b.z*a.xyzt-b.wz*a.wxyzt,b.y*a.xyzt+b.q*a.xzt+b.wy*a.wxyzt-b.w*a.wxzt,-a.wxyzt*b.wx+b.q*a.yzt-a.xyzt*b.x-a.wyzt*b.w, -b.t*a.wxyzt+b.q*a.wxyz,-b.z*a.wxyzt+b.q*a.wxyt,b.q*a.wxzt+b.y*a.wxyzt,-b.x*a.wxyzt+b.q*a.wyzt,b.q*a.xyzt+b.w*a.wxyzt, b.q*a.wxyzt)
+
+X = (3, 
+5,7,11,13,17, 
+19,23,29,31,37,41,43,47,53,59, 
+61,67,71,73,79,83,89,97,101,103, 
+107,109,113,127,131, 137)
+
+Determinant(X) = -98748240-54398496*I
+
+X = (3, 
+5,7,11,13,17, 
+19,23,29,31,37,41,43,47,53,59, 
+61,67,71,73,79,83,89,97,101,103, 
+107,109,113,127,131, 137)
+
+MV3 = Adjugate(X) = (-112412, -85028,-190540,211964,300388,108332, -246076,17660,-95996,-231820,-831340,-2182652,-1974412,-1179228,-863100,-521204, 886676,2096332,1824788,301644,22332,425308,-4198820,-3891340,-444700,132932, -4052540,-3689356,-279724,219764,1892, 16316)
+
+Adjugate(X)*X = (-98748240, 0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, -54398496)
+
+X*Adjugate(X) = (-98748240, 0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, -54398496)
+
+X = (3, 
+5,7,11,13,17, 
+19,23,29,31,37,41,43,47,53,59, 
+61,67,71,73,79,83,89,97,101,103, 
+107,109,113,127,131, 137)
+
+MV3 = Reciprocal(X) = (53192298407/66200058698748, 43195017689/66200058698748,160262087107/66200058698748,-9921019181/22066686232916,-399927437371/22066686232916,-30869347665/1697437402532, 164223295711/66200058698748,38970689675/22066686232916,-351047929475/22066686232916,-356801520795/22066686232916,182690064893/22066686232916,1116240709999/66200058698748,930003802643/66200058698748,1123502147279/66200058698748,1037848509691/66200058698748,16844462717/66200058698748, -201233347499/22066686232916,-833634133115/66200058698748,-604408196521/66200058698748,-714540923911/66200058698748,-629886623891/66200058698748,16798068785/66200058698748,2225191377185/66200058698748,2028567782623/66200058698748,233718852955/66200058698748,450283441/22066686232916, 157967986643/5092312207596,1812378939151/66200058698748,203920705687/66200058698748,-19680935395/22066686232916,-8354560743/22066686232916, -13413576417/22066686232916)
+X*(1/X) = (1, 0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0)
+
+
+Unary Operator Printout
+
+Reference input MV for each function below 
+(a, b,c,d,e,f, g,h,j,k,l,m,n,p,r,s, S,R,P,N,M,L,K,J,H,G, F,E,D,C,B, A)
+
+OverBar 
+(A, B,-C,D,-E,F, G,-H,J,-K,L,-M,N,P,-R,S, s,-r,p,n,-m,l,-k,j,-h,g, f,-e,d,-c,b, a)
+
+UnderBar 
+(A, B,-C,D,-E,F, G,-H,J,-K,L,-M,N,P,-R,S, s,-r,p,n,-m,l,-k,j,-h,g, f,-e,d,-c,b, a)
+
+Reverse 
+(a, b,c,d,e,f, -g,-h,-j,-k,-l,-m,-n,-p,-r,-s, -S,-R,-P,-N,-M,-L,-K,-J,-H,-G, F,E,D,C,B, A)
+
+Involution 
+(a, -b,-c,-d,-e,-f, g,h,j,k,l,m,n,p,r,s, -S,-R,-P,-N,-M,-L,-K,-J,-H,-G, F,E,D,C,B, -A)
+
+Transpose 
+(a, -b,c,d,e,-f, g,h,j,-k,-l,-m,n,-p,r,s, S,R,-P,N,-M,-L,-K,J,H,G, -F,E,D,C,-B, A)
+
+CliffordConjugation 
+(a, -b,-c,-d,-e,-f, -g,-h,-j,-k,-l,-m,-n,-p,-r,-s, S,R,P,N,M,L,K,J,H,G, F,E,D,C,B, -A)
+
+Dual 
+(A, B,-C,D,-E,-F, -G,H,-J,-K,-L,M,N,-P,-R,S, -s,r,p,-n,-m,l,k,j,-h,g, f,e,-d,c,-b, -a)
+
+DorstDual 
+(A, B,-C,D,-E,-F, -G,H,-J,-K,-L,M,N,-P,-R,S, -s,r,p,-n,-m,l,k,j,-h,g, f,e,-d,c,-b, -a)
+
+DorstUnDual 
+(-A, -B,C,-D,E,F, G,-H,J,K,L,-M,-N,P,R,-S, s,-r,-p,n,m,-l,-k,-j,h,-g, -f,-e,d,-c,b, a)
+
+Parity 
+(a, -b,-c,-d,-e,-f, g,h,j,k,l,m,n,p,r,s, -S,-R,-P,-N,-M,-L,-K,-J,-H,-G, F,E,D,C,B, -A)
+
+ComplexConjugate 
+(a, -b,c,d,e,f, -g,-h,-j,-k,l,m,n,p,r,s, -S,-R,-P,-N,-M,-L,K,J,H,G, -F,-E,-D,-C,B, -A)
+
+Hermitian 
+(a, b,c,d,e,-f, -g,-h,-j,k,-l,-m,n,-p,r,s, -S,-R,P,-N,M,L,-K,J,H,G, F,-E,-D,-C,-B, -A)
+
+
+Notice the complex conjugates below. For pure magnitudes, these determinants would agree.
+I am keeping determinant complex to allow easy comparison to Gamma matrix results in QM.
+
+Reference 
+-98748240-54398496*I
+
+Reverse 
+-98748240-54398496*I
+
+Transpose 
+-98748240-54398496*I
+
+Dual 
+-98748240-54398496*I
+
+DorstDual 
+-98748240-54398496*I
+
+DorstUnDual 
+-98748240-54398496*I
+
+OverBar 
+-98748240+54398496*I
+
+UnderBar 
+-98748240+54398496*I
+
+Involution 
+-98748240+54398496*I
+
+CliffordConjugation 
+-98748240+54398496*I
+
+Parity 
+-98748240+54398496*I
+
+ComplexConjugate 
+-98748240+54398496*I
+
+Hermitian 
+-98748240+54398496*I
+
+
+Now we show various products of a MV and the named unary operator.
+The reverse product is the clear winner in terms of zeroed product terms, and faithfully reserves the determinant.
+
+MV1*OverBar(MV1) = (0, 0,0,0,0,-7588, -1548,-5884,924,0,-28540,-14332,0,-1500,0,0, -30980,-13644,0,-452,0,0,4868,0,0,0, 0,-6532,5276,36748,168828, 174760)
+12710411270159616
+
+MV1*UnderBar(MV1) = (0, 0,0,0,0,-7588, -1548,-5884,924,0,-28540,-14332,0,-1500,0,0, -30980,-13644,0,-452,0,0,4868,0,0,0, 0,-6532,5276,36748,168828, 174760)
+12710411270159616
+
+MV1*Involution(MV1) = (-52608, -51560,-6856,47732,-70676,-66688, -13948,43840,-52136,-48580,-6136,24656,23564,-2572,-3544,-7272, 2196,18124,17376,6304,4884,-13204,18352,17468,-6500,14040, 22116,20376,-12512,17196,-6428, 0)
+12710411270159616
+
+MV1*CliffordConjugation(MV1) = (-2968, 0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 2756,-9820,-12604,6260,6332,-3020,-17268,-19284,12684,-17900, -15444,-17412,11724,-16708,4660, 0)
+12710411270159616
+
+MV1*Parity(MV1) = (-52608, -51560,-6856,47732,-70676,-66688, -13948,43840,-52136,-48580,-6136,24656,23564,-2572,-3544,-7272, 2196,18124,17376,6304,4884,-13204,18352,17468,-6500,14040, 22116,20376,-12512,17196,-6428, 0)
+12710411270159616
+
+MV1*ComplexConjugate(MV1) = (52288, 51560,-23212,45120,-44928,-43212, -15520,46932,-62524,-60776,-9208,-9984,-9092,-14700,-12632,20360, -1356,-14980,-13936,-5344,-3244,12700,28020,27864,-21080,21716, 21952,22604,-13916,16888,-6428, 0)
+12710411270159616
+
+MV1*Hermitian(MV1) = (174760, 168828,-36748,5276,6532,0, 0,0,0,-4868,0,0,-452,0,13644,-30980, 0,0,-1500,0,14332,-28540,0,924,5884,-1548, -7588,0,0,0,0, 0)
+12710411270159616
+
+MV1*Reverse(MV1) = (-94216, -93884,12316,6052,-11300,-8204, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 5268,4420,-6012,5828,-9844, -8444)
+6792018536035584+10743511477294080*I
+
+MV1*Transpose(MV1) = (-36088, 0,158620,-60028,19212,0, 153956,-60460,20636,0,0,0,-3548,0,2804,6004, -11508,8668,0,-10180,0,0,0,13604,-24140,12028, 0,14228,-22876,12004,0, 4196)
+6792018536035584+10743511477294080*I
+
+MV1*Dual(MV1) = (15732, 16124,10564,18448,14408,16740, 17444,24496,24592,25516,26208,31392,31348,30372,32136,36368, 31680,32112,33284,24540,28080,38600,-9588,-9712,14792,43836, -6868,-7296,22768,50964,28460, 36136)
+6792018536035584+10743511477294080*I
+
+MV1*DorstUnDual(MV1) = (-15732, -16124,-10564,-18448,-14408,-16740, -17444,-24496,-24592,-25516,-26208,-31392,-31348,-30372,-32136,-36368, -31680,-32112,-33284,-24540,-28080,-38600,9588,9712,-14792,-43836, 6868,7296,-22768,-50964,-28460, -36136)
+6792018536035584+10743511477294080*I
+
+Reverse(MV1)*Hermitian(MV1) = (2880, -5220,-54228,41328,-17528,-66688, 57556,-34704,10864,60776,44720,-35840,-37424,36900,1436,24852, 34704,-33936,-22040,29612,-5404,22548,-28020,-20092,7564,-16528, 22116,23932,-14244,18496,-7816, 0)
+12710411270159616
+
+
+
+Check commutativity of the pseudo-scalar wxyzt 
+
+Commutator count = 32
+Unit Determinant Blade count = 32
+MV1 = (a, b,c,d,e,f, g,h,j,k,l,m,n,p,r,s, S,R,P,N,M,L,K,J,H,G, F,E,D,C,B, A)
+MV2 = (aa, 0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, AA)
+MV3 = MV1*MV2 - MV2*MV1 = (0, 0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0)
+Adjugate formula check - delta = (0, 0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0) expect 0 
+
+Verifying 64 Comp transforms
++ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + 
+
+Verifying 360 Magic transforms
++ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + 

@@ -1,0 +1,16 @@
+Complement determinant at index 129290783   Zcount = 16 
+Complement determinant at index 191539503   Zcount = 16 
+Complement determinant at index 316236983   Zcount = 16 
+Complement determinant at index 503783303   Zcount = 16 
+Complement determinant at index 566697083   Zcount = 16 
+Complement determinant at index 756639563   Zcount = 16 
+Complement determinant at index 883600083   Zcount = 16 
+Complement determinant at index 947180003   Zcount = 16 
+Complement determinant at index 1077871613   Zcount = 16 
+Complement determinant at index 1289844941   Zcount = 16 
+Complement determinant at index 1431483733   Zcount = 16 
+Complement determinant at index 1502400101   Zcount = 16 
+Complement determinant at index 1716309401   Zcount = 16 
+Complement determinant at index 1787999913   Zcount = 16 
+Complement determinant at index 1931574065   Zcount = 16 
+Complement determinant at index 2147418113   Zcount = 16 

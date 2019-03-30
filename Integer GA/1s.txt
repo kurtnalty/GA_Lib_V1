@@ -1,0 +1,16 @@
+Complement determinant at index 72035807   Zcount = 1 
+Complement determinant at index 144004847   Zcount = 1 
+Complement determinant at index 287742839   Zcount = 1 
+Complement determinant at index 502849607   Zcount = 1 
+Complement determinant at index 574153659   Zcount = 1 
+Complement determinant at index 786864267   Zcount = 1 
+Complement determinant at index 928339219   Zcount = 1 
+Complement determinant at index 998977059   Zcount = 1 
+Complement determinant at index 1136720957   Zcount = 1 
+Complement determinant at index 1327400717   Zcount = 1 
+Complement determinant at index 1454197397   Zcount = 1 
+Complement determinant at index 1517498789   Zcount = 1 
+Complement determinant at index 1706242649   Zcount = 1 
+Complement determinant at index 1768769897   Zcount = 1 
+Complement determinant at index 1893631217   Zcount = 1 
+Complement determinant at index 2080440257   Zcount = 1 

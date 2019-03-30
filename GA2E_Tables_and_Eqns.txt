@@ -1,0 +1,422 @@
+AntiWedge Formula is Consistent with OverBar((UnderBar(r)^UnderBar(s)))
+
+AntiWedge Formula is Consistent with UnderBar((OverBar(r)^OverBar(s)))
+
+Regressive is Consistent with RegressiveViaFormula
+
+Clifford Product is Associative 
+
+Wedge Product is Associative 
+
+AntiWedge Product is Associative 
+
+ *    |  q     x     y     xy   
+------------------------------
+ q    |  q     x     y     xy   
+ x    |  x     q     xy    y    
+ y    |  y    -xy    q    -x    
+ xy   |  xy   -y     x    -q    
+
+
+
+ ^    |  q     x     y     xy   
+------------------------------
+ q    |  q     x     y     xy   
+ x    |  x     0     xy    0    
+ y    |  y    -xy    0     0    
+ xy   |  xy    0     0     0    
+
+
+
+Lengyel
+ V    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     q    
+ x    |  0     0     q     x    
+ y    |  0    -q     0     y    
+ xy   |  q     x     y     xy   
+
+
+
+Hestenes
+ V    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     q    
+ x    |  0     0    -q     x    
+ y    |  0     q     0     y    
+ xy   |  q     x     y     xy   
+
+
+
+Blade[i]*Blade[j] - (Blade[i]^Blade[j])
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     0    
+ x    |  0     q     0     y    
+ y    |  0     0     q    -x    
+ xy   |  0    -y     x    -q    
+
+
+
+AntiWedge(OverBar(Blade[i]),Blade[j])
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  q     x     y     xy   
+ x    |  0    -q     0     y    
+ y    |  0     0    -q    -x    
+ xy   |  0     0     0     q    
+
+
+
+AntiWedge(UnderBar(Blade[i]),Blade[j])
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  q     x     y     xy   
+ x    |  0     q     0    -y    
+ y    |  0     0     q     x    
+ xy   |  0     0     0     q    
+
+
+
+AntiWedge(Blade[i],OverBar(Blade[j]))
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  q     0     0     0    
+ x    |  x     q     0     0    
+ y    |  y     0     q     0    
+ xy   |  xy    y    -x     q    
+
+
+
+AntiWedge(Blade[i],UnderBar(Blade[j]))
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  q     0     0     0    
+ x    |  x    -q     0     0    
+ y    |  y     0    -q     0    
+ xy   |  xy   -y     x     q    
+
+
+
+Wedge(OverBar(Blade[i]),OverBar(Blade[j]))
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     xy   
+ x    |  0     0     xy    y    
+ y    |  0    -xy    0    -x    
+ xy   |  xy    y    -x     q    
+
+
+
+Wedge(OverBar(Blade[i]),UnderBar(Blade[j]))
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     xy   
+ x    |  0     0    -xy    y    
+ y    |  0     xy    0    -x    
+ xy   |  xy   -y     x     q    
+
+
+
+Wedge(UnderBar(Blade[i]),OverBar(Blade[j]))
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     xy   
+ x    |  0     0    -xy   -y    
+ y    |  0     xy    0     x    
+ xy   |  xy    y    -x     q    
+
+
+
+Wedge(UnderBar(Blade[i]),UnderBar(Blade[j]))
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     xy   
+ x    |  0     0     xy   -y    
+ y    |  0    -xy    0     x    
+ xy   |  xy   -y     x     q    
+
+
+
+Wedge(Blade[i]*xyz,Blade[j]*xyz)
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0    -xy   
+ x    |  0     0     xy   -y    
+ y    |  0    -xy    0     x    
+ xy   | -xy   -y     x     q    
+
+
+
+Wedge(Blade[i]*xyz,xyz*Blade[j])
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0    -xy   
+ x    |  0     0    -xy   -y    
+ y    |  0     xy    0     x    
+ xy   | -xy    y    -x     q    
+
+
+
+Wedge(xyz*Blade[i],Blade[j]*xyz)
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0    -xy   
+ x    |  0     0    -xy    y    
+ y    |  0     xy    0    -x    
+ xy   | -xy   -y     x     q    
+
+
+
+Wedge(xyz*Blade[i],xyz*Blade[j])
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0    -xy   
+ x    |  0     0     xy    y    
+ y    |  0    -xy    0    -x    
+ xy   | -xy    y    -x     q    
+
+
+
+LowerRightViaFormula(Blade[i],Blade[j])
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     xy   
+ x    |  0     0     xy    y    
+ y    |  0    -xy    0    -x    
+ xy   |  xy   -y     x    -q    
+
+
+
+Blade[i]*Blade[j] - LowerRightViaFormula(Blade[i],Blade[j])
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  q     x     y     0    
+ x    |  x     q     0     0    
+ y    |  y     0     q     0    
+ xy   |  0     0     0     0    
+
+
+
+Blade[i]*Blade[j] - Wedge(Blade[i],Blade[j]) - LowerRightViaFormula(Blade[i],Blade[j])
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0    -xy   
+ x    |  0     q    -xy    0    
+ y    |  0     xy    q     0    
+ xy   | -xy    0     0     0    
+
+
+
+LowerRightViaFormula Product is Non-associative 
+
+Terms with increased rank
+ >    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     0    
+ x    |  0     0     xy    0    
+ y    |  0    -xy    0     0    
+ xy   |  0     0     0     0    
+
+
+
+Terms with preserved rank
+ =    |  q     x     y     xy   
+------------------------------
+ q    |  q     x     y     xy   
+ x    |  x     0     0     0    
+ y    |  y     0     0     0    
+ xy   |  xy    0     0     0    
+
+
+
+Terms with reduced rank
+ <    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     0    
+ x    |  0     q     0     y    
+ y    |  0     0     q    -x    
+ xy   |  0    -y     x    -q    
+
+
+
+Clifford equation set for test purposes
+c.q   =  + a.q  *b.q   + a.x  *b.x   + a.y  *b.y   - a.xy *b.xy  ; 
+c.x   =  + a.q  *b.x   + a.x  *b.q   - a.y  *b.xy  + a.xy *b.y   ; 
+c.y   =  + a.q  *b.y   + a.x  *b.xy  + a.y  *b.q   - a.xy *b.x   ; 
+c.xy  =  + a.q  *b.xy  + a.x  *b.y   - a.y  *b.x   + a.xy *b.q   ; 
+
+
+Wedge
+c.q   =  + a.q  *b.q   ; 
+c.x   =  + a.q  *b.x   + a.x  *b.q   ; 
+c.y   =  + a.q  *b.y   + a.y  *b.q   ; 
+c.xy  =  + a.q  *b.xy  + a.x  *b.y   - a.y  *b.x   + a.xy *b.q   ; 
+
+
+AntiWedge
+c.q   =  + a.q  *b.xy  + a.x  *b.y   - a.y  *b.x   + a.xy *b.q   ; 
+c.x   =  + a.x  *b.xy  + a.xy *b.x   ; 
+c.y   =  + a.y  *b.xy  + a.xy *b.y   ; 
+c.xy  =  + a.xy *b.xy  ; 
+
+
+Clifford products agree 
+
+u = 
+(0, 0,0, 0)
+
+Expander equation set for test purposes
+c.q   =  ; 
+c.x   =  ; 
+c.y   =  ; 
+c.xy  =  + a.x  *b.y   - a.y  *b.x   ; 
+
+
+Wedge - Expander differ (as expected)
+
+u = 
+(a*A, B*a+A*b,c*A+C*a, d*A+a*D)
+
+
+
+Expander Product is Associative 
+
+Conserver equation set for test purposes
+c.q   =  + a.q  *b.q   ; 
+c.x   =  + a.q  *b.x   + a.x  *b.q   ; 
+c.y   =  + a.q  *b.y   + a.y  *b.q   ; 
+c.xy  =  + a.q  *b.xy  + a.xy *b.q   ; 
+
+
+Conserver Product is Associative 
+
+Shrinker equation set for test purposes
+c.q   =  + a.x  *b.x   + a.y  *b.y   - a.xy *b.xy  ; 
+c.x   =  - a.y  *b.xy  + a.xy *b.y   ; 
+c.y   =  + a.x  *b.xy  - a.xy *b.x   ; 
+c.xy  =  ; 
+
+
+Shrinker Product is Non-associative 
+
+Clifford = Expander + Conserver + Shrinker
+
+Symmetric Product
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  q     x     y     xy   
+ x    |  x     q     0     0    
+ y    |  y     0     q     0    
+ xy   |  xy    0     0    -q    
+
+
+
+AntiSymmetric Product
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     0    
+ x    |  0     0     xy    y    
+ y    |  0    -xy    0    -x    
+ xy   |  0    -y     x     0    
+
+
+
+Symmetric Product Equations
+c.q   =  + a.q  *b.q   + a.x  *b.x   + a.y  *b.y   - a.xy *b.xy  ; 
+c.x   =  + a.q  *b.x   + a.x  *b.q   ; 
+c.y   =  + a.q  *b.y   + a.y  *b.q   ; 
+c.xy  =  + a.q  *b.xy  + a.xy *b.q   ; 
+
+
+Symmetric and SymmetricViaFormula Agree
+
+AntiSymmetric Product Equations
+c.q   =  ; 
+c.x   =  - a.y  *b.xy  + a.xy *b.y   ; 
+c.y   =  + a.x  *b.xy  - a.xy *b.x   ; 
+c.xy  =  + a.x  *b.y   - a.y  *b.x   ; 
+
+
+AntiSymmetric and AntiSymmetricViaFormula Agree
+
+Inner Product
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  0     0     0     0    
+ x    |  0     q     0     y    
+ y    |  0     0     q    -x    
+ xy   |  0    -y     x    -q    
+
+
+
+LeftContraction Product
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  q     x     y     xy   
+ x    |  0     q     0     y    
+ y    |  0     0     q    -x    
+ xy   |  0     0     0    -q    
+
+
+
+RightContraction Product
+ ?    |  q     x     y     xy   
+------------------------------
+ q    |  q     0     0     0    
+ x    |  x     q     0     0    
+ y    |  y     0     q     0    
+ xy   |  xy   -y     x    -q    
+
+
+
+Test Adjugate = Inverse*determinant
+u = r*Adjugate(r) = 
+(-2*c^2*a^2+d^4-2*a^2*b^2+2*d^2*a^2+b^4+2*c^2*b^2+c^4-2*d^2*b^2+a^4-2*c^2*d^2, 0,0, 0)
+
+Expect scalar only
+
+Test Reciprocal numerically
+r = 
+(3, 5,7, 11)
+
+s = 1/r = 
+(3/56, -5/56,-1/8, -11/56)
+
+u = r*s = 
+(1, 0,0, 0)
+
+Test Reciprocal numerically cummutative
+r = 
+(3, 5,7, 11)
+
+s = 1/r = 
+(3/56, -5/56,-1/8, -11/56)
+
+u = s*r = 
+(1, 0,0, 0)
+
+u = r*s = 
+(d, c,-b, -a)
+
+u - Dual(r) = 
+(0, 0,0, 0)
+ expect 0
+Dual(Dual(r)) = 
+(-a, -b,-c, -d)
+ expect -r
+LeftContraction(Wedge(r,s), t) == LeftContraction(r,LeftContraction(s,t)) 
+
+     Dual(r) = u = 
+(d, c,-b, -a)
+
+DorstDual(r) = u = 
+(d, -c,b, -a)
+
+DorstUnDual(r) = u = 
+(-d, c,-b, a)
+
+DorstDual(DorsrUnDual(r)) = u = 
+(a, b,c, d)
+
+

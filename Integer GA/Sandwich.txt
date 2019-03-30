@@ -1,0 +1,136 @@
+-2*c.wxz*R+2*L*c.wzt+2*c.zt*s-2*c.wy*h+2*c.xt*n-2*c.wyz*N-2*c.wxy*S+2*c.xzt*H-2*l*c.xy-2*c.xz*m+2*P*c.wxt+2*c.yt*r-2*c.wz*j+2*J*c.xyt+2*c.wt*k+2*G*c.yzt-2*g*c.wx-2*p*c.yz-2*K*c.xyz+2*c.wyt*M = 0 
+
+-2*S*c.xy-2*l*c.wxy+2*c.wz*e-2*c.wxz*m+2*c.wyt*r+2*P*c.xt-2*c.wt*f-2*c.yzt*C+2*c.yt*M+2*c.wxt*n+2*c.wy*d-2*D*c.xzt+2*c.wzt*s-2*E*c.xyt-2*p*c.wyz-2*c.xz*R+2*c.xyz*F+2*L*c.zt+2*c.wx*c-2*c.yz*N = 0 
+
+2*c.wy*S+2*H*c.zt-2*c.wyz*F-2*b*c.wx+2*d*c.xy-2*P*c.wt+2*c.xzt*s+2*c.wyt*E+2*c.yt*J+2*c.wxz*j-2*p*c.xyz-2*K*c.yz+2*c.xz*e+2*h*c.wxy-2*c.xt*f+2*r*c.xyt-2*B*c.yzt-2*c.wxt*k+2*D*c.wzt+2*c.wz*R = 0 
+
+2*K*c.xz-2*c.wyt*k+2*c.wz*N-2*g*c.wxy-2*c.yt*f-2*c.wy*b-2*c*c.xy+2*c.yzt*s-2*c.xt*J+2*c.wxz*F+2*j*c.wyz-2*M*c.wt+2*c.wzt*C+2*c.xzt*B-2*c.wxt*E+2*m*c.xyz+2*e*c.yz-2*c.wx*S+2*G*c.zt-2*n*c.xyt = 0 
+
+-2*c.wz*b-2*c.xz*c-2*H*c.xt-2*F*c.wxy-2*d*c.yz-2*r*c.yzt-2*B*c.xyt-2*h*c.wyz-2*c.wy*N-2*c.wyt*C-2*c.xzt*n-2*K*c.xy-2*L*c.wt-2*G*c.yt-2*R*c.wx-2*g*c.wxz-2*l*c.xyz-2*c.wzt*k-2*D*c.wxt-2*c.zt*f = 0 
+
+-2*G*c.yz-2*P*c.wx-2*p*c.yzt-2*e*c.zt-2*c.wyz*C-2*b*c.wt-2*c.wzt*j-2*c.wxz*D-2*c.xz*H-2*c.wyt*h-2*L*c.wz-2*g*c.wxt-2*c.xt*c-2*l*c.xyt-2*c.wy*M-2*d*c.yt-2*c.xzt*m-2*J*c.xy-2*B*c.xyz-2*E*c.wxy = 0 
+
+2*c.z*R-2*B*c.wyzt+2*G*c.wxyzt+2*c.wxzt*s+2*g*c.q-2*b*c.x+2*c.y*S+2*c.xyzt*C+2*c.wxyt*r-2*P*c.t+2*c.w*c-2*p*c.wxyz = 0 
+
+-2*c.t*M+2*s*c.wyzt+2*h*c.q+2*m*c.wxyz-2*c.x*S-2*D*c.xyzt+2*d*c.w-2*c.wxyt*n+2*B*c.wxzt-2*b*c.y+2*c.z*N-2*H*c.wxyzt = 0 
+
+2*c.wxyzt*J-2*c.y*N-2*L*c.t-2*l*c.wxyz-2*c.wxzt*n-2*c.wxyt*B+2*c.w*e-2*c.x*R+2*c.xyzt*E-2*r*c.wyzt+2*j*c.q-2*c.z*b = 0 
+
+2*c.w*f-2*M*c.y-2*B*c.wxyz-2*P*c.x+2*K*c.wxyzt-2*p*c.wyzt-2*c.wxzt*m+2*c.xyzt*F-2*c.z*L-2*c.t*b-2*c.wxyt*l+2*c.q*k = 0 
+
+-2*c.wxzt*C-2*c*c.y+2*L*c.wxyzt+2*l*c.q-2*c.t*J+2*c.wxyt*k+2*D*c.wyzt+2*c.xyzt*s-2*j*c.wxyz+2*K*c.z+2*d*c.x+2*c.w*S = 0 
+
+2*h*c.wxyz+2*m*c.q+2*e*c.x-2*K*c.y+2*c.wxzt*k-2*c.wxyzt*M+2*c.w*R-2*c.z*c+2*c.wxyt*C-2*c.xyzt*r-2*H*c.t-2*E*c.wyzt = 0 
+
+2*C*c.wxyz-2*F*c.wyzt+2*c.w*P-2*c.xyzt*p-2*c.t*c-2*c.wxyzt*N+2*n*c.q+2*c.wxyt*h-2*c.z*H-2*J*c.y+2*c.wxzt*j+2*c.x*f = 0 
+
+-2*G*c.t+2*c.wyzt*k-2*g*c.wxyz+2*E*c.wxzt-2*D*c.wxyt+2*P*c.wxyzt+2*K*c.x+2*c.w*N-2*d*c.z+2*e*c.y+2*c.xyzt*n+2*p*c.q = 0 
+
+2*c.xyzt*m+2*c.wxzt*F-2*d*c.t+2*c.wxyzt*R+2*c.w*M-2*G*c.z+2*j*c.wyzt+2*r*c.q-2*D*c.wxyz+2*c.x*J-2*g*c.wxyt+2*f*c.y = 0 
+
+2*H*c.x+2*c.z*f-2*h*c.wyzt+2*s*c.q+2*G*c.y-2*g*c.wxzt+2*E*c.wxyz-2*c.xyzt*l-2*e*c.t-2*c.wxyzt*S+2*c.w*L-2*c.wxyt*F = 0 
+
+-2*c.wxyt*f+2*S*c.q+2*g*c.y-2*c.z*F+2*c.xyzt*L-2*H*c.wyzt+2*c.w*l+2*e*c.wxyz+2*G*c.wxzt-2*h*c.x+2*c.t*E+2*c.wxyzt*s = 0 
+
+-2*c.xyzt*M-2*d*c.wxyz+2*F*c.y+2*c.w*m+2*R*c.q-2*c.wxyzt*r-2*G*c.wxyt-2*c.x*j-2*c.wxzt*f+2*D*c.t+2*g*c.z+2*J*c.wyzt = 0 
+
+-2*G*c.wxyz-2*e*c.wxzt+2*K*c.wyzt+2*g*c.t+2*c.z*D-2*c.x*k+2*c.w*n-2*d*c.wxyt+2*P*c.q-2*p*c.wxyzt-2*c.xyzt*N+2*E*c.y = 0 
+
+-2*c.x*F+2*p*c.w+2*c.xyzt*P+2*c*c.wxyz+2*c.t*C+2*c.wxyt*H+2*c.z*h+2*c.wxyzt*n-2*j*c.y-2*c.wxzt*J+2*c.q*N-2*f*c.wyzt = 0 
+
+2*h*c.t-2*c.y*k+2*c.xyzt*R+2*M*c.q+2*c.wxyzt*m-2*E*c.x-2*K*c.wxzt-2*e*c.wyzt+2*c.z*C+2*c.w*r+2*H*c.wxyz+2*c.wxyt*c = 0 
+
+2*L*c.q-2*D*c.x+2*c.wxzt*c+2*d*c.wyzt-2*c.y*C-2*l*c.wxyzt+2*c.t*j-2*c.xyzt*S-2*J*c.wxyz+2*c.w*s-2*c.z*k+2*K*c.wxyt = 0 
+
+2*c.t*B+2*p*c.x-2*c.xyzt*f+2*K*c.q-2*m*c.y+2*c.z*l-2*c.wxyzt*k+2*c.wxzt*M-2*b*c.wxyz-2*P*c.wyzt-2*c.wxyt*L+2*c.w*F = 0 
+
+-2*R*c.wyzt-2*c.y*n-2*L*c.wxyz+2*c.z*B-2*c.wxyzt*j+2*l*c.t+2*r*c.x+2*c.wxzt*N+2*J*c.q-2*c.wxyt*b+2*c.w*E-2*c.xyzt*e = 0 
+
+-2*B*c.y+2*c.t*m+2*c.x*s+2*h*c.wxyzt+2*M*c.wxyz+2*c.wyzt*S+2*D*c.w-2*b*c.wxzt+2*d*c.xyzt-2*c.wxyt*N-2*c.z*n+2*H*c.q = 0 
+
+2*G*c.q-2*c.wxzt*S+2*s*c.y-2*g*c.wxyzt+2*c.wxyt*R+2*c.x*B-2*P*c.wxyz-2*c.xyzt*c-2*b*c.wyzt+2*p*c.t+2*c.w*C-2*c.z*r = 0 
+
+-2*b*c.xyz+2*c.wyt*H-2*c.xz*h+2*c.wyz*c-2*L*c.xyt+2*l*c.wz-2*G*c.wxt-2*c.xt*C-2*P*c.yzt+2*p*c.wx+2*g*c.yz-2*E*c.zt-2*c.wzt*J+2*D*c.yt+2*c.xzt*M-2*c.wy*m-2*d*c.wxz+2*e*c.wxy+2*j*c.xy+2*B*c.wt = 0 
+
+-2*d*c.wxt+2*r*c.wx-2*c.xz*C-2*c.zt*F-2*K*c.wzt+2*c.wyt*c+2*c.xzt*N-2*c.wy*n+2*H*c.wyz-2*R*c.yzt-2*G*c.wxz-2*b*c.xyt-2*L*c.xyz+2*k*c.xy+2*D*c.yz+2*l*c.wt+2*c.wz*B-2*h*c.xt+2*g*c.yt+2*f*c.wxy = 0 
+
+2*C*c.xy-2*c.wz*n+2*c.xz*k-2*c.xzt*b+2*c.yzt*S+2*G*c.wxy+2*c.wxz*f-2*E*c.yz+2*g*c.zt+2*M*c.xyz+2*m*c.wt+2*c.wzt*c-2*c.xt*j+2*K*c.wyt-2*c.wy*B-2*J*c.wyz-2*N*c.xyt+2*c.yt*F+2*c.wx*s-2*e*c.wxt = 0 
+
+-2*c.wz*r-2*c.xzt*S-2*c.wyt*e-2*P*c.xyz-2*c.yt*j+2*c.wy*s+2*d*c.wzt+2*R*c.xyt+2*c.xz*E-2*b*c.yzt+2*p*c.wt-2*c.xt*F-2*K*c.wxt+2*c.wxz*J-2*H*c.wxy+2*c.yz*k+2*h*c.zt+2*f*c.wyz+2*B*c.wx-2*D*c.xy = 0 
+
+2*p*c.xt-2*c.wz*E+2*c.xyz*f-2*c.wxz*M+2*s*c.xy-2*c.xz*r+2*L*c.wxy-2*c.yzt*c-2*c.yt*m+2*d*c.xzt+2*l*c.zt+2*c.wxt*N+2*c.wt*F+2*c.wzt*S+2*n*c.yz-2*c.wyt*R-2*c.wx*C-2*e*c.xyt+2*c.wy*D+2*P*c.wyz = 0 
+
+2*s*c.wxy-2*c.xzt*h+2*c.zt*S+2*c.xt*N+2*L*c.xy+2*l*c.wzt+2*c.wyz*n-2*c.yt*R-2*c.wy*H-2*c.xz*M+2*c.wz*J+2*P*c.yz+2*G*c.wx+2*g*c.yzt-2*c.xyz*k+2*p*c.wxt-2*K*c.wt-2*c.wyt*m+2*j*c.xyt-2*c.wxz*r = 0 
+
+
+Test Reciprocal of time basis for negative sign (metric) 
+(0, 0,0,0,0,1, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0)
+(0, 0,0,0,0,-1, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0)
+Now do Sandwich product with each blade element
+Desired target is the reverse 
+(a, b,c,d,e,f, -g,-h,-j,-k,-l,-m,-n,-p,-r,-s, -S,-R,-P,-N,-M,-L,-K,-J,-H,-G, F,E,D,C,B, A) <- desired target 
+
+(a, b,c,d,e,f, g,h,j,k,l,m,n,p,r,s, S,R,P,N,M,L,K,J,H,G, F,E,D,C,B, A)
+(a, b,-c,-d,-e,-f, -g,-h,-j,-k,l,m,n,p,r,s, S,R,P,N,M,L,-K,-J,-H,-G, -F,-E,-D,-C,B, A)
+(a, -b,c,-d,-e,-f, -g,h,j,k,-l,-m,-n,p,r,s, S,R,P,-N,-M,-L,K,J,H,-G, -F,-E,-D,C,-B, A)
+(a, -b,-c,d,-e,-f, g,-h,j,k,-l,m,n,-p,-r,s, S,-R,-P,N,M,-L,K,J,-H,G, -F,-E,D,-C,-B, A)
+(a, -b,-c,-d,e,-f, g,h,-j,k,l,-m,n,-p,r,-s, -S,R,-P,N,-M,L,K,-J,H,G, -F,E,-D,-C,-B, A)
+(a, -b,-c,-d,-e,f, g,h,j,-k,l,m,-n,p,-r,-s, -S,-R,P,-N,M,L,-K,J,H,G, F,-E,-D,-C,-B, A)
+(a, -b,-c,d,e,f, g,-h,-j,-k,-l,-m,-n,p,r,s, S,R,P,-N,-M,-L,-K,-J,-H,G, F,E,D,-C,-B, A)
+(a, -b,c,-d,e,f, -g,h,-j,-k,-l,m,n,-p,-r,s, S,-R,-P,N,M,-L,-K,-J,H,-G, F,E,-D,C,-B, A)
+(a, -b,c,d,-e,f, -g,-h,j,-k,l,-m,n,-p,r,-s, -S,R,-P,N,-M,L,-K,J,-H,-G, F,-E,D,C,-B, A)
+(a, -b,c,d,e,-f, -g,-h,-j,k,l,m,-n,p,-r,-s, -S,-R,P,-N,M,L,K,-J,-H,-G, -F,E,D,C,-B, A)
+(a, b,-c,-d,e,f, -g,-h,j,k,l,-m,-n,-p,-r,s, S,-R,-P,-N,-M,L,K,J,-H,-G, F,E,-D,-C,B, A)
+(a, b,-c,d,-e,f, -g,h,-j,k,-l,m,-n,-p,r,-s, -S,R,-P,-N,M,-L,K,-J,H,-G, F,-E,D,-C,B, A)
+(a, b,-c,d,e,-f, -g,h,j,-k,-l,-m,n,p,-r,-s, -S,-R,P,N,-M,-L,-K,J,H,-G, -F,E,D,-C,B, A)
+(a, b,c,-d,-e,f, g,-h,-j,k,-l,-m,n,p,-r,-s, -S,-R,P,N,-M,-L,K,-J,-H,G, F,-E,-D,C,B, A)
+(a, b,c,-d,e,-f, g,-h,j,-k,-l,m,-n,-p,r,-s, -S,R,-P,-N,M,-L,-K,J,-H,G, -F,E,-D,C,B, A)
+(a, b,c,d,-e,-f, g,h,-j,-k,l,-m,-n,-p,-r,s, S,-R,-P,-N,-M,L,-K,-J,H,G, -F,-E,D,C,B, A)
+(a, b,c,d,-e,-f, g,h,-j,-k,l,-m,-n,-p,-r,s, S,-R,-P,-N,-M,L,-K,-J,H,G, -F,-E,D,C,B, A)
+(a, b,c,-d,e,-f, g,-h,j,-k,-l,m,-n,-p,r,-s, -S,R,-P,-N,M,-L,-K,J,-H,G, -F,E,-D,C,B, A)
+(a, b,c,-d,-e,f, g,-h,-j,k,-l,-m,n,p,-r,-s, -S,-R,P,N,-M,-L,K,-J,-H,G, F,-E,-D,C,B, A)
+(a, b,-c,d,e,-f, -g,h,j,-k,-l,-m,n,p,-r,-s, -S,-R,P,N,-M,-L,-K,J,H,-G, -F,E,D,-C,B, A)
+(a, b,-c,d,-e,f, -g,h,-j,k,-l,m,-n,-p,r,-s, -S,R,-P,-N,M,-L,K,-J,H,-G, F,-E,D,-C,B, A)
+(a, b,-c,-d,e,f, -g,-h,j,k,l,-m,-n,-p,-r,s, S,-R,-P,-N,-M,L,K,J,-H,-G, F,E,-D,-C,B, A)
+(a, -b,c,d,e,-f, -g,-h,-j,k,l,m,-n,p,-r,-s, -S,-R,P,-N,M,L,K,-J,-H,-G, -F,E,D,C,-B, A)
+(a, -b,c,d,-e,f, -g,-h,j,-k,l,-m,n,-p,r,-s, -S,R,-P,N,-M,L,-K,J,-H,-G, F,-E,D,C,-B, A)
+(a, -b,c,-d,e,f, -g,h,-j,-k,-l,m,n,-p,-r,s, S,-R,-P,N,M,-L,-K,-J,H,-G, F,E,-D,C,-B, A)
+(a, -b,-c,d,e,f, g,-h,-j,-k,-l,-m,-n,p,r,s, S,R,P,-N,-M,-L,-K,-J,-H,G, F,E,D,-C,-B, A)
+(a, -b,-c,-d,-e,f, g,h,j,-k,l,m,-n,p,-r,-s, -S,-R,P,-N,M,L,-K,J,H,G, F,-E,-D,-C,-B, A)
+(a, -b,-c,-d,e,-f, g,h,-j,k,l,-m,n,-p,r,-s, -S,R,-P,N,-M,L,K,-J,H,G, -F,E,-D,-C,-B, A)
+(a, -b,-c,d,-e,-f, g,-h,j,k,-l,m,n,-p,-r,s, S,-R,-P,N,M,-L,K,J,-H,G, -F,-E,D,-C,-B, A)
+(a, -b,c,-d,-e,-f, -g,h,j,k,-l,-m,-n,p,r,s, S,R,P,-N,-M,-L,K,J,H,-G, -F,-E,-D,C,-B, A)
+(a, b,-c,-d,-e,-f, -g,-h,-j,-k,l,m,n,p,r,s, S,R,P,N,M,L,-K,-J,-H,-G, -F,-E,-D,-C,B, A)
+(a, b,c,d,e,f, g,h,j,k,l,m,n,p,r,s, S,R,P,N,M,L,K,J,H,G, F,E,D,C,B, A)
+
+Test Reciprocal of blade plus it's dual 
+(0, 0,1,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,1,0, 0)
+(0, 0,1/2,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,-1/2,0, 0)
+Now check blades plus their dual 
+Desired target is the reverse 
+(a, b,c,d,e,f, -g,-h,-j,-k,-l,-m,-n,-p,-r,-s, -S,-R,-P,-N,-M,-L,-K,-J,-H,-G, F,E,D,C,B, A) <- desired target 
+
+(a, b,c,d,e,f, g,h,j,k,l,m,n,p,r,s, S,R,P,N,M,L,K,J,H,G, F,E,D,C,B, A)
+(a, b,-c,-d,-e,-f, -g,-h,-j,-k,l,m,n,p,r,s, S,R,P,N,M,L,-K,-J,-H,-G, -F,-E,-D,-C,B, A)
+(a, -b,c,-d,-e,-f, -g,h,j,k,-l,-m,-n,p,r,s, S,R,P,-N,-M,-L,K,J,H,-G, -F,-E,-D,C,-B, A)
+(a, -b,-c,d,-e,-f, g,-h,j,k,-l,m,n,-p,-r,s, S,-R,-P,N,M,-L,K,J,-H,G, -F,-E,D,-C,-B, A)
+(a, -b,-c,-d,e,-f, g,h,-j,k,l,-m,n,-p,r,-s, -S,R,-P,N,-M,L,K,-J,H,G, -F,E,-D,-C,-B, A)
+(a, -b,-c,-d,-e,f, g,h,j,-k,l,m,-n,p,-r,-s, -S,-R,P,-N,M,L,-K,J,H,G, F,-E,-D,-C,-B, A)
+(a, -b,-c,d,e,f, g,-h,-j,-k,-l,-m,-n,p,r,s, S,R,P,-N,-M,-L,-K,-J,-H,G, F,E,D,-C,-B, A)
+(a, -b,c,-d,e,f, -g,h,-j,-k,-l,m,n,-p,-r,s, S,-R,-P,N,M,-L,-K,-J,H,-G, F,E,-D,C,-B, A)
+(a, -b,c,d,-e,f, -g,-h,j,-k,l,-m,n,-p,r,-s, -S,R,-P,N,-M,L,-K,J,-H,-G, F,-E,D,C,-B, A)
+(a, -b,c,d,e,-f, -g,-h,-j,k,l,m,-n,p,-r,-s, -S,-R,P,-N,M,L,K,-J,-H,-G, -F,E,D,C,-B, A)
+(a, b,-c,-d,e,f, -g,-h,j,k,l,-m,-n,-p,-r,s, S,-R,-P,-N,-M,L,K,J,-H,-G, F,E,-D,-C,B, A)
+(a, b,-c,d,-e,f, -g,h,-j,k,-l,m,-n,-p,r,-s, -S,R,-P,-N,M,-L,K,-J,H,-G, F,-E,D,-C,B, A)
+(a, b,-c,d,e,-f, -g,h,j,-k,-l,-m,n,p,-r,-s, -S,-R,P,N,-M,-L,-K,J,H,-G, -F,E,D,-C,B, A)
+(a, b,c,-d,-e,f, g,-h,-j,k,-l,-m,n,p,-r,-s, -S,-R,P,N,-M,-L,K,-J,-H,G, F,-E,-D,C,B, A)
+(a, b,c,-d,e,-f, g,-h,j,-k,-l,m,-n,-p,r,-s, -S,R,-P,-N,M,-L,-K,J,-H,G, -F,E,-D,C,B, A)
+(a, b,c,d,-e,-f, g,h,-j,-k,l,-m,-n,-p,-r,s, S,-R,-P,-N,-M,L,-K,-J,H,G, -F,-E,D,C,B, A)
+What is the determinant of idempotents and null factors? 
+    MV2 = (1/2, 0,1/2,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0)
+MV2*MV2 = (1/2, 0,1/2,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0)
+Determinant(MV2) = 0
+    MV4 = (1/2, 0,-1/2,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0)
+MV4*MV4 = (1/2, 0,-1/2,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0)
+Determinant(MV4) = 0
+MV2*MV4 = (0, 0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0, 0) expect 0

@@ -1,0 +1,21 @@
+dets match at i = 7206, Score = 6 
+dets match at i = 10826, Score = 6 
+dets match at i = 12690, Score = 6 
+dets match at i = 14717, Score = 6 
+dets match at i = 18828, Score = 6 
+dets match at i = 21076, Score = 6 
+dets match at i = 23227, Score = 6 
+dets match at i = 25656, Score = 6 
+dets match at i = 27863, Score = 6 
+dets match at i = 30479, Score = 6 
+
+dets match at i = 35056, Score = 6 
+dets match at i = 37672, Score = 6 
+dets match at i = 39879, Score = 6 
+dets match at i = 42308, Score = 6 
+dets match at i = 44459, Score = 6 
+dets match at i = 46707, Score = 6 
+dets match at i = 50818, Score = 6 
+dets match at i = 52845, Score = 6 
+dets match at i = 54709, Score = 6 
+dets match at i = 58329, Score = 6 

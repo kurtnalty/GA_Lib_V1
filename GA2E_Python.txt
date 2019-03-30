@@ -1,0 +1,109 @@
+
+**************************************************
+
+Metric + + Geometric Product
+
+AMV = a.q
+ + a.x*e_x + a.y*e_y
+ + a.xy*e_x^e_y
+BMV = b.q
+ + b.x*e_x + b.y*e_y
+ + b.xy*e_x^e_y
+CMV = a.q*b.q + a.x*b.x - a.xy*b.xy + a.y*b.y
+ + (a.q*b.x + a.x*b.q + a.xy*b.y - a.y*b.xy)*e_x
+ + (a.q*b.y + a.x*b.xy - a.xy*b.x + a.y*b.q)*e_y
+ + (a.q*b.xy + a.x*b.y + a.xy*b.q - a.y*b.x)*e_x^e_y
+
+
+**************************************************
+
+Wedge Product
+
+CMV = a.q*b.q
+ + (a.q*b.x + a.x*b.q)*e_x
+ + (a.q*b.y + a.y*b.q)*e_y
+ + (a.q*b.xy + a.x*b.y + a.xy*b.q - a.y*b.x)*e_x^e_y
+
+
+**************************************************
+
+Metric + + Inner Product
+
+AMV = a.q
+ + a.x*e_x + a.y*e_y
+ + a.xy*e_x^e_y
+BMV = b.q
+ + b.x*e_x + b.y*e_y
+ + b.xy*e_x^e_y
+CMV = a.x*b.x - a.xy*b.xy + a.y*b.y
+ + (a.xy*b.y - a.y*b.xy)*e_x
+ + (a.x*b.xy - a.xy*b.x)*e_y
+
+
+**************************************************
+
+Metric + + Left Contraction Product
+
+AMV = a.q
+ + a.x*e_x + a.y*e_y
+ + a.xy*e_x^e_y
+BMV = b.q
+ + b.x*e_x + b.y*e_y
+ + b.xy*e_x^e_y
+CMV = a.q*b.q + a.x*b.x - a.xy*b.xy + a.y*b.y
+ + (a.q*b.x - a.y*b.xy)*e_x
+ + (a.q*b.y + a.x*b.xy)*e_y
+ + a.q*b.xy*e_x^e_y
+
+
+**************************************************
+
+Metric + + Right Contraction Product
+
+AMV = a.q
+ + a.x*e_x + a.y*e_y
+ + a.xy*e_x^e_y
+BMV = b.q
+ + b.x*e_x + b.y*e_y
+ + b.xy*e_x^e_y
+CMV = a.q*b.q + a.x*b.x - a.xy*b.xy + a.y*b.y
+ + (a.x*b.q + a.xy*b.y)*e_x
+ + (-a.xy*b.x + a.y*b.q)*e_y
+ + a.xy*b.q*e_x^e_y
+
+
+**************************************************
+
+Dual = AMV*(I_inv) = AMV*exy
+
+AMV = a.q
+ + a.x*e_x + a.y*e_y
+ + a.xy*e_x^e_y
+BMV = a.xy
+ + a.y*e_x - a.x*e_y
+ - a.q*e_x^e_y
+
+
+**************************************************
+
+	DorstDual b = LeftContraction(a,I_inv);
+
+AMV = a.q
+ + a.x*e_x + a.y*e_y
+ + a.xy*e_x^e_y
+BMV = a.xy
+ + a.y*e_x - a.x*e_y
+ - a.q*e_x^e_y
+
+
+**************************************************
+
+	DorstUnDual b = LeftContraction(a,I);
+
+AMV = a.q
+ + a.x*e_x + a.y*e_y
+ + a.xy*e_x^e_y
+BMV = -a.xy
+ - a.y*e_x + a.x*e_y
+ + a.q*e_x^e_y
+

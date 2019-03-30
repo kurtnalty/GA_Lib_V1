@@ -1,0 +1,350 @@
+
+r = 
+(a, 
+b,c,d, 
+e,f,g, 
+h)
+
+r = ( a, b,c,d, e,f,g, h)
+r = ( a, b,c,d, e,f,g, h)
+OverBar(r) = ( h, g,-f,e, d,-c,b, a)
+Determinant is conserved
+r*OverBar(r) = 
+(0, 
+0,0,0, 
+2*h*e+2*d*a-2*g*c-2*b*f,-2*a*c-2*g*d+2*h*f+2*e*b,2*e*c+2*d*f+2*a*b+2*g*h, 
+c^2+f^2+e^2+h^2+g^2+b^2+a^2+d^2)
+
+
+r = ( a, b,c,d, e,f,g, h)
+UnderBar(r) = ( h, g,-f,e, d,-c,b, a)
+OverBar(UnderBar(r)) = ( a, b,c,d, e,f,g, h)
+UnderBar(OverBar(r)) = ( a, b,c,d, e,f,g, h)
+Determinant is conserved
+r*UnderBar(r) = 
+(0, 
+0,0,0, 
+2*h*e+2*d*a-2*g*c-2*b*f,-2*a*c-2*g*d+2*h*f+2*e*b,2*e*c+2*d*f+2*a*b+2*g*h, 
+c^2+f^2+e^2+h^2+g^2+b^2+a^2+d^2)
+
+
+r = ( a, b,c,d, e,f,g, h)
+Reverse(r) = ( a, b,c,d, -e,-f,-g, -h)
+Reverse(Reverse(r)) = ( a, b,c,d, e,f,g, h)
+Determinant is conserved
+r*Reverse(r) = 
+(c^2+f^2+e^2+h^2+g^2+b^2+a^2+d^2, 
+2*e*c+2*d*f+2*a*b+2*g*h,2*a*c+2*g*d-2*h*f-2*e*b,2*h*e+2*d*a-2*g*c-2*b*f, 
+0,0,0, 
+0)
+
+
+r = ( a, b,c,d, e,f,g, h)
+Involution(r) = ( a, -b,-c,-d, e,f,g, -h)
+Involution(Involution(r)) = ( a, b,c,d, e,f,g, h)
+Determinant is conserved
+r*Involution(r) = 
+(-c^2-f^2-e^2+h^2-g^2-b^2+a^2-d^2, 
+-2*e*c-2*d*f,-2*g*d+2*e*b,2*g*c+2*b*f, 
+-2*d*h+2*a*e,2*a*f+2*h*c,2*g*a-2*h*b, 
+0)
+
+
+r = ( a, b,c,d, e,f,g, h)
+Transpose(r) = ( a, b,c,d, -e,-f,-g, -h)
+Transpose(Transpose(r)) = ( a, b,c,d, e,f,g, h)
+Determinant is conserved
+r*Transpose(r) = 
+(c^2+f^2+e^2+h^2+g^2+b^2+a^2+d^2, 
+2*e*c+2*d*f+2*a*b+2*g*h,2*a*c+2*g*d-2*h*f-2*e*b,2*h*e+2*d*a-2*g*c-2*b*f, 
+0,0,0, 
+0)
+
+
+r = ( a, b,c,d, e,f,g, h)
+Conjugation(r) = ( a, -b,-c,-d, -e,-f,-g, -h)
+Conjugation(Conjugation(r)) = ( a, b,c,d, e,f,g, h)
+Determinant is not conserved
+r*Conjugation(r) = 
+(-c^2+f^2+e^2+h^2+g^2-b^2+a^2-d^2, 
+2*g*h,-2*h*f,2*h*e, 
+-2*d*h,2*h*c,-2*h*b, 
+-2*g*b-2*d*e+2*f*c)
+
+
+r = ( a, b,c,d, e,f,g, h)
+CliffordConjugation(r) = ( a, -b,-c,-d, -e,-f,-g, h)
+CliffordConjugation(CliffordConjugation(r)) = ( a, b,c,d, e,f,g, h)
+Determinant is conserved
+r*CliffordConjugation(r) = 
+(-c^2+f^2+e^2-h^2+g^2-b^2+a^2-d^2, 
+0,0,0, 
+0,0,0, 
+-2*g*b-2*d*e+2*a*h+2*f*c)
+
+
+r = ( a, b,c,d, e,f,g, h)
+Dual(r) = ( h, g,-f,e, -d,c,-b, -a)
+Dual(Dual(r)) = ( -a, -b,-c,-d, -e,-f,-g, -h)
+Determinant is conserved
+r*Dual(r) = 
+(2*g*b+2*d*e+2*a*h-2*f*c, 
+2*g*a+2*h*b,-2*a*f+2*h*c,2*d*h+2*a*e, 
+2*h*e-2*d*a,2*a*c+2*h*f,-2*a*b+2*g*h, 
+-c^2+f^2+e^2+h^2+g^2-b^2-a^2-d^2)
+
+
+r = ( a, b,c,d, e,f,g, h)
+DorstDual(r) = ( h, g,-f,e, -d,c,-b, -a)
+Determinant is conserved
+r*DorstDual(r) = 
+(2*g*b+2*d*e+2*a*h-2*f*c, 
+2*g*a+2*h*b,-2*a*f+2*h*c,2*d*h+2*a*e, 
+2*h*e-2*d*a,2*a*c+2*h*f,-2*a*b+2*g*h, 
+-c^2+f^2+e^2+h^2+g^2-b^2-a^2-d^2)
+
+
+r = ( a, b,c,d, e,f,g, h)
+DorstUnDual(r) = ( -h, -g,f,-e, d,-c,b, a)
+
+DorstUnDual(DorstDual(r)) = ( a, b,c,d, e,f,g, h)
+DorstDual(DorstUnDual(r)) = ( a, b,c,d, e,f,g, h)
+Determinant is conserved
+r*DorstUnDual(r) = 
+(-2*g*b-2*d*e-2*a*h+2*f*c, 
+-2*g*a-2*h*b,2*a*f-2*h*c,-2*d*h-2*a*e, 
+-2*h*e+2*d*a,-2*a*c-2*h*f,2*a*b-2*g*h, 
+c^2-f^2-e^2-h^2-g^2+b^2+a^2+d^2)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+r + s = ( a+A, B+b,C+c,d+D, e+E,F+f,g+G, h+H)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+r - s = ( a-A, -B+b,-C+c,d-D, e-E,-F+f,g-G, h-H)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+t = ( A, B,C,D, E,F,G, H)
+r != s (as expected)
+s == t (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+t = ( A, B,C,D, E,F,G, H)
+r != s (as expected)
+s == t (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = r*s = 
+(-g*G-F*f-e*E+B*b-h*H+C*c+a*A+d*D, 
+B*a+b*A+C*e+D*f-g*H-d*F-h*G-c*E,g*D+a*C+A*c+F*h+b*E-B*e-d*G+f*H,-h*E-e*H-g*C+a*D+d*A+F*b+G*c-B*f, 
+g*F+C*b+a*E+d*H+e*A+h*D-G*f-B*c,A*f-B*d+b*D+e*G-C*h-c*H-g*E+a*F,-F*e-d*C+g*A+D*c+B*h+f*E+a*G+b*H, 
+a*H-F*c+d*E+b*G+B*g+h*A+e*D-C*f)
+
+Product is non-commutative (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+t = ( c.a, c.b,c.c,c.d, c.f,c.g,c.h, c.l)
+Product is associative (as expected)
+
+s = Z*r = ( Z*a, Z*b,Z*c,Z*d, Z*e,Z*f,Z*g, Z*h)
+s = r*Z = ( a*Z, Z*b,Z*c,d*Z, Z*e,Z*f,g*Z, Z*h)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = Product(r,s) = 
+(-g*G-F*f-e*E+B*b-h*H+C*c+a*A+d*D, 
+B*a+b*A+C*e+D*f-g*H-d*F-h*G-c*E,g*D+a*C+A*c+F*h+b*E-B*e-d*G+f*H,-h*E-e*H-g*C+a*D+d*A+F*b+G*c-B*f, 
+g*F+C*b+a*E+d*H+e*A+h*D-G*f-B*c,A*f-B*d+b*D+e*G-C*h-c*H-g*E+a*F,-F*e-d*C+g*A+D*c+B*h+f*E+a*G+b*H, 
+a*H-F*c+d*E+b*G+B*g+h*A+e*D-C*f)
+
+Product(r,s) is non-commutative (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+t = ( c.a, c.b,c.c,c.d, c.f,c.g,c.h, c.l)
+Product is associative (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+u = r/2 = ( 1/2*a, 1/2*b,1/2*c,1/2*d, 1/2*e,1/2*f,1/2*g, 1/2*h)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = r^s = 
+(a*A, 
+B*a+b*A,a*C+A*c,a*D+d*A, 
+C*b+a*E+e*A-B*c,A*f-B*d+b*D+a*F,-d*C+g*A+D*c+a*G, 
+a*H-F*c+d*E+b*G+B*g+h*A+e*D-C*f)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = Wedge(r,s) = 
+(a*A, 
+B*a+b*A,a*C+A*c,a*D+d*A, 
+C*b+a*E+e*A-B*c,A*f-B*d+b*D+a*F,-d*C+g*A+D*c+a*G, 
+a*H-F*c+d*E+b*G+B*g+h*A+e*D-C*f)
+
+Wedge(r,s) is non-commutative (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+t = ( c.a, c.b,c.c,c.d, c.f,c.g,c.h, c.l)
+Wedge is associative (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = AntiWedge(r,s) = 
+(a*H-F*c+d*E+b*G+B*g+h*A+e*D-C*f, 
+F*e+B*h-f*E+b*H,e*G+C*h+c*H-g*E,-g*F+d*H+h*D+G*f, 
+h*E+e*H,F*h+f*H,g*H+h*G, 
+h*H)
+
+AntiWedge(r,s) is non-commutative (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+t = ( c.a, c.b,c.c,c.d, c.f,c.g,c.h, c.l)
+AntiWedge is associative (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = Regressive(r,s) = 
+(a*H-F*c+d*E+b*G+B*g+h*A+e*D-C*f, 
+-F*e+B*h+f*E+b*H,-e*G+C*h+c*H+g*E,g*F+d*H+h*D-G*f, 
+h*E+e*H,F*h+f*H,g*H+h*G, 
+h*H)
+
+Regressive(r,s) is non-commutative (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+t = ( c.a, c.b,c.c,c.d, c.f,c.g,c.h, c.l)
+Regressive is associative (as expected)
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = RegressiveViaFormula(r,s) = 
+(a*H-F*c+d*E+b*G+B*g+h*A+e*D-C*f, 
+-F*e+B*h+f*E+b*H,-e*G+C*h+c*H+g*E,g*F+d*H+h*D-G*f, 
+h*E+e*H,F*h+f*H,g*H+h*G, 
+h*H)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = LowerRightViaFormula(r,s) = 
+(-h*H, 
+-g*H-h*G,F*h+f*H,-h*E-e*H, 
+g*F+d*H+h*D-G*f,e*G-C*h-c*H-g*E,-F*e+B*h+f*E+b*H, 
+a*H-F*c+d*E+b*G+B*g+h*A+e*D-C*f)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = Expander(r,s) = 
+(0, 
+0,0,0, 
+C*b-B*c,-B*d+b*D,-d*C+D*c, 
+-F*c+d*E+b*G+B*g+e*D-C*f)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = Conserver(r,s) = 
+(a*A, 
+B*a+b*A,a*C+A*c,a*D+d*A, 
+g*F+a*E+e*A-G*f,A*f+e*G-g*E+a*F,-F*e+g*A+f*E+a*G, 
+a*H+h*A)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = Shrinker(r,s) = 
+(-g*G-F*f-e*E+B*b-h*H+C*c+d*D, 
+C*e+D*f-g*H-d*F-h*G-c*E,g*D+F*h+b*E-B*e-d*G+f*H,-h*E-e*H-g*C+F*b+G*c-B*f, 
+d*H+h*D,-C*h-c*H,B*h+b*H, 
+0)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = Symmetric(r,s) = 
+(-g*G-F*f-e*E+B*b-h*H+C*c+a*A+d*D, 
+B*a+b*A-g*H-h*G,a*C+A*c+F*h+f*H,-h*E-e*H+a*D+d*A, 
+a*E+d*H+e*A+h*D,A*f-C*h-c*H+a*F,g*A+B*h+a*G+b*H, 
+a*H-F*c+d*E+b*G+B*g+h*A+e*D-C*f)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = AntiSymmetric(r,s) = 
+(0, 
+C*e+D*f-d*F-c*E,g*D+b*E-B*e-d*G,-g*C+F*b+G*c-B*f, 
+g*F+C*b-G*f-B*c,-B*d+b*D+e*G-g*E,-F*e-d*C+D*c+f*E, 
+0)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = Inner(r,s) = 
+(-g*G-F*f-e*E+B*b-h*H+C*c+d*D, 
+C*e+D*f-g*H-d*F-h*G-c*E,g*D+F*h+b*E-B*e-d*G+f*H,-h*E-e*H-g*C+F*b+G*c-B*f, 
+d*H+h*D,-C*h-c*H,B*h+b*H, 
+0)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = LeftContraction(r,s) = 
+(-g*G-F*f-e*E+B*b-h*H+C*c+a*A+d*D, 
+B*a-g*H-d*F-c*E,a*C+b*E-d*G+f*H,-e*H+a*D+F*b+G*c, 
+a*E+d*H,-c*H+a*F,a*G+b*H, 
+a*H)
+
+
+r = ( a, b,c,d, e,f,g, h)
+s = ( A, B,C,D, E,F,G, H)
+u = RightContraction(r,s) = 
+(-g*G-F*f-e*E+B*b-h*H+C*c+a*A+d*D, 
+b*A+C*e+D*f-h*G,g*D+A*c+F*h-B*e,-h*E-g*C+d*A-B*f, 
+e*A+h*D,A*f-C*h,g*A+B*h, 
+h*A)
+
+
+X = ( 3, 5,7,11, 13,17,19, 23)
+Determinant(X) = 20816
+
+X = ( 3, 5,7,11, 13,17,19, 23)
+u = Adjugate(X) = 
+(-1988, 
+1380,-2428,156, 
+-2452,-1068,-2476, 
+2692)
+
+
+X = ( 3, 5,7,11, 13,17,19, 23)
+u = Reciprocal(X) = 
+(-497/5204, 
+345/5204,-607/5204,39/5204, 
+-613/5204,-267/5204,-619/5204, 
+673/5204)
+
+X*(1/X) = 
+(1, 
+0,0,0, 
+0,0,0, 
+0)
+
+
+Verify Magic transform preserves determinant
+++++++
+
+Verify Comp transform preserves determinant
+++++++++++++++++++++++++++++++++
+

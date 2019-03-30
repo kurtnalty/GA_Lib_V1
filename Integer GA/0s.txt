@@ -1,0 +1,16 @@
+Conserved  determinant at index 0   Zcount = 0 
+Conserved  determinant at index 215907120   Zcount = 0 
+Conserved  determinant at index 359511720   Zcount = 0 
+Conserved  determinant at index 431213976   Zcount = 0 
+Conserved  determinant at index 645123684   Zcount = 0 
+Conserved  determinant at index 716027220   Zcount = 0 
+Conserved  determinant at index 857635020   Zcount = 0 
+Conserved  determinant at index 1069548540   Zcount = 0 
+Conserved  determinant at index 1200345570   Zcount = 0 
+Conserved  determinant at index 1263905490   Zcount = 0 
+Conserved  determinant at index 1390831434   Zcount = 0 
+Conserved  determinant at index 1580735610   Zcount = 0 
+Conserved  determinant at index 1643650950   Zcount = 0 
+Conserved  determinant at index 1831232694   Zcount = 0 
+Conserved  determinant at index 1955965230   Zcount = 0 
+Conserved  determinant at index 2018234910   Zcount = 0 
