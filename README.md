@@ -48,11 +48,32 @@ For the C++ routines, include the ginac releated headers ans the C++ routines. E
     int main(void)
     {
     
-Compile instruction example, assume gcc compiler for numeric C work
+Compile instruction example, assuming gcc compiler for numeric C work
 
 gcc GA2E_Demo.c -o GA2E_Demo GA2E_Demo.c -l m
 
 Compile command example, assuming g++ compiler for symbolic C++ work
 
 g++ GA2E_Test_Harness.cp -o GA2E_Test_Harness -l ginac -l cln -l gmp -l m
+
+*****************
+
+Supported Algebras:
+
+    GA2E - Two Dimensional Euclidean Space Geometric Algebra < --- Simplest!
+    
+    GA3E - Three Dimensional Euclidean Space Geometric Algebra using xz bivector base convention
+    
+    GA3Ezx - Three Dimensional Euclidean Space Geometric Algebra using zx bivector base convention  < --- Good Starting point for beginners
+    
+    GA4E - Four Dimensional Euclidean Space Geometric Algebra
+    
+    Mink - Four Dimensional SpaceTime (Minkowski SpaceTime) using +++- metric for xyzt
+    
+    GA5_4_1 - Five Dimensional SpaceTime matching the full Dirac Gamma matrix set. 
+    
+*****************
+Thank-you to David Hestenes, Alan MacDonald, Eric Lenyel, Leo Dorst and many others for championing this field!
+
+Special thanks to Alan Bromborsky for the symbolic GA routines in python, which inspired and were used as a check for my routines.
 
