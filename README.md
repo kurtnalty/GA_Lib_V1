@@ -11,6 +11,9 @@ Prequisites for numerical C routines: libm and headers
 
 Prequisites for symbolic C++ routines: We need libm, libgmp, libcln, and libginac and associated headers installed.
 
+Note: GiNac has different initialization syntax for matrices between older and newer version. Should you get compile errors
+in the demo programs, see the note at the end of this file for the easy, included fix.
+
 *****************
 
 Simple usage: 
@@ -76,4 +79,22 @@ Supported Algebras:
 Thank-you to David Hestenes, Alan MacDonald, Eric Lenyel, Leo Dorst and many others for championing this field!
 
 Special thanks to Alan Bromborsky for the symbolic GA routines in python, which inspired and were used as a check for my routines.
+
+*****************************************
+
+GiNaC matrix initialization routines have changed between older and newest versions of GiNaC.
+
+All libraries have two copies of the affected routines, with new version commented out, and older enabled by default.
+
+Sample code snippet from GA3E_Routines.cp
+
+    //////////////////////////////////////////////////////
+    /*
+    matrix GA3E_To_Matrix(GA3E MV) // newer ginac calling sequence
+    {
+
+Notice the /* block commenting the newer calling sequence routines? Should the demo fail to compile, use your text editor to comment out the older routine, and 
+use the newer routine.
+
+
 
