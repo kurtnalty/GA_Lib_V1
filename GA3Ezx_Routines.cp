@@ -1083,8 +1083,6 @@ AntiSymmetric Product
 //////////////////////////////////////////////////////// 
 
 GA3Ezx Inner(const GA3Ezx &a, const GA3Ezx &b)  // Based Upon Bromborsky (A|B)
-//  Expect this to be lower rank term of geometric product of blades = LeftContraction
-//  Go over this slowly tomorrow.
 { 
 /*
 
