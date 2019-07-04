@@ -438,6 +438,27 @@ GA3E GA3E_Product(GA3E a, GA3E b)
 
 //////////////////////////////////////////////////////
 
+GA3E GA3E_Multiply_By_Constant(GA3E u, double a)
+{
+	GA3E w;
+
+	w.q =   u.q*a;
+
+	w.x   = u.x*a;
+	w.y   = u.y*a;
+	w.z   = u.z*a;
+
+	w.xy  = u.xy*a;
+	w.xz  = u.xz*a;
+	w.yz  = u.yz*a;
+
+	w.xyz = u.xyz*a;
+
+	return w;
+}
+
+//////////////////////////////////////////////////////
+
 GA3E GA3E_Divide_By_Constant(GA3E u, double a)
 {
 	GA3E w;
