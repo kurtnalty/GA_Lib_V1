@@ -440,6 +440,28 @@ GA3Ezx GA3Ezx_Product(GA3Ezx a, GA3Ezx b)
 
 //////////////////////////////////////////////////////
 
+GA3Ezx GA3Ezx_Multiply_By_Constant(GA3Ezx u, double a)
+{
+	GA3Ezx w;
+
+	w.q =   u.q*a;
+
+	w.x   = u.x*a;
+	w.y   = u.y*a;
+	w.z   = u.z*a;
+
+	w.xy  = u.xy*a;
+	w.zx  = u.zx*a;
+	w.yz  = u.yz*a;
+
+	w.xyz = u.xyz*a;
+
+	return w;
+}
+
+
+//////////////////////////////////////////////////////
+
 GA3Ezx GA3Ezx_Divide_By_Constant(GA3Ezx u, double a)
 {
 	GA3Ezx w;
