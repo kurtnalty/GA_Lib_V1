@@ -618,6 +618,53 @@ c.wxyzt = + (a.q*b.wxyzt + a.t*b.wxyz + a.w*b.xyzt - a.wt*b.xyz + a.wx*b.yzt + a
 
 //////////////////////////////////////////////////////
 
+GA5_4_1 GA5_4_1_Multiply_By_Constant(GA5_4_1 u,  double i)
+{
+	GA5_4_1 a;
+	a.q = u.q*i;
+
+	a.w = u.w*i;
+	a.x = u.x*i;
+	a.y = u.y*i;
+	a.z = u.z*i;
+	a.t = u.t*i;
+
+	a.wx = u.wx*i;
+	a.wy = u.wy*i;
+	a.wz = u.wz*i;
+	a.wt = u.wt*i;
+	a.xy = u.xy*i;
+	a.xz = u.xz*i;
+	a.yz = u.yz*i;
+	a.xt = u.xt*i;
+	a.yt = u.yt*i;
+	a.zt = u.zt*i;
+
+	a.wxy = u.wxy*i;
+	a.wxz = u.wxz*i;
+	a.wxt = u.wxt*i;
+	a.wyz = u.wyz*i;
+	a.wyt = u.wyt*i;
+	a.wzt = u.wzt*i;
+	a.xyz = u.xyz*i;
+	a.xyt = u.xyt*i;
+	a.xzt = u.xzt*i;
+	a.yzt = u.yzt*i;
+
+	a.wxyz = u.wxyz*i;
+	a.wxyt = u.wxyt*i;
+	a.wxzt = u.wxzt*i;
+	a.wyzt = u.wyzt*i;
+	a.xyzt = u.xyzt*i;
+
+	a.wxyzt = u.wxyzt*i;
+
+	return a;
+}
+
+
+//////////////////////////////////////////////////////
+
 GA5_4_1 GA5_4_1_Divide_By_Constant(GA5_4_1 u,  double i)
 {
 	GA5_4_1 a;
