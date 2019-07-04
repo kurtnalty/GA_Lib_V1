@@ -308,6 +308,22 @@ GA2E GA2E_Product( GA2E a,  GA2E b)
 
 //////////////////////////////////////////////////////
 
+GA2E GA2E_Multiply_By_Constant( GA2E u, double a)
+{
+	GA2E w;
+
+	w.q =   u.q*a;
+
+	w.x   = u.x*a;
+	w.y   = u.y*a;
+
+	w.xy  = u.xy*a;
+
+	return w;
+}
+
+//////////////////////////////////////////////////////
+
 GA2E GA2E_Divide_By_Constant( GA2E u, double a)
 {
 	GA2E w;
