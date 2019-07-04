@@ -1,0 +1,614 @@
+AntiWedge Formula is Consistent with OverBar((UnderBar(r)^UnderBar(s)))
+
+AntiWedge Formula is Consistent with UnderBar((OverBar(r)^OverBar(s)))
+
+Regressive is Consistent with RegressiveViaFormula
+
+Clifford Product is Associative 
+
+Wedge Product is Associative 
+
+AntiWedge Product is Associative 
+
+ *    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     x     y     z     xy    zx    yz    xyz  
+ x    |  x     q     xy   -zx    y    -z     xyz   yz   
+ y    |  y    -xy    q     yz   -x     xyz   z     zx   
+ z    |  z     zx   -yz    q     xyz   x    -y     xy   
+ xy   |  xy   -y     x     xyz  -q     yz   -zx   -z    
+ zx   |  zx    z     xyz  -x    -yz   -q     xy   -y    
+ yz   |  yz    xyz  -z     y     zx   -xy   -q    -x    
+ xyz  |  xyz   yz    zx    xy   -z    -y    -x    -q    
+
+
+
+ ^    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     x     y     z     xy    zx    yz    xyz  
+ x    |  x     0     xy   -zx    0     0     xyz   0    
+ y    |  y    -xy    0     yz    0     xyz   0     0    
+ z    |  z     zx   -yz    0     xyz   0     0     0    
+ xy   |  xy    0     0     xyz   0     0     0     0    
+ zx   |  zx    0     xyz   0     0     0     0     0    
+ yz   |  yz    xyz   0     0     0     0     0     0    
+ xyz  |  xyz   0     0     0     0     0     0     0    
+
+
+
+Lengyel
+ V    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     q    
+ x    |  0     0     0     0     0     0     q     x    
+ y    |  0     0     0     0     0     q     0     y    
+ z    |  0     0     0     0     q     0     0     z    
+ xy   |  0     0     0     q     0    -x     y     xy   
+ zx   |  0     0     q     0     x     0    -z     zx   
+ yz   |  0     q     0     0    -y     z     0     yz   
+ xyz  |  q     x     y     z     xy    zx    yz    xyz  
+
+
+
+Hestenes
+ V    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     q    
+ x    |  0     0     0     0     0     0     q     x    
+ y    |  0     0     0     0     0     q     0     y    
+ z    |  0     0     0     0     q     0     0     z    
+ xy   |  0     0     0     q     0     x    -y     xy   
+ zx   |  0     0     q     0    -x     0     z     zx   
+ yz   |  0     q     0     0     y    -z     0     yz   
+ xyz  |  q     x     y     z     xy    zx    yz    xyz  
+
+
+
+Blade[i]*Blade[j] - (Blade[i]^Blade[j])
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     0    
+ x    |  0     q     0     0     y    -z     0     yz   
+ y    |  0     0     q     0    -x     0     z     zx   
+ z    |  0     0     0     q     0     x    -y     xy   
+ xy   |  0    -y     x     0    -q     yz   -zx   -z    
+ zx   |  0     z     0    -x    -yz   -q     xy   -y    
+ yz   |  0     0    -z     y     zx   -xy   -q    -x    
+ xyz  |  0     yz    zx    xy   -z    -y    -x    -q    
+
+
+
+AntiWedge(OverBar(Blade[i]),Blade[j])
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     x     y     z     xy    zx    yz    xyz  
+ x    |  0     q     0     0    -y     z     0     yz   
+ y    |  0     0     q     0     x     0    -z     zx   
+ z    |  0     0     0     q     0    -x     y     xy   
+ xy   |  0     0     0     0     q     0     0     z    
+ zx   |  0     0     0     0     0     q     0     y    
+ yz   |  0     0     0     0     0     0     q     x    
+ xyz  |  0     0     0     0     0     0     0     q    
+
+
+
+AntiWedge(UnderBar(Blade[i]),Blade[j])
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     x     y     z     xy    zx    yz    xyz  
+ x    |  0     q     0     0    -y     z     0     yz   
+ y    |  0     0     q     0     x     0    -z     zx   
+ z    |  0     0     0     q     0    -x     y     xy   
+ xy   |  0     0     0     0     q     0     0     z    
+ zx   |  0     0     0     0     0     q     0     y    
+ yz   |  0     0     0     0     0     0     q     x    
+ xyz  |  0     0     0     0     0     0     0     q    
+
+
+
+AntiWedge(Blade[i],OverBar(Blade[j]))
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     0     0     0     0     0     0     0    
+ x    |  x     q     0     0     0     0     0     0    
+ y    |  y     0     q     0     0     0     0     0    
+ z    |  z     0     0     q     0     0     0     0    
+ xy   |  xy    y    -x     0     q     0     0     0    
+ zx   |  zx   -z     0     x     0     q     0     0    
+ yz   |  yz    0     z    -y     0     0     q     0    
+ xyz  |  xyz   yz    zx    xy    z     y     x     q    
+
+
+
+AntiWedge(Blade[i],UnderBar(Blade[j]))
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     0     0     0     0     0     0     0    
+ x    |  x     q     0     0     0     0     0     0    
+ y    |  y     0     q     0     0     0     0     0    
+ z    |  z     0     0     q     0     0     0     0    
+ xy   |  xy    y    -x     0     q     0     0     0    
+ zx   |  zx   -z     0     x     0     q     0     0    
+ yz   |  yz    0     z    -y     0     0     q     0    
+ xyz  |  xyz   yz    zx    xy    z     y     x     q    
+
+
+
+Wedge(OverBar(Blade[i]),OverBar(Blade[j]))
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     xyz  
+ x    |  0     0     0     0     0     0     xyz   yz   
+ y    |  0     0     0     0     0     xyz   0     zx   
+ z    |  0     0     0     0     xyz   0     0     xy   
+ xy   |  0     0     0     xyz   0    -yz    zx    z    
+ zx   |  0     0     xyz   0     yz    0    -xy    y    
+ yz   |  0     xyz   0     0    -zx    xy    0     x    
+ xyz  |  xyz   yz    zx    xy    z     y     x     q    
+
+
+
+Wedge(OverBar(Blade[i]),UnderBar(Blade[j]))
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     xyz  
+ x    |  0     0     0     0     0     0     xyz   yz   
+ y    |  0     0     0     0     0     xyz   0     zx   
+ z    |  0     0     0     0     xyz   0     0     xy   
+ xy   |  0     0     0     xyz   0    -yz    zx    z    
+ zx   |  0     0     xyz   0     yz    0    -xy    y    
+ yz   |  0     xyz   0     0    -zx    xy    0     x    
+ xyz  |  xyz   yz    zx    xy    z     y     x     q    
+
+
+
+Wedge(UnderBar(Blade[i]),OverBar(Blade[j]))
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     xyz  
+ x    |  0     0     0     0     0     0     xyz   yz   
+ y    |  0     0     0     0     0     xyz   0     zx   
+ z    |  0     0     0     0     xyz   0     0     xy   
+ xy   |  0     0     0     xyz   0    -yz    zx    z    
+ zx   |  0     0     xyz   0     yz    0    -xy    y    
+ yz   |  0     xyz   0     0    -zx    xy    0     x    
+ xyz  |  xyz   yz    zx    xy    z     y     x     q    
+
+
+
+Wedge(UnderBar(Blade[i]),UnderBar(Blade[j]))
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     xyz  
+ x    |  0     0     0     0     0     0     xyz   yz   
+ y    |  0     0     0     0     0     xyz   0     zx   
+ z    |  0     0     0     0     xyz   0     0     xy   
+ xy   |  0     0     0     xyz   0    -yz    zx    z    
+ zx   |  0     0     xyz   0     yz    0    -xy    y    
+ yz   |  0     xyz   0     0    -zx    xy    0     x    
+ xyz  |  xyz   yz    zx    xy    z     y     x     q    
+
+
+
+Wedge(Blade[i]*xyz,Blade[j]*xyz)
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0    -xyz  
+ x    |  0     0     0     0     0     0    -xyz  -yz   
+ y    |  0     0     0     0     0    -xyz   0    -zx   
+ z    |  0     0     0     0    -xyz   0     0    -xy   
+ xy   |  0     0     0    -xyz   0    -yz    zx    z    
+ zx   |  0     0    -xyz   0     yz    0    -xy    y    
+ yz   |  0    -xyz   0     0    -zx    xy    0     x    
+ xyz  | -xyz  -yz   -zx   -xy    z     y     x     q    
+
+
+
+Wedge(Blade[i]*xyz,xyz*Blade[j])
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0    -xyz  
+ x    |  0     0     0     0     0     0    -xyz  -yz   
+ y    |  0     0     0     0     0    -xyz   0    -zx   
+ z    |  0     0     0     0    -xyz   0     0    -xy   
+ xy   |  0     0     0    -xyz   0    -yz    zx    z    
+ zx   |  0     0    -xyz   0     yz    0    -xy    y    
+ yz   |  0    -xyz   0     0    -zx    xy    0     x    
+ xyz  | -xyz  -yz   -zx   -xy    z     y     x     q    
+
+
+
+Wedge(xyz*Blade[i],Blade[j]*xyz)
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0    -xyz  
+ x    |  0     0     0     0     0     0    -xyz  -yz   
+ y    |  0     0     0     0     0    -xyz   0    -zx   
+ z    |  0     0     0     0    -xyz   0     0    -xy   
+ xy   |  0     0     0    -xyz   0    -yz    zx    z    
+ zx   |  0     0    -xyz   0     yz    0    -xy    y    
+ yz   |  0    -xyz   0     0    -zx    xy    0     x    
+ xyz  | -xyz  -yz   -zx   -xy    z     y     x     q    
+
+
+
+Wedge(xyz*Blade[i],xyz*Blade[j])
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0    -xyz  
+ x    |  0     0     0     0     0     0    -xyz  -yz   
+ y    |  0     0     0     0     0    -xyz   0    -zx   
+ z    |  0     0     0     0    -xyz   0     0    -xy   
+ xy   |  0     0     0    -xyz   0    -yz    zx    z    
+ zx   |  0     0    -xyz   0     yz    0    -xy    y    
+ yz   |  0    -xyz   0     0    -zx    xy    0     x    
+ xyz  | -xyz  -yz   -zx   -xy    z     y     x     q    
+
+
+
+LowerRightViaFormula(Blade[i],Blade[j])
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     xyz  
+ x    |  0     0     0     0     0     0     xyz   yz   
+ y    |  0     0     0     0     0     xyz   0     zx   
+ z    |  0     0     0     0     xyz   0     0     xy   
+ xy   |  0     0     0     xyz   0     yz   -zx   -z    
+ zx   |  0     0     xyz   0    -yz    0     xy   -y    
+ yz   |  0     xyz   0     0     zx   -xy    0    -x    
+ xyz  |  xyz   yz    zx    xy   -z    -y    -x    -q    
+
+
+
+Blade[i]*Blade[j] - LowerRightViaFormula(Blade[i],Blade[j])
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     x     y     z     xy    zx    yz    0    
+ x    |  x     q     xy   -zx    y    -z     0     0    
+ y    |  y    -xy    q     yz   -x     0     z     0    
+ z    |  z     zx   -yz    q     0     x    -y     0    
+ xy   |  xy   -y     x     0    -q     0     0     0    
+ zx   |  zx    z     0    -x     0    -q     0     0    
+ yz   |  yz    0    -z     y     0     0    -q     0    
+ xyz  |  0     0     0     0     0     0     0     0    
+
+
+
+Blade[i]*Blade[j] - Wedge(Blade[i],Blade[j]) - LowerRightViaFormula(Blade[i],Blade[j])
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0    -xyz  
+ x    |  0     q     0     0     y    -z    -xyz   0    
+ y    |  0     0     q     0    -x    -xyz   z     0    
+ z    |  0     0     0     q    -xyz   x    -y     0    
+ xy   |  0    -y     x    -xyz  -q     0     0     0    
+ zx   |  0     z    -xyz  -x     0    -q     0     0    
+ yz   |  0    -xyz  -z     y     0     0    -q     0    
+ xyz  | -xyz   0     0     0     0     0     0     0    
+
+
+
+LowerRightViaFormula Product is Non-associative 
+
+Terms with increased rank
+ >    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     0    
+ x    |  0     0     xy   -zx    0     0     xyz   0    
+ y    |  0    -xy    0     yz    0     xyz   0     0    
+ z    |  0     zx   -yz    0     xyz   0     0     0    
+ xy   |  0     0     0     xyz   0     0     0     0    
+ zx   |  0     0     xyz   0     0     0     0     0    
+ yz   |  0     xyz   0     0     0     0     0     0    
+ xyz  |  0     0     0     0     0     0     0     0    
+
+
+
+Terms with preserved rank
+ =    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     x     y     z     xy    zx    yz    xyz  
+ x    |  x     0     0     0     0     0     0     0    
+ y    |  y     0     0     0     0     0     0     0    
+ z    |  z     0     0     0     0     0     0     0    
+ xy   |  xy    0     0     0     0     yz   -zx    0    
+ zx   |  zx    0     0     0    -yz    0     xy    0    
+ yz   |  yz    0     0     0     zx   -xy    0     0    
+ xyz  |  xyz   0     0     0     0     0     0     0    
+
+
+
+Terms with reduced rank
+ <    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     0    
+ x    |  0     q     0     0     y    -z     0     yz   
+ y    |  0     0     q     0    -x     0     z     zx   
+ z    |  0     0     0     q     0     x    -y     xy   
+ xy   |  0    -y     x     0    -q     0     0    -z    
+ zx   |  0     z     0    -x     0    -q     0    -y    
+ yz   |  0     0    -z     y     0     0    -q    -x    
+ xyz  |  0     yz    zx    xy   -z    -y    -x    -q    
+
+
+
+Clifford equation set for test purposes
+c.q   =  + a.q  *b.q   + a.x  *b.x   + a.y  *b.y   + a.z  *b.z   - a.xy *b.xy  - a.zx *b.zx  - a.yz *b.yz  - a.xyz*b.xyz ; 
+c.x   =  + a.q  *b.x   + a.x  *b.q   - a.y  *b.xy  + a.z  *b.zx  + a.xy *b.y   - a.zx *b.z   - a.yz *b.xyz - a.xyz*b.yz  ; 
+c.y   =  + a.q  *b.y   + a.x  *b.xy  + a.y  *b.q   - a.z  *b.yz  - a.xy *b.x   - a.zx *b.xyz + a.yz *b.z   - a.xyz*b.zx  ; 
+c.z   =  + a.q  *b.z   - a.x  *b.zx  + a.y  *b.yz  + a.z  *b.q   - a.xy *b.xyz + a.zx *b.x   - a.yz *b.y   - a.xyz*b.xy  ; 
+c.xy  =  + a.q  *b.xy  + a.x  *b.y   - a.y  *b.x   + a.z  *b.xyz + a.xy *b.q   + a.zx *b.yz  - a.yz *b.zx  + a.xyz*b.z   ; 
+c.zx  =  + a.q  *b.zx  - a.x  *b.z   + a.y  *b.xyz + a.z  *b.x   - a.xy *b.yz  + a.zx *b.q   + a.yz *b.xy  + a.xyz*b.y   ; 
+c.yz  =  + a.q  *b.yz  + a.x  *b.xyz + a.y  *b.z   - a.z  *b.y   + a.xy *b.zx  - a.zx *b.xy  + a.yz *b.q   + a.xyz*b.x   ; 
+c.xyz =  + a.q  *b.xyz + a.x  *b.yz  + a.y  *b.zx  + a.z  *b.xy  + a.xy *b.z   + a.zx *b.y   + a.yz *b.x   + a.xyz*b.q   ; 
+
+
+Wedge
+c.q   =  + a.q  *b.q   ; 
+c.x   =  + a.q  *b.x   + a.x  *b.q   ; 
+c.y   =  + a.q  *b.y   + a.y  *b.q   ; 
+c.z   =  + a.q  *b.z   + a.z  *b.q   ; 
+c.xy  =  + a.q  *b.xy  + a.x  *b.y   - a.y  *b.x   + a.xy *b.q   ; 
+c.zx  =  + a.q  *b.zx  - a.x  *b.z   + a.z  *b.x   + a.zx *b.q   ; 
+c.yz  =  + a.q  *b.yz  + a.y  *b.z   - a.z  *b.y   + a.yz *b.q   ; 
+c.xyz =  + a.q  *b.xyz + a.x  *b.yz  + a.y  *b.zx  + a.z  *b.xy  + a.xy *b.z   + a.zx *b.y   + a.yz *b.x   + a.xyz*b.q   ; 
+
+
+AntiWedge
+c.q   =  + a.q  *b.xyz + a.x  *b.yz  + a.y  *b.zx  + a.z  *b.xy  + a.xy *b.z   + a.zx *b.y   + a.yz *b.x   + a.xyz*b.q   ; 
+c.x   =  + a.x  *b.xyz - a.xy *b.zx  + a.zx *b.xy  + a.xyz*b.x   ; 
+c.y   =  + a.y  *b.xyz + a.xy *b.yz  - a.yz *b.xy  + a.xyz*b.y   ; 
+c.z   =  + a.z  *b.xyz - a.zx *b.yz  + a.yz *b.zx  + a.xyz*b.z   ; 
+c.xy  =  + a.xy *b.xyz + a.xyz*b.xy  ; 
+c.zx  =  + a.zx *b.xyz + a.xyz*b.zx  ; 
+c.yz  =  + a.yz *b.xyz + a.xyz*b.yz  ; 
+c.xyz =  + a.xyz*b.xyz ; 
+
+
+Clifford products agree 
+
+u = 
+(0, 
+0,0,0, 
+0,0,0, 
+0)
+
+Expander equation set for test purposes
+c.q   =  ; 
+c.x   =  ; 
+c.y   =  ; 
+c.z   =  ; 
+c.xy  =  + a.x  *b.y   - a.y  *b.x   ; 
+c.zx  =  - a.x  *b.z   + a.z  *b.x   ; 
+c.yz  =  + a.y  *b.z   - a.z  *b.y   ; 
+c.xyz =  + a.x  *b.yz  + a.y  *b.zx  + a.z  *b.xy  + a.xy *b.z   + a.zx *b.y   + a.yz *b.x   ; 
+
+
+Wedge - Expander differ (as expected)
+
+u = 
+(a*A, 
+b*A+B*a,a*C+c*A,d*A+a*D, 
+e*A+E*a,a*F+A*f,g*A+a*G, 
+h*A+H*a)
+
+
+
+Expander Product is Associative 
+
+Conserver equation set for test purposes
+c.q   =  + a.q  *b.q   ; 
+c.x   =  + a.q  *b.x   + a.x  *b.q   ; 
+c.y   =  + a.q  *b.y   + a.y  *b.q   ; 
+c.z   =  + a.q  *b.z   + a.z  *b.q   ; 
+c.xy  =  + a.q  *b.xy  + a.xy *b.q   + a.zx *b.yz  - a.yz *b.zx  ; 
+c.zx  =  + a.q  *b.zx  - a.xy *b.yz  + a.zx *b.q   + a.yz *b.xy  ; 
+c.yz  =  + a.q  *b.yz  + a.xy *b.zx  - a.zx *b.xy  + a.yz *b.q   ; 
+c.xyz =  + a.q  *b.xyz + a.xyz*b.q   ; 
+
+
+Conserver Product is Non-associative 
+
+Shrinker equation set for test purposes
+c.q   =  + a.x  *b.x   + a.y  *b.y   + a.z  *b.z   - a.xy *b.xy  - a.zx *b.zx  - a.yz *b.yz  - a.xyz*b.xyz ; 
+c.x   =  - a.y  *b.xy  + a.z  *b.zx  + a.xy *b.y   - a.zx *b.z   - a.yz *b.xyz - a.xyz*b.yz  ; 
+c.y   =  + a.x  *b.xy  - a.z  *b.yz  - a.xy *b.x   - a.zx *b.xyz + a.yz *b.z   - a.xyz*b.zx  ; 
+c.z   =  - a.x  *b.zx  + a.y  *b.yz  - a.xy *b.xyz + a.zx *b.x   - a.yz *b.y   - a.xyz*b.xy  ; 
+c.xy  =  + a.z  *b.xyz + a.xyz*b.z   ; 
+c.zx  =  + a.y  *b.xyz + a.xyz*b.y   ; 
+c.yz  =  + a.x  *b.xyz + a.xyz*b.x   ; 
+c.xyz =  ; 
+
+
+Shrinker Product is Non-associative 
+
+Clifford = Expander + Conserver + Shrinker
+
+Symmetric Product
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     x     y     z     xy    zx    yz    xyz  
+ x    |  x     q     0     0     0     0     xyz   yz   
+ y    |  y     0     q     0     0     xyz   0     zx   
+ z    |  z     0     0     q     xyz   0     0     xy   
+ xy   |  xy    0     0     xyz  -q     0     0    -z    
+ zx   |  zx    0     xyz   0     0    -q     0    -y    
+ yz   |  yz    xyz   0     0     0     0    -q    -x    
+ xyz  |  xyz   yz    zx    xy   -z    -y    -x    -q    
+
+
+
+AntiSymmetric Product
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     0    
+ x    |  0     0     xy   -zx    y    -z     0     0    
+ y    |  0    -xy    0     yz   -x     0     z     0    
+ z    |  0     zx   -yz    0     0     x    -y     0    
+ xy   |  0    -y     x     0     0     yz   -zx    0    
+ zx   |  0     z     0    -x    -yz    0     xy    0    
+ yz   |  0     0    -z     y     zx   -xy    0     0    
+ xyz  |  0     0     0     0     0     0     0     0    
+
+
+
+Symmetric Product Equations
+c.q   =  + a.q  *b.q   + a.x  *b.x   + a.y  *b.y   + a.z  *b.z   - a.xy *b.xy  - a.zx *b.zx  - a.yz *b.yz  - a.xyz*b.xyz ; 
+c.x   =  + a.q  *b.x   + a.x  *b.q   - a.yz *b.xyz - a.xyz*b.yz  ; 
+c.y   =  + a.q  *b.y   + a.y  *b.q   - a.zx *b.xyz - a.xyz*b.zx  ; 
+c.z   =  + a.q  *b.z   + a.z  *b.q   - a.xy *b.xyz - a.xyz*b.xy  ; 
+c.xy  =  + a.q  *b.xy  + a.z  *b.xyz + a.xy *b.q   + a.xyz*b.z   ; 
+c.zx  =  + a.q  *b.zx  + a.y  *b.xyz + a.zx *b.q   + a.xyz*b.y   ; 
+c.yz  =  + a.q  *b.yz  + a.x  *b.xyz + a.yz *b.q   + a.xyz*b.x   ; 
+c.xyz =  + a.q  *b.xyz + a.x  *b.yz  + a.y  *b.zx  + a.z  *b.xy  + a.xy *b.z   + a.zx *b.y   + a.yz *b.x   + a.xyz*b.q   ; 
+
+
+Symmetric and SymmetricViaFormula Agree
+
+AntiSymmetric Product Equations
+c.q   =  ; 
+c.x   =  - a.y  *b.xy  + a.z  *b.zx  + a.xy *b.y   - a.zx *b.z   ; 
+c.y   =  + a.x  *b.xy  - a.z  *b.yz  - a.xy *b.x   + a.yz *b.z   ; 
+c.z   =  - a.x  *b.zx  + a.y  *b.yz  + a.zx *b.x   - a.yz *b.y   ; 
+c.xy  =  + a.x  *b.y   - a.y  *b.x   + a.zx *b.yz  - a.yz *b.zx  ; 
+c.zx  =  - a.x  *b.z   + a.z  *b.x   - a.xy *b.yz  + a.yz *b.xy  ; 
+c.yz  =  + a.y  *b.z   - a.z  *b.y   + a.xy *b.zx  - a.zx *b.xy  ; 
+c.xyz =  ; 
+
+
+AntiSymmetric and AntiSymmetricViaFormula Agree
+
+Inner Product
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  0     0     0     0     0     0     0     0    
+ x    |  0     q     0     0     y    -z     0     yz   
+ y    |  0     0     q     0    -x     0     z     zx   
+ z    |  0     0     0     q     0     x    -y     xy   
+ xy   |  0    -y     x     0    -q     0     0    -z    
+ zx   |  0     z     0    -x     0    -q     0    -y    
+ yz   |  0     0    -z     y     0     0    -q    -x    
+ xyz  |  0     yz    zx    xy   -z    -y    -x    -q    
+
+
+
+LeftContraction Product
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     x     y     z     xy    zx    yz    xyz  
+ x    |  0     q     0     0     y    -z     0     yz   
+ y    |  0     0     q     0    -x     0     z     zx   
+ z    |  0     0     0     q     0     x    -y     xy   
+ xy   |  0     0     0     0    -q     0     0    -z    
+ zx   |  0     0     0     0     0    -q     0    -y    
+ yz   |  0     0     0     0     0     0    -q    -x    
+ xyz  |  0     0     0     0     0     0     0    -q    
+
+
+
+RightContraction Product
+ ?    |  q     x     y     z     xy    zx    yz    xyz  
+-------------------------------------------------------
+ q    |  q     0     0     0     0     0     0     0    
+ x    |  x     q     0     0     0     0     0     0    
+ y    |  y     0     q     0     0     0     0     0    
+ z    |  z     0     0     q     0     0     0     0    
+ xy   |  xy   -y     x     0    -q     0     0     0    
+ zx   |  zx    z     0    -x     0    -q     0     0    
+ yz   |  yz    0    -z     y     0     0    -q     0    
+ xyz  |  xyz   yz   -zx    xy   -z    -y    -x    -q    
+
+
+
+Test Adjugate = Inverse*determinant
+u = r*Adjugate(r) = 
+(2*g^2*e^2+8*c*g*b*f-8*d*a*h*e-2*g^2*h^2+h^4+e^4+8*c*d*e*f-2*a^2*b^2+2*e^2*f^2-2*h^2*f^2+2*h^2*b^2+2*d^2*h^2+2*d^2*e^2-2*e^2*b^2-8*c*a*h*f+2*a^2*f^2+c^4-2*c^2*e^2+2*c^2*h^2+8*g*d*e*b+2*c^2*d^2+2*d^2*b^2-2*b^2*f^2-2*h^2*e^2+2*g^2*f^2+a^4+2*c^2*b^2-2*c^2*g^2+f^4+2*g^2*a^2+b^4-2*c^2*a^2+2*c^2*f^2+g^4+2*g^2*b^2-2*g^2*d^2-2*d^2*f^2+2*a^2*h^2-2*d^2*a^2+2*a^2*e^2-8*g*a*h*b+d^4, 
+0,0,0, 
+0,0,0, 
+0)
+
+Expect scalar only
+
+Test Reciprocal numerically
+r = 
+(3, 
+5,7,11, 
+13,17,19, 
+23)
+
+s = 1/r = 
+(-1617/42824, 
+1303/42824,1133/42824,793/42824, 
+-961/42824,-725/42824,-607/42824, 
+515/42824)
+
+u = r*s = 
+(1, 
+0,0,0, 
+0,0,0, 
+0)
+
+Test Reciprocal numerically cummutative
+r = 
+(3, 
+5,7,11, 
+13,17,19, 
+23)
+
+s = 1/r = 
+(-1617/42824, 
+1303/42824,1133/42824,793/42824, 
+-961/42824,-725/42824,-607/42824, 
+515/42824)
+
+u = s*r = 
+(1, 
+0,0,0, 
+0,0,0, 
+0)
+
+u = r*s = 
+(h, 
+g,f,e, 
+-d,-c,-b, 
+-a)
+
+u - Dual(r) = 
+(0, 
+0,0,0, 
+0,0,0, 
+0)
+ expect 0
+Dual(Dual(r)) = 
+(-a, 
+-b,-c,-d, 
+-e,-f,-g, 
+-h)
+ expect -r
+LeftContraction(Wedge(r,s), t) == LeftContraction(r,LeftContraction(s,t)) 
+
+     Dual(r) = u = 
+(h, 
+g,f,e, 
+-d,-c,-b, 
+-a)
+
+DorstDual(r) = u = 
+(h, 
+g,f,e, 
+-d,-c,-b, 
+-a)
+
+DorstUnDual(r) = u = 
+(-h, 
+-g,-f,-e, 
+d,c,b, 
+a)
+
+DorstDual(DorsrUnDual(r)) = u = 
+(a, 
+b,c,d, 
+e,f,g, 
+h)
+
+
