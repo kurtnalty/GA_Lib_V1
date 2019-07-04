@@ -595,6 +595,36 @@ w.xyzt = + u.q*v.xyzt + u.x*v.yzt - u.y*v.xzt + u.z*v.xyt - u.t*v.xyz + u.xy*v.z
 
 //////////////////////////////////////////////////////
 
+Mink Mink_Multiply_By_Constant(Mink u, double a)
+{
+	Mink w;
+	w.q = u.q*a;
+
+	w.x = u.x*a;
+	w.y = u.y*a;
+	w.z = u.z*a;
+	w.t = u.t*a;
+
+	w.xy = u.xy*a;
+	w.xz = u.xz*a;
+	w.yz = u.yz*a;
+	w.xt = u.xt*a;
+	w.yt = u.yt*a;
+	w.zt = u.zt*a;
+
+	w.xyz = u.xyz*a;
+	w.xyt = u.xyt*a;
+	w.xzt = u.xzt*a;
+	w.yzt = u.yzt*a;
+
+	w.xyzt = u.xyzt*a;
+
+	return w;
+}
+
+
+//////////////////////////////////////////////////////
+
 Mink Mink_Divide_By_Constant(Mink u, double a)
 {
 	Mink w;
