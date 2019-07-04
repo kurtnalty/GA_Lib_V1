@@ -537,6 +537,36 @@ c.xyzw =  + a.q   *b.xyzw + a.x   *b.yzw  - a.y   *b.xzw  + a.z   *b.xyw  - a.w 
 
 //////////////////////////////////////////////////////
 
+GA4E Multiply_By_Constant(GA4E u, double a)
+{
+	GA4E v;
+	v.q = u.q*a;
+
+	v.x = u.x*a;
+	v.y = u.y*a;
+	v.z = u.z*a;
+	v.w = u.w*a;
+
+	v.xy = u.xy*a;
+	v.xz = u.xz*a;
+	v.yz = u.yz*a;
+	v.xw = u.xw*a;
+	v.yw = u.yw*a;
+	v.zw = u.zw*a;
+
+	v.xyz = u.xyz*a;
+	v.xyw = u.xyw*a;
+	v.xzw = u.xzw*a;
+	v.yzw = u.yzw*a;
+
+	v.xyzw = u.xyzw*a;
+
+	return v;
+}
+
+
+//////////////////////////////////////////////////////
+
 GA4E Divide_By_Constant(GA4E u, double a)
 {
 	GA4E v;
